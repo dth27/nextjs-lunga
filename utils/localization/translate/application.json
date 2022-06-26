@@ -1,0 +1,13 @@
+{
+  "namespace": "application",
+  "resources": {
+    "en": {
+      "headertext": "We will open the applications for LungA 2022 in June!",
+      "footertext": "Applications sent after the deadline will be moved to the next year's submissions."
+    },
+    "is": {
+      "headertext": "Opnað verður fyrir umsóknir á LungA 2022 í júní!",
+      "footertext": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2022."
+    }
+  }
+}

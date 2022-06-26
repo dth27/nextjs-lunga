@@ -1,0 +1,17 @@
+{
+  "namespace": "youthexchange",
+  "resources": {
+    "en": {
+      "firstline": "Over the last decade we have offered a youth exchange program in collaboration with ERASMUS+.",
+      "para1": "For the first time since 2019, the Youth Exchange programme will take place at LungA 2022! Stay tuned for more information about the theme and nature of the project this year.",
+      "para2": "The Youth Exchange groups that have been participating the last years came from the Kaospilot school in Denmark, University of Brighton in England, Hyper Island in Sweden and the Reykjavik School of Visual Arts in Iceland. ",
+      "para3": "The discourse was based upon the collaboration of smaller groups, which includes panel discussions, exercises and a variety of lively inputs."
+    },
+    "is": {
+      "firstline": "Frá árinu 2006 hefur LungA skipulagt ungmennaskipti á Seyðisfirði í samstarfi við Erasmus+.",
+      "para1": "Ungmennaskiptin fara fram í ár í fyrsta skipti síðan 2019. Fylgist með hér er við bætum inn upplýsingum um þema og eðli verkefnisins í ár",
+      "para2": "Undanfarin ár hafa  eftirtaldir skólar sent nemendur sína í ungmennaskiptiverkefni LungA: Hyper Island frá Svíþjóð, Kaospilot frá Danmörku, University of Brighton og Myndlistarskólinn í Reykjavík. Þátttakendurnir koma úr heimi skapandi greina og lista en einnig með bakgrunn í stjórnun, frumkvæði og framkvæmda.",
+      "para3": "Ungmennaskiptin eru mikil sjálfsskoðun og í þeim fær hver þátttakandi einstakt tækifæri til að líta inn á við og að kynnast sýnum styrk- og veikleikum og öðlast hugrekki til að takast á við áskoranir."
+    }
+  }
+}

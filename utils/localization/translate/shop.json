@@ -1,0 +1,33 @@
+{
+  "namespace": "shop",
+  "resources": {
+    "en": {
+      "book": "This is LungA",
+      "firstinfo": "We finally went through our archives and here below is everything we have left",
+      "para1": "Terms and conditions: Orders are sent with Íslandspóstur. The terms of delivery, warranty and transport of Íslandspóstur apply to the delivery of the product.",
+      "newcollection": "Wish I was at LungA 2020",
+      "newcollectioninfo": "Our new merch is for sale here – we miss LungA!",
+      "archiveinfo": "here is our entire archive from the last ten years for sale",
+      "info1": "This is LungA, about LungA, from LungA, to LungA for more than 20 years.",
+      "info2": "Each year young Icelanders and gests from afar flock to Seyðisfjörður; creating, experiencing, enjoying, researching, and learning. The festival has become an essential part in the Icelandic art scene as one of the most energetic events of the Icelandic summer. Through words and images, graphic designers Gréta Þorkelsdóttir and Guðmundur Úlfarsson have compiled the colorful history of the festival into this beautiful publication.",
+      "info3": "Through hundreds of photographs documenting the energy during the festival, and written words by Jónas Reynir Gunnarsson, Fríða Ísberg, Marteinn Sindri Jónsson and Björt Sigfinnsdóttir the book gives a cross section of LungA as we know it.",
+      "info4": "The book is 288 pages and was published by LungA in 300 numbered copies in the summer of 2021.",
+      "quote": "No one creates the zeitgeist apart from the young. It is their job to create the future, and each generation must create their form. You cannot make the perfect chair, because people change the way they sit.",
+      "name": "Goddur"
+    },
+    "is": {
+      "book": "Hér er LungA",
+      "firstinfo": "Við fórum loksins í gegnum geymsluna og hér er allt sem við eigum eftir.",
+      "para1": "Skilmálar: Pantanir sem eru póstsendar eru sendar með Íslandspósti. Þá gilda afhendingar-, ábyrgðar- og flutningsskilmálar Íslandspósts um afhendingu vörunnar.",
+      "newcollection": "Vildi að ég væri á LungA 2020",
+      "newcollectioninfo": "Nýja merchið okkar er til sölu hér að neðan. Við söknum LungA!",
+      "archiveinfo": "Og hér fyrir neðan er allt arkívið okkar til sölu",
+      "info1": "Hér er LungA, um LungA, frá LungA, til LungA, í 20 ár og rétt rúmlega það.",
+      "info2": "Árlega flykkjast ungir listhneigðir íslendingar og erlendir gestir til Seyðisfjarðar, skapa, upplifa, njóta, rannsaka og læra. Hátíðin hefur skipað sér ómissandi sess í Íslensku listalífi sem einn af kraftmestu viðburðum íslenska sumarsins. Í orðum og myndum draga Gréta Þorkelsdóttir og Guðmundur Úlfarsson saman litríka sögu hátíðarinnar í þessari eigulega bók.",
+      "info3": "Hundruðir ljósmynda frá hátíðinni og texta verk eftir Jónas Reyni Gunnarsson, Fríðu Ísberg, Martein Sindra Jónsson og Björt Sigfinnsdóttur prýða síður þessa þverskurðar hátíðarinnar.",
+      "info4": "Bókin er 288 blaðsíður og gefin út af LungA í 300 tölusettum eintökum, sumarið 2021.",
+      "quote": "Það býr enginn til tíðaranda nema ungt fólk. Það er þeirra verkefni að búa til framtíðina og eðli hverrar kynslóðar að skapa sér form. Það er ekki hægt að búa til fullkominn stól því fólk fer bara að sitja öðruvísi.",
+      "name": "Goddur"
+    }
+  }
+}

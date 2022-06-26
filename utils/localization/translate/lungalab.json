@@ -1,0 +1,19 @@
+{
+  "namespace": "lungalab",
+  "resources": {
+    "en": {
+      "firstline": "LungA LAB is what we call our informative experimental laboratory.",
+      "para1": "Each year we choose a theme. This year it is “Behaviour” and then we dig into that theme from many different perspectives, through workshop work, talks, various performances, movie screening, panel discussions and so on.",
+      "para2": "This is LungA’s way to contribute to the awareness of social responsibility on individual and collective level, in hope to effect and inspire those involved to take action and be more open towards the diversity of others in general.",
+      "tba": "See you this summer!",
+      "sponsors": "LungA LAB is made in collaboration with Erasmus+, Kaospilot, Hyper Island, University of Brighton, Myndlistarskóli Reykjavíkur."
+    },
+    "is": {
+      "firstline": "LungA LAB er heitið fyrir tilrauna- og upplýsingastofuna okkar.",
+      "para1": "Ár hvert veljum við þema, í ár er það Atferli, eða “Behaviour”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
+      "para2": "Þetta er okkar leið til að leggja lóð á vogarskálarnar þegar kemur að því að vekja samfélagið til ábyrgðar, bæði sem einstaklingar jafnt sem hópar. Við vonumst til þess að hafa áhrif og veita innblástur til þess að vera virkir samfélagsþegnar og meira opin gagnvart fjölbreitileika almennt.",
+      "tba": "Sjáumst í ár!",
+      "sponsors": "LungA LAB er haldið í samstarfi við Erasmus+, Kaospilot, Hyper Island, University of Brighton og Myndlistarskóla Reykjavíkur."
+    }
+  }
+}

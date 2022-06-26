@@ -1,0 +1,21 @@
+{
+  "namespace": "concerts",
+  "resources": {
+    "en": {
+      "header": "Here below are the first 13 acts announced for this summer's LungA 2022!",
+      "info1": "Stay tuned for more announcements, coming SOON.",
+      "info2": "Stay tuned for further announcements here on our website and the festival's social media",
+      "ticket": "Buy tickets",
+      "artist": "Artist",
+      "place": "Venue"
+    },
+    "is": {
+      "header": "Hér að neðan eru fyrstu 13 tónlistaratriði LungA 2022!",
+      "info1": "Fylgist með fleiri tilkynningum hér og á samfélagsmiðlum  okkar",
+      "info2": "Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
+      "ticket": "Kaupa miða",
+      "artist": "Tónlistatriði",
+      "place": "Staðsetning"
+    }
+  }
+}

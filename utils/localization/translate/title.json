@@ -1,0 +1,31 @@
+{
+  "namespace": "title",
+  "resources": {
+    "en": {
+      "about": "About LungA",
+      "workshops": "Workshops",
+      "concerts": "Concert",
+      "lungalab": "LungA LAB",
+      "lungalab2": "Symposium",
+      "youthexchange": "Erasmus+ Youth Exchange",
+      "eventindex": "Event Index",
+      "applications": "Applications",
+      "sponsors": "Sponsors",
+      "contact": "Contact",
+      "shop": "Shop"
+    },
+    "is": {
+      "about": "Um LungA",
+      "workshops": "Listasmiðjur",
+      "concerts": "Tónleikar",
+      "lungalab": "LungA LAB",
+      "lungalab2": "Fyrirlestrarröð",
+      "youthexchange": "Ungmennaskipti Erasmus+",
+      "eventindex": "Viðburðarskrá",
+      "applications": "Umsóknir",
+      "sponsors": "Samstarfsaðilar",
+      "contact": "Hafðu samband",
+      "shop": "Vefverslun"
+    }
+  }
+}

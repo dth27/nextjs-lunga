@@ -1,0 +1,13 @@
+{
+  "namespace": "frontpage",
+  "resources": {
+    "en": {
+      "date": "July 2022",
+      "book": "→This is LungA←"
+    },
+    "is": {
+      "date": "júlí 2022",
+      "book": "→Hér er LungA!←"
+    }
+  }
+}

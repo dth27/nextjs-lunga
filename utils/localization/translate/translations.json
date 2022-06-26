@@ -1,0 +1,305 @@
+{
+  "namespace": "allTranslations",
+  "resources": {
+    "en": {
+     
+      "title": {
+        "about": "About LungA",
+        "workshops": "Workshops",
+        "concerts": "Concert",
+        "lungalab": "LungA LAB",
+        "lungalab2": "Symposium",
+        "youthexchange": "Erasmus+ Youth Exchange",
+        "eventindex": "Event Index",
+        "applications": "Applications",
+        "sponsors": "Sponsors",
+        "contact": "Contact",
+        "shop": "Shop"
+      },
+      "roles": {
+        "director": "Festival Director",
+        "exhangeprogram": "Erasmus Youth exchange program",
+        "curator": "Curator",
+        "events": "Event manager",
+        "workshops": "Workshops",
+        "concerts": "Concerts",
+        "production": "Production",
+        "sponsors": "Sponsors",
+        "volunteers": "Volunteers and ticket sales",
+        "creativeproductionfamilyfestival": "Creative production and Family festival",
+        "socialmedia": "Social Media Manager",
+        "pr": "PR Manager",
+        "booking": "Booking",
+        "photographer": "Photographer",
+        "graphics": "Graphic Design",
+        "programming": "Programming"
+      },
+
+      "applicationLinks": {
+        "title": "Link",
+        "show": "Do you want to exhibit? Apply here to exhibit, perform, whatever",
+        "play": "Do you want to perform a concert? Application for musicians",
+        "teach": "Do you want to facilitate a workshop? Apply here to be a workshop leader",
+        "participate": "Do you want to participate in a workshop? Apply here.",
+        "speak": "Do you want to speak at LungA LAB? Lecturers, apply here."
+      },
+      "applicationDeadline": {
+        "title": "Deadline",
+        "show": "20/02/2020",
+        "teach": "10/03/2020",
+        "play": "Opens in March",
+        "participate": "Opens in May",
+        "speak": "Opens in April"
+      },
+
+      "subtexts": {
+        "application": "Here below are various things to apply to.",
+        "concerts": "Bringing music to the fjord for the 20th time! Go explore the artists for our 20th anniversary and buy your tickets here "
+      },
+      "application": {
+        "headertext": "We will open the applications for LungA 2022 in June!",
+        "footertext": "Applications sent after the deadline will be moved to the next year's submissions."
+      },
+      "aboutlunga": {
+        "firstline": "In the year 2000 LungA Art festival was held for the first time.",
+        "para1": "It’s an intimate art festival where creativity, arts and culture are celebrated with workshops, lectures and events. The festival goes off with a bang in a culmination of exhibitions and concerts that take place over the final weekend.",
+        "para2": "LungA has earned quite the reputation, both locally and internationally, for its great ambiance, good-quality workshops and the fantastic enthusiasm of the participants year on year. Furthermore, the festival has fostered joy, self-knowledge, new lovers, new friends and warm memories to those who come to participate in it.",
+        "para3": "The LungA “family” now consists of both the yearly art festival and the LungA school. These are separately run projects but they share the same name, values and ideology.",
+        "themeintro": "This year's theme would have been:",
+        "theme": "Behaviour",
+        "themeheadline": " Why we do what we do – cause and effect",
+        "themepara1": "In this years’ theme, we aim to explore what drives our own behavior, and to challenge ourselves to see how conscious we really are of what we do and why we do it. What role do our personalities play, in contrast to the social cues and conditioning we receive from our culture? What could these different forms of conditioning look like, and what would a different starting point lead to?",
+        "themepara2": "We need to learn to understand ourselves, in order to practice empathy and better understand the actions of others. In today’s tense socio-political atmosphere, it is key to cultivate empathy while remaining aware of our own bias and staying open to the notion that our own narratives and conditions may not be universal – and thus, just like us, those who disagree with us also base their differing views on their experiences and backgrounds. It is this gap in understanding that creates a sense of threat when we disagree, and we have the opportunity to take responsibility for our own awareness.",
+        "themepara3": "Societal pressure also directly correlates to our mental wellbeing. What roles do our constructive and destructive behaviors play in our mental health? What about the other way around? What do we learn about e.g. addiction from this point of view?",
+        "themepara4": "The goal is to first expand our awareness on what drives our own behavior, and in doing so, awaken our independent, critical thinking skills. Are we making the decisions we really want to, or are we repeating a script ‘programmed’ in us by our surroundings? From there, the highest pursuit of the theme is to begin to view others with this same openness and curiosity.",
+        "lastline": "We hope to see as many of you as possible at LungA this year.",
+        "footer": "Love! LungA"
+      },
+      "workshops": {
+        "firstline": "LungA offers 5 workshops total this year!",
+        "tba": "Workshops will be announced in June 2021 – applications for the workshops will open then as well.",
+        "applyhere": "Apply here!",
+        "5day": "5 day workshop",
+        "5dayprice": "50.000 ISK",
+        "5dayinfo": "Included in the price is the workshop, accommodation, three meals a day and a ticket to the final LungA concert.",
+        "3day": "3 day workshop",
+        "3dayprice1": "40.000 ISK with own accommodation.",
+        "3dayprice2": "45.000 ISK with camp site accommodation.",
+        "3dayinfo": "Included in the price is the workshop, accommodation, three meals a day and a ticket to the final LungA concert.",
+        "childreninfo": "Children’s workshop will be announced later.",
+        "generalinfo": "As there are no longer any restrictions, we offer participants a roof over their heads and space for a sleeping bag. Contact sessa@lunga.is for more info!",
+        "website": "Website"
+      },
+
+      "lungalab": {
+        "firstline": "LungA LAB is what we call our informative experimental laboratory.",
+        "para1": "Each year we choose a theme. This year it is “Behaviour” and then we dig into that theme from many different perspectives, through workshop work, talks, various performances, movie screening, panel discussions and so on.",
+        "para2": "This is LungA’s way to contribute to the awareness of social responsibility on individual and collective level, in hope to effect and inspire those involved to take action and be more open towards the diversity of others in general.",
+        "tba": "See you this summer!",
+        "sponsors": "LungA LAB is made in collaboration with Erasmus+, Kaospilot, Hyper Island, University of Brighton, Myndlistarskóli Reykjavíkur."
+      },
+      "youthexchange": {
+        "firstline": "Over the last decade we have offered a youth exchange program in collaboration with ERASMUS+.",
+        "para1": "For the first time since 2019, the Youth Exchange programme will take place at LungA 2022! Stay tuned for more information about the theme and nature of the project this year.",
+        "para2": "The Youth Exchange groups that have been participating the last years came from the Kaospilot school in Denmark, University of Brighton in England, Hyper Island in Sweden and the Reykjavik School of Visual Arts in Iceland. ",
+        "para3": "The discourse was based upon the collaboration of smaller groups, which includes panel discussions, exercises and a variety of lively inputs."
+      },
+
+      "concerts": {
+        "header": "Here below are the first 13 acts announced for this summer's LungA 2022!",
+        "info1": "Stay tuned for more announcements, coming SOON.",
+        "info2": "Stay tuned for further announcements here on our website and the festival's social media",
+        "ticket": "Buy tickets",
+        "artist": "Artist",
+        "place": "Venue"
+      },
+
+      "eventindex": {
+        "para1": "LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, with the only exception being the final concerts.",
+        "tba": "We're still working on the events of the summer 2022, stay tuned for updates!"
+      },
+      "frontpage": {
+        "date": "July 2022",
+        "book": "→This is LungA←"
+      },
+
+      "shop": {
+        "book": "This is LungA",
+        "firstinfo": "We finally went through our archives and here below is everything we have left",
+        "para1": "Terms and conditions: Orders are sent with Íslandspóstur. The terms of delivery, warranty and transport of Íslandspóstur apply to the delivery of the product.",
+        "newcollection": "Wish I was at LungA 2020",
+        "newcollectioninfo": "Our new merch is for sale here – we miss LungA!",
+        "archiveinfo": "here is our entire archive from the last ten years for sale",
+        "info1": "This is LungA, about LungA, from LungA, to LungA for more than 20 years.",
+        "info2": "Each year young Icelanders and gests from afar flock to Seyðisfjörður; creating, experiencing, enjoying, researching, and learning. The festival has become an essential part in the Icelandic art scene as one of the most energetic events of the Icelandic summer. Through words and images, graphic designers Gréta Þorkelsdóttir and Guðmundur Úlfarsson have compiled the colorful history of the festival into this beautiful publication.",
+        "info3": "Through hundreds of photographs documenting the energy during the festival, and written words by Jónas Reynir Gunnarsson, Fríða Ísberg, Marteinn Sindri Jónsson and Björt Sigfinnsdóttir the book gives a cross section of LungA as we know it.",
+        "info4": "The book is 288 pages and was published by LungA in 300 numbered copies in the summer of 2021.",
+        "quote": "No one creates the zeitgeist apart from the young. It is their job to create the future, and each generation must create their form. You cannot make the perfect chair, because people change the way they sit.",
+        "name": "Goddur"
+      }
+    },
+    "is": {
+      "links": {
+        "about": "Um LungA",
+        "workshops": "Listasmiðjur",
+        "concerts": "Tónleikar",
+        "lungalab": "LungA LAB",
+        "lungalab2": "Fyrirlestrarröð",
+        "youthexchange": "Ungmennaskipti Erasmus+",
+        "eventindex": "Viðburðarskrá",
+        "applications": "Umsóknir",
+        "sponsors": "Samstarfsaðilar",
+        "contact": "Hafðu samband",
+        "menu": "Menu",
+        "home": "Heim",
+        "shop": "Vefverslun"
+      },
+
+      "title": {
+        "about": "Um LungA",
+        "workshops": "Listasmiðjur",
+        "concerts": "Tónleikar",
+        "lungalab": "LungA LAB",
+        "lungalab2": "Fyrirlestrarröð",
+        "youthexchange": "Ungmennaskipti Erasmus+",
+        "eventindex": "Viðburðarskrá",
+        "applications": "Umsóknir",
+        "sponsors": "Samstarfsaðilar",
+        "contact": "Hafðu samband",
+        "shop": "Vefverslun"
+      },
+
+      "roles": {
+        "director": "Framkvæmdastýra",
+        "exhangeprogram": "Ungmennaskipti Erasmus+",
+        "curator": "Sýningarstjóri",
+        "events": "Viðburðarstjóri",
+        "workshops": "Listasmiðjur",
+        "production": "Verkstjórn",
+        "concerts": "Tónleikar",
+        "volunteers": "Sjálfboðaliðar og miðasala",
+        "creativeproductionfamilyfestival": "Framleiðsla og fjölskylduhátíð",
+        "sponsors": "Styrktaraðilar",
+        "socialmedia": "Samfélagsmiðlafulltrúi",
+        "pr": "Fjölmiðlafulltrúi",
+        "booking": "Bókanir",
+        "photographer": "Ljósmyndari",
+        "graphics": "Grafísk hönnun",
+        "programming": "Forritun"
+      },
+
+      "applicationDesc": {
+        "title": "Hvað",
+        "show": "Viltu sýna á LungA",
+        "play": "Viltu spila á LungA?",
+        "teach": "Viltu halda listasmiðju?",
+        "participate": "Viltu taka þátt í listasmiðju?",
+        "speak": "Viltu tala á lunga?"
+      },
+      "applicationLinks": {
+        "title": "Hlekkur",
+        "show": "Viltu sýna á LungA? Sæktu um að vera með sýningu, danssýningu, gjörning (eða eitthvað allt annað) yfir hátíðina.",
+        "teach": "Viltu kenna listasmiðju? Sæktu um hér.",
+        "play": "Viltu spila á LungA? Hér er umsóknarform fyrir tónlistarfólk.",
+        "participate": "Viltu taka þátt í listasmiðju? Sæktu um hér!",
+        "speak": "Viltu halda fyrirlestur eða sögustund á LungA LAB? Sendu inn umsóknina þína hér."
+      },
+      "applicationDeadline": {
+        "title": "Frestur",
+        "show": "20/02/2020",
+        "teach": "10/03/2020",
+        "play": "Opnar í mars",
+        "participate": "Opnar í maí",
+        "speak": "Opnar í apríl"
+      },
+
+      "subtexts": {
+        "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2022.",
+        "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."
+      },
+      "application": {
+        "headertext": "Opnað verður fyrir umsóknir á LungA 2022 í júní!",
+        "footertext": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2022."
+      },
+
+      "aboutlunga": {
+        "firstline": "Árið 2000 leit listahátíð LungA dagsins ljós í fyrsta sinn.",
+        "para1": "Um er að ræða listahátíð þar sem sköpun, listum og menningu er fagnað með námskeiðum, fyrirlestrum og öðrum viðburðum sem lýkur með uppskeruhelgi: sýningum og tónleikum.",
+        "para2": "Hátíðin er frábær blanda af listum, sköpun, tjáningu og stórbrotinni náttúru. Hún hefur getið sér gott orðspor, bæði á Ísland og út fyrir landsteinana fyrir frábært andrúmsloft, námskeið af miklum gæðum og með mikilli virkni þátttakenda. Ennfremur færir hátíðin gleði, sjálfsþekkingu, elskendur, nýja vini og góðar minningar fyrir þá sem sækja hátíðina heim.",
+        "para3": "LungA „fjölskyldan“ samanstendur nú bæði af árlegri listahátíð og skóla. Dagsdaglega er þetta tvennt rekið sitt í hvoru lagi, en heitið, gildin og hugmyndafræðin eru af sama meiði.",
+        "themeintro": "Þema ársins 2020 er:",
+        "themeheadline": "Hvers vegna gerum við það sem við gerum, orsök og afleiðing.",
+        "themepara1": "Með þema LungA í ár munum við leitast við að kanna hegðun okkar og atferli. Við skoðum betur hvort við erum í raun og veru meðvituð um eigin hegðun. Hvort persónuleikinn sé afgerandi í hegðunarmynstri okkar eða hvort samfélagsleg viðmið og reglur séu honum yfirsterkari?",
+        "themepara2": "Að rannsaka eigið atferli og sjálfið auðveldar okkur að skilja náungann og sýna honum samkennd. Við skiljum betur hegðun annara. Ástand heimsmála í dag kallar á að við ræktum samlíðan með öðrum og verðum meðvitaðri um eigin fordóma. Þannig meðtökum við að þjóðfélagsleg viðmið okkar séu ekki endilega algild. Fólk sem mótast hefur í öðrum og ólíkum samfélögum getur haft allt önnur gildi og skoðanir.",
+        "themepara3": "Samfélagslegur þrýstingur hefur oft veruleg áhrif á velferð okkar. Hvernig mótar uppbyggjandi og eyðileggjandi hegðun geðheilsu fólks? Hvaða áhrif hefur fíkn á hegðun og er hún orsök eða afleiðing?",
+        "themepara4": "Höfuðtilgangurinn er að að auka skilning á áhrifaþáttum atferlis okkar.  Erum við í raun að taka meðvitaðar ákvarðanir eða fylgjum við forrituðu handriti samfélagsins? Meginmarkmið smiðjunnar er því að reyna að skilja náungann af hreinskilni og forvitni",
+        "lastline": "Við vonumst til þess að sjá ykkur sem flest á LungA í ár.",
+        "footer": "Ást! LungA"
+      },
+      "workshops": {
+        "firstline": "Listasmiðjur LungA eru 6 talsins í ár!",
+        "tba": "Listasmiðjur verða birtar í júní 2021 og þá opnast einnig fyrir umsóknir",
+        "applyhere": "Sæktu um hér!",
+        "weekinfo": "Smiðjurnar eru 5 dagar. Verð: 50.000kr.",
+        "onlineinfo": "",
+        "5day": "5 daga listasmiðja",
+        "5dayprice": "50.000 kr.",
+        "5dayinfo": "Innifalið í verðinu er þátttaka í listasmiðju, gisting, morgunmatur, hádegismatur og kvöldmatur og miði á lokatónleika LungA",
+        "3day": "3 daga listasmiðja.",
+        "3dayprice1": "40.000 ISK með eigin gistingu.",
+        "3dayprice2": "45.000 ISK með plássi á tjaldsvæði.",
+        "3dayinfo": "Innifalið í verðinu er þátttaka í smiðjunni, gisting, morgunmatur, hádegismatur og kvöldmatur, bátsferð og miði á lokatónleika LungA.",
+        "childreninfo": "Barnasmiðja LungA verður kynnt síðar.",
+        "generalinfo": "Vegna slökun á takmarkönum bjóðum við upp á svefnpokapláss í ár. Hafið samband við sessa@lunga.is fyrir frekari upplýsinga.",
+        "website": "Vefsíða"
+      },
+
+      "lungalab": {
+        "firstline": "LungA LAB er heitið fyrir tilrauna- og upplýsingastofuna okkar.",
+        "para1": "Ár hvert veljum við þema, í ár er það Atferli, eða “Behaviour”, sem við rannsökum frá allskonar mismunandi sjónarhornum, í gegnum vinnusmiðju, fyrirlestra, hina ýmsu gjörninga, kvikmyndasýningar og pallborðsumræður, svo eitthvað sé nefnt.",
+        "para2": "Þetta er okkar leið til að leggja lóð á vogarskálarnar þegar kemur að því að vekja samfélagið til ábyrgðar, bæði sem einstaklingar jafnt sem hópar. Við vonumst til þess að hafa áhrif og veita innblástur til þess að vera virkir samfélagsþegnar og meira opin gagnvart fjölbreitileika almennt.",
+        "tba": "Sjáumst í ár!",
+        "sponsors": "LungA LAB er haldið í samstarfi við Erasmus+, Kaospilot, Hyper Island, University of Brighton og Myndlistarskóla Reykjavíkur."
+      },
+
+      "youthexchange": {
+        "firstline": "Frá árinu 2006 hefur LungA skipulagt ungmennaskipti á Seyðisfirði í samstarfi við Erasmus+.",
+        "para1": "Ungmennaskiptin fara fram í ár í fyrsta skipti síðan 2019. Fylgist með hér er við bætum inn upplýsingum um þema og eðli verkefnisins í ár",
+        "para2": "Undanfarin ár hafa  eftirtaldir skólar sent nemendur sína í ungmennaskiptiverkefni LungA: Hyper Island frá Svíþjóð, Kaospilot frá Danmörku, University of Brighton og Myndlistarskólinn í Reykjavík. Þátttakendurnir koma úr heimi skapandi greina og lista en einnig með bakgrunn í stjórnun, frumkvæði og framkvæmda.",
+        "para3": "Ungmennaskiptin eru mikil sjálfsskoðun og í þeim fær hver þátttakandi einstakt tækifæri til að líta inn á við og að kynnast sýnum styrk- og veikleikum og öðlast hugrekki til að takast á við áskoranir."
+      },
+
+      "concerts": {
+        "header": "Hér að neðan eru fyrstu 13 tónlistaratriði LungA 2022!",
+        "info1": "Fylgist með fleiri tilkynningum hér og á samfélagsmiðlum  okkar",
+        "info2": "Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
+        "ticket": "Kaupa miða",
+        "artist": "Tónlistatriði",
+        "place": "Staðsetning"
+      },
+
+      "eventindex": {
+        "para1": "LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
+        "tba": "Bíðið spennt, við erum að vinna í viðburðum sumarsins!"
+      },
+      "frontpage": {
+        "date": "júlí 2022",
+        "book": "→Hér er LungA!←"
+      },
+      "shop": {
+        "book": "Hér er LungA",
+        "firstinfo": "Við fórum loksins í gegnum geymsluna og hér er allt sem við eigum eftir.",
+        "para1": "Skilmálar: Pantanir sem eru póstsendar eru sendar með Íslandspósti. Þá gilda afhendingar-, ábyrgðar- og flutningsskilmálar Íslandspósts um afhendingu vörunnar.",
+        "newcollection": "Vildi að ég væri á LungA 2020",
+        "newcollectioninfo": "Nýja merchið okkar er til sölu hér að neðan. Við söknum LungA!",
+        "archiveinfo": "Og hér fyrir neðan er allt arkívið okkar til sölu",
+        "info1": "Hér er LungA, um LungA, frá LungA, til LungA, í 20 ár og rétt rúmlega það.",
+        "info2": "Árlega flykkjast ungir listhneigðir íslendingar og erlendir gestir til Seyðisfjarðar, skapa, upplifa, njóta, rannsaka og læra. Hátíðin hefur skipað sér ómissandi sess í Íslensku listalífi sem einn af kraftmestu viðburðum íslenska sumarsins. Í orðum og myndum draga Gréta Þorkelsdóttir og Guðmundur Úlfarsson saman litríka sögu hátíðarinnar í þessari eigulega bók.",
+        "info3": "Hundruðir ljósmynda frá hátíðinni og texta verk eftir Jónas Reyni Gunnarsson, Fríðu Ísberg, Martein Sindra Jónsson og Björt Sigfinnsdóttur prýða síður þessa þverskurðar hátíðarinnar.",
+        "info4": "Bókin er 288 blaðsíður og gefin út af LungA í 300 tölusettum eintökum, sumarið 2021.",
+        "quote": "Það býr enginn til tíðaranda nema ungt fólk. Það er þeirra verkefni að búa til framtíðina og eðli hverrar kynslóðar að skapa sér form. Það er ekki hægt að búa til fullkominn stól því fólk fer bara að sitja öðruvísi.",
+        "name": "Goddur"
+      }
+    }
+  }
+}

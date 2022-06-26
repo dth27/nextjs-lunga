@@ -1,0 +1,115 @@
+body {
+  margin-top: 50px;
+  margin-left: 0;
+  background-color: rgba(255, 255, 255, 100);
+  margin-right: 0;
+  margin-bottom: 0;
+  font-family: Rather;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #000;
+  position: relative;
+}
+.divider {
+  border-left: solid 2px #000;
+  padding-left: 20px;
+}
+#app {
+  
+}
+.pointer-mouse {
+  cursor: pointer;
+}
+.nav-link {
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: inherit;
+}
+.subtitle {
+  font-size: 48px;
+}
+::selection {
+  color: rgba(255, 255, 255, 100);
+  background: #000;
+  opacity: 1;
+}
+a:link,
+:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.left-align {
+  text-align: left;
+}
+.link-container:hover {
+  color:rgba(255, 255, 255, 100)!important;
+  background: #000 !important;
+}
+.text-container {
+  max-width: 800px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  margin: 0 25% 0 25%;
+}
+.headline {
+  max-width: 95%;
+  font-size: 144px;
+  font-weight: 600;
+  hyphens: auto;
+}
+@media (max-width: 1600px) {
+  .headline {
+    font-size: 80px;
+  }
+}
+.center {
+  text-align: center;
+}
+.english {
+  font-style: italic;
+  text-align: right;
+}
+.icelandic {
+  -ms-transform: skew(10deg, 0); /* IE 9 */
+  -webkit-transform: skew(10deg, 0); /* Safari prior 9.0 */
+  transform: skew(10deg, 0); /* Standard syntax */
+  text-align: left;
+}
+.sub-header {
+  font-size: 96px;
+  font-weight: 600;
+  text-align: center;
+}
+.sub-line {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 60px 0 40px 0;
+}
+.text-body {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  margin: 10px 0 10px 0;
+}
+.content-img img {
+  width: 674px;
+  height: 402px;
+}
+@font-face {
+  font-family: "Rather";
+  src: url("/fonts/Rather-SemiBold.woff2") format("woff2"),
+    url("/fonts/Rather-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rather";
+  src: url("/fonts/Rather-Regular.woff2") format("woff2"),
+    url("/fonts/Rather-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

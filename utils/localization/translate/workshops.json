@@ -1,0 +1,37 @@
+{
+  "namespace": "workshops",
+  "resources": {
+    "en": {
+      "firstline": "LungA offers 5 workshops total this year!",
+      "tba": "Workshops will be announced in June 2021 – applications for the workshops will open then as well.",
+      "applyhere": "Apply here!",
+      "5day": "5 day workshop",
+      "5dayprice": "50.000 ISK",
+      "5dayinfo": "Included in the price is the workshop, accommodation, three meals a day and a ticket to the final LungA concert.",
+      "3day": "3 day workshop",
+      "3dayprice1": "40.000 ISK with own accommodation.",
+      "3dayprice2": "45.000 ISK with camp site accommodation.",
+      "3dayinfo": "Included in the price is the workshop, accommodation, three meals a day and a ticket to the final LungA concert.",
+      "childreninfo": "Children’s workshop will be announced later.",
+      "generalinfo": "As there are no longer any restrictions, we offer participants a roof over their heads and space for a sleeping bag. Contact sessa@lunga.is for more info!",
+      "website": "Website"
+    },
+    "is": {
+      "firstline": "Listasmiðjur LungA eru 6 talsins í ár!",
+      "tba": "Listasmiðjur verða birtar í júní 2021 og þá opnast einnig fyrir umsóknir",
+      "applyhere": "Sæktu um hér!",
+      "weekinfo": "Smiðjurnar eru 5 dagar. Verð: 50.000kr.",
+      "onlineinfo": "",
+      "5day": "5 daga listasmiðja",
+      "5dayprice": "50.000 kr.",
+      "5dayinfo": "Innifalið í verðinu er þátttaka í listasmiðju, gisting, morgunmatur, hádegismatur og kvöldmatur og miði á lokatónleika LungA",
+      "3day": "3 daga listasmiðja.",
+      "3dayprice1": "40.000 ISK með eigin gistingu.",
+      "3dayprice2": "45.000 ISK með plássi á tjaldsvæði.",
+      "3dayinfo": "Innifalið í verðinu er þátttaka í smiðjunni, gisting, morgunmatur, hádegismatur og kvöldmatur, bátsferð og miði á lokatónleika LungA.",
+      "childreninfo": "Barnasmiðja LungA verður kynnt síðar.",
+      "generalinfo": "Vegna slökun á takmarkönum bjóðum við upp á svefnpokapláss í ár. Hafið samband við sessa@lunga.is fyrir frekari upplýsinga.",
+      "website": "Vefsíða"
+    }
+  }
+}

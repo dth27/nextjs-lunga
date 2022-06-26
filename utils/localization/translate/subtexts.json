@@ -1,0 +1,16 @@
+{
+    "namespace": "subtexts",
+    "resources": {
+      "en": {
+        "application": "Here below are various things to apply to.",
+        "concerts": "Bringing music to the fjord for the 20th time! Go explore the artists for our 20th anniversary and buy your tickets here "
+     
+      },
+      "is": {
+        "application": "Umsóknir sem berast eftir umsóknarfrest verða teknar til greina fyrir 2022.",
+        "concerts": "Í ár fagnar hátíðin tuttugu ára afmæli sínu. Á þessu sérstaka afmælisári mun LungA skarta fjölda innlendra og erlendra tónlistarmanna."
+     
+      }
+    }
+  }
+  

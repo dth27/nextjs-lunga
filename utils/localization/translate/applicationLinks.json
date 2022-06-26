@@ -1,0 +1,22 @@
+{
+    "namespace": "applicationLinks",
+    "resources": {
+      "en": {
+        "title": "Link",
+        "show": "Do you want to exhibit? Apply here to exhibit, perform, whatever",
+        "play": "Do you want to perform a concert? Application for musicians",
+        "teach": "Do you want to facilitate a workshop? Apply here to be a workshop leader",
+        "participate": "Do you want to participate in a workshop? Apply here.",
+        "speak": "Do you want to speak at LungA LAB? Lecturers, apply here."
+      },
+      "is": {
+        "title": "Hlekkur",
+        "show": "Viltu sýna á LungA? Sæktu um að vera með sýningu, danssýningu, gjörning (eða eitthvað allt annað) yfir hátíðina.",
+        "teach": "Viltu kenna listasmiðju? Sæktu um hér.",
+        "play": "Viltu spila á LungA? Hér er umsóknarform fyrir tónlistarfólk.",
+        "participate": "Viltu taka þátt í listasmiðju? Sæktu um hér!",
+        "speak": "Viltu halda fyrirlestur eða sögustund á LungA LAB? Sendu inn umsóknina þína hér."
+      }
+    }
+  }
+  

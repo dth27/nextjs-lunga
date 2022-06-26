@@ -1,0 +1,42 @@
+{
+    "namespace": "roles",
+    "resources": {
+      "en": {
+        "director": "Festival Director",
+        "exhangeprogram": "Erasmus Youth exchange program",
+        "curator": "Curator",
+        "events": "Event manager",
+        "workshops": "Workshops",
+        "concerts": "Concerts",
+        "production": "Production",
+        "sponsors": "Sponsors",
+        "volunteers": "Volunteers and ticket sales",
+        "creativeproductionfamilyfestival": "Creative production and Family festival",
+        "socialmedia": "Social Media Manager",
+        "pr": "PR Manager",
+        "booking": "Booking",
+        "photographer": "Photographer",
+        "graphics": "Graphic Design",
+        "programming": "Programming"
+      },
+      "is": {
+        "director": "Framkvæmdastýra",
+      "exhangeprogram": "Ungmennaskipti Erasmus+",
+      "curator": "Sýningarstjóri",
+      "events": "Viðburðarstjóri",
+      "workshops": "Listasmiðjur",
+      "production": "Verkstjórn",
+      "concerts": "Tónleikar",
+      "volunteers": "Sjálfboðaliðar og miðasala",
+      "creativeproductionfamilyfestival": "Framleiðsla og fjölskylduhátíð",
+      "sponsors": "Styrktaraðilar",
+      "socialmedia": "Samfélagsmiðlafulltrúi",
+      "pr": "Fjölmiðlafulltrúi",
+      "booking": "Bókanir",
+      "photographer": "Ljósmyndari",
+      "graphics": "Grafísk hönnun",
+      "programming": "Forritun"
+      }
+    }
+  }
+  

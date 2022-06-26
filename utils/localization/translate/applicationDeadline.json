@@ -1,0 +1,21 @@
+{
+  "namespace": "applicationDeadline",
+  "resources": {
+    "en": {
+      "title": "Deadline",
+      "show": "20/02/2020",
+      "teach": "10/03/2020",
+      "play": "Opens in March",
+      "participate": "Opens in May",
+      "speak": "Opens in April"
+    },
+    "is": {
+      "title": "Frestur",
+      "show": "20/02/2020",
+      "teach": "10/03/2020",
+      "play": "Opnar í mars",
+      "participate": "Opnar í maí",
+      "speak": "Opnar í apríl"
+    }
+  }
+}
