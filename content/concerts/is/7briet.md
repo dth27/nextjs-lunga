@@ -1,7 +1,7 @@
 ---
 name: Bríet
-id: 7
-id2: 7b
+id: 17
+id2: 17b
 stage: TBA
 time: TBA
 descr1: Bríet er margverðlaunuð tónlistarkona best þekkt fyrir lögin sín Esjan, Feimin(n) og Rólegur kúreki. Hún er fjölhæfur hljóðfæraleikari sem skrifar og flytur sín eigin lög, en hún hefur einnig unnið með mörgum tónlistarmönnum í gegnum tíðina. Bríet hefur mestmegnis unnið með lagahöfundinum og upptökustjóranum Pálma Ragnari Ásgeirssyni. Fyrsta breiðskífa Bríetar „Kveðja, Bríet“ var valin besta plata ársins á Íslensku Tónlistarverðlaunum 2021. Sama ár vann hún einnig í flokkunum söngkona ársins og textahöfundur ársins.

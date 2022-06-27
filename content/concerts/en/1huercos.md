@@ -1,7 +1,7 @@
 ---
 name: Huerco S
-id: 1
-id2: 1b
+id: 10
+id2: 10b
 stage: TBA
 time: TBA
 descr1: Fueled by an ethos less bound by genre and more bound by feeling, Brian Leeds makes music for the mind and for the floor, finding lost artifacts and carving out sounds that speak to an altered state of home, or place. Music that plays tricks on your brain, music that makes you question or surrender your mind, music very much rooted in audio archaeology and personal exploration.

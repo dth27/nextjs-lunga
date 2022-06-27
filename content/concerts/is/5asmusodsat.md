@@ -1,7 +1,7 @@
 ---
 name: Asmus Odsat
-id: 5
-id2: 5b
+id: 15
+id2: 15b
 stage: TBA
 time: TBA
 descr1: Asmus Odsat er DJ/framleiðandi frá Kaupmannahöfn. Asmus komið að fjölmörgum  tónleikum og menningarviðburðum í Kaupmannahöfn með BULK hópnum svokallaða. Asmus var einnig meðlimur í Ritual plötuútgáfunni, sem er þekkt fyrir ósvikul teknópartý sem drógu til sín einstakan hóp fólks.

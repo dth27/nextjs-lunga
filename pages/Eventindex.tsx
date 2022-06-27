@@ -39,7 +39,7 @@ export const EventIndex = () => {
           <div className='text'>{e('tba')}</div>
         </div>
         {/* Todo Remove hidden when ready! */}
-        <div className='eventindex-container hidden'>
+        <div className='eventindex-container'>
           <table>
             <tr>
               <th className='narrow'>{e('day')}</th>
@@ -52,7 +52,7 @@ export const EventIndex = () => {
               {events &&
                 events.map((event: any, index) => {
                   const { frontmatter } = event
-
+console.log(frontmatter.soundcloud)
                   return (
                     <>
                       <tr onClick={() => toggleOpen(frontmatter.id)}>

@@ -1,7 +1,7 @@
 ---
 name: Skrattar
-id: 94
-id2: 94b
+id: 22
+id2: 22b
 stage: TBA
 time: TBA
 descr1: SKRATTAR, also known as Skrattavaktin, first appeared in the year 2016 when they released the EP ‘In the Night’. Later the same year, SKRATTAR released another EP, ‘HELLRAISER 2’. The band was founded by Guðlaugur Hörðdal and Karl Torsten Ställborn, and shortly after Sölvi Magnússon, aka the Devil Himself, joined the group. In 2017, the album ‘ and the Devil Himself’ was released to critical acclaim. Subsequently, drummer Jón Arnar Kristjánsson joined the band. SKRATTAR slowly but surely gained recognition as a powerful live band with a memorable stage presence.

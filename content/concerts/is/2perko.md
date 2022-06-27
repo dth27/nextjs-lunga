@@ -1,7 +1,7 @@
 ---
 name: Perko
-id: 2
-id2: 2b
+id: 11
+id2: 11b
 stage: TBA
 time: TBA
 descr1: Fergus Jones, betur þekktur sem „Perko“ er skoskur framleiðandi og DJ, búsettur í Kaupmannahöfn“.  Perko kom fyrst fram tónlistarhátíðinni Numbers, í Glasgow, árið 2018. Sama ár gaf hann út sína fyrstu plötu „NV Auto“.

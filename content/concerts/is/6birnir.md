@@ -1,7 +1,7 @@
 ---
 name: Birnir
-id: 6
-id2: 6b
+id: 16
+id2: 16b
 stage: TBA
 time: TBA
 descr1: Birnir hefur verið einn vinsælasti rappari íslensku þjóðarinnar síðan hann gaf út sitt fyrsta lag árið 2017. Á síðasta ári gaf hann út plötuna Bushido sem hlaut lofsamlega dóma gagnrýnenda. Þannig stimplaði Birnir sig inn sem einn helsti rapp/popp tónlistarmaður Íslands. Birnir flytur margháttaða tónlist og því mega tónleikagestir eiga von á kraftmiklum tónleikum hjá rapparanum.

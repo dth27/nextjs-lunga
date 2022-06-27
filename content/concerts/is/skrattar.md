@@ -1,7 +1,7 @@
 ---
 name: Skrattar
-id: 94
-id2: 94b
+id: 22
+id2: 22b
 stage: TBA
 time: TBA
 descr1: Hljómsveitin SKRATTAR, eða Skrattavaktin eins og hún er oft kölluð, kom fram á sjónarsviðið árið 2016 með útgáfu EP plötunnar ‘In the Night’. Sama ár gaf hljómsveitin út EP plötuna ‘Hellraiser 2’. Stofnendur hljómsveitarinnar eru Guðlaugur Hörðdal og Karl Torsten Ställborn. Það leið ekki á löngu þar til Sölvi Magnússon eða Djöfullinn sjálfur slóst með í hópinn. Árið 2017 kom út platan ‘og djöfullinn sjálfur’ og hlaut góðar undirtektir. Fljótt eftir það bættist Jón Arnar Kristjánsson trommari í hópinn. SKRATTAR héldu svo ótrauðir áfram og sköpuðu sér nafn sem kraftmikið tónleikaband með sérstaka sviðsframkomu.

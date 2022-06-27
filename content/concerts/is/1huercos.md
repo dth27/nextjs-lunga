@@ -1,7 +1,7 @@
 ---
 name: Huerco S
-id: 1
-id2: 1b
+id: 10
+id2: 10b
 stage: TBA
 time: TBA
 descr1: Brian Leeds sem gengur undir nafninu „Huerco S“ byrjaði ungur að árum að spilaí pönk og metalböndum. Það var ekki fyrr en nokkuð síðar að hann komst  klúbbatónlist. Hann varð fljótt mjög hrifinn sérstaklega af því hversu ólík hún var pönkinu og metalnum sem hann þekkti. 
