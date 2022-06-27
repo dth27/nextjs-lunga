@@ -65,7 +65,7 @@ export const Workshops = () => {
           <a
             className='nav-link'
             href='https://podio.com/webforms/27609545/2144502'
-            target='_blank'
+            target='_blank rel="noreferrer"'
           >
             {w('applyhere')}
           </a>
@@ -75,7 +75,7 @@ export const Workshops = () => {
             const { frontmatter } = workshop
 
             return (
-              <div>
+              <div key={index}>
                 <div className='seperator'></div>
                 <div className='flex-grid'>
                   <div className='col'>
@@ -101,7 +101,7 @@ export const Workshops = () => {
                           <a
                             className='nav-link'
                             href={frontmatter.applyhere}
-                            target='_blank'
+                            target='_blank rel="noreferrer"'
                           >
                             {w('applyhere')}
                           </a>
@@ -112,7 +112,7 @@ export const Workshops = () => {
                           <a
                             className='nav-link'
                             href={frontmatter.instagram}
-                            target='_blank'
+                            target='_blank rel="noreferrer"'
                           >
                             Instagram
                           </a>
@@ -123,7 +123,7 @@ export const Workshops = () => {
                           <a
                             className='nav-link'
                             href={frontmatter.website}
-                            target='_blank'
+                            target='_blank rel="noreferrer"'
                           >
                             {w('website')}
                           </a>
@@ -166,7 +166,7 @@ export const Workshops = () => {
       <a
         className="nav-link"
         href="https://podio.com/webforms/27609545/2144502"
-        target="_blank"
+        target="_blank" rel="noreferrer"
       >
         {w("applyhere") }
       </a>

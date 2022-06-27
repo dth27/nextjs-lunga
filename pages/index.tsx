@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <img src='/22-banner.png' />
       </div>
       <div className='center sub-header'>
-        <a href='https://tix.is/is/event/13027/' target='_blank'>
+        <a href='https://tix.is/is/event/13027/' target='_blank rel="noreferrer"'>
           {c('ticket')}
         </a>
       </div>

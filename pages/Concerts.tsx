@@ -72,7 +72,7 @@ export const Concerts = () => {
                         <a
                           className='nav-link'
                           href={frontmatter.soundcloud}
-                          target='_blank'
+                          target='_blank rel="noreferrer"'
                         >
                           Soundcloud
                         </a>
@@ -83,7 +83,7 @@ export const Concerts = () => {
                         <a
                           className='nav-link'
                           href={frontmatter.spotify}
-                          target='_blank'
+                          target='_blank rel="noreferrer"'
                         >
                           Spotify
                         </a>
@@ -94,7 +94,7 @@ export const Concerts = () => {
                         <a
                           className='nav-link'
                           href={frontmatter.instagram}
-                          target='_blank'
+                          target='_blank rel="noreferrer"'
                         >
                           Instagram
                         </a>
@@ -106,7 +106,7 @@ export const Concerts = () => {
                         <a
                           className='nav-link'
                           href={frontmatter.youtube}
-                          target='_blank'
+                          target='_blank rel="noreferrer"'
                         >
                           Youtube
                         </a>
@@ -118,7 +118,7 @@ export const Concerts = () => {
                         <a
                           className='nav-link'
                           href={frontmatter.facebook}
-                          target='_blank'
+                          target='_blank rel="noreferrer"'
                         >
                           Facebook
                         </a>
@@ -129,7 +129,7 @@ export const Concerts = () => {
                         <a
                           className='nav-link'
                           href={frontmatter.website}
-                          target='_blank'
+                          target='_blank rel="noreferrer"'
                         >
                           Website
                         </a>
@@ -141,7 +141,7 @@ export const Concerts = () => {
                         <a
                           className='nav-link'
                           href={frontmatter.mixcloud}
-                          target='_blank'
+                          target='_blank rel="noreferrer"'
                         >
                           Mixcloud
                         </a>
@@ -164,7 +164,7 @@ export const Concerts = () => {
           <a
             className='nav-link'
             href='https://tix.is/is/event/13027/'
-            target='_blank'
+            target='_blank rel="noreferrer"'
           >
             {c('ticket')}
           </a>
@@ -190,7 +190,7 @@ export const Concerts = () => {
           <a
             className='nav-link'
             href='https://tix.is/is/event/13027/'
-            target='_blank'
+            target='_blank rel="noreferrer"'
           >
             {c('ticket')}
           </a>

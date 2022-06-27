@@ -7,7 +7,7 @@ export const Footer = () => {
         <a
           className='nav-link'
           href='https://www.lungaschool.is'
-          target='_blank'
+          target='_blank rel="noreferrer"'
         >
           LungA School
         </a>
@@ -16,7 +16,7 @@ export const Footer = () => {
         <a
           className='nav-link'
           href='https://www.instagram.com/lunga.festival/'
-          target='_blank'
+          target='_blank rel="noreferrer"'
         >
           Instagram
         </a>
@@ -25,7 +25,7 @@ export const Footer = () => {
         <a
           className='nav-link'
           href='https://www.facebook.com/lunga.festival/'
-          target='_blank'
+          target='_blank rel="noreferrer"'
         >
           Facebook
         </a>
@@ -34,7 +34,7 @@ export const Footer = () => {
         <a
           className='nav-link'
           href='https://lunga21.tumblr.com'
-          target='_blank'
+          target='_blank rel="noreferrer"'
         >
           Tumblr
         </a>
