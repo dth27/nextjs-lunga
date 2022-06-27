@@ -54,8 +54,8 @@ export const Concerts = () => {
                 </td>
               </tr>
               {/* Hidden content */}
-              <tr className={op.includes(frontmatter.id) ? 'haaaaa' : 'hidden'}>
-                <td className='border-top'>
+              <tr className={op.includes(frontmatter.id) ? '' : 'hidden'}>
+                <td className=''>
                   {frontmatter.descr1}
                   <br />
                   <br />
@@ -64,7 +64,7 @@ export const Concerts = () => {
                   {frontmatter.descr3}
                 </td>
 
-                <td className='border-top'>
+                <td className=''>
                   <img src={frontmatter.img} />
                   <div className='grid-container'>
                     {frontmatter.soundcloud && (
