@@ -42,7 +42,7 @@ const StyledHeader = styled.div`
   display: flex;
   justify-content: space-between;
   position: fixed;
-  margin-top: -30px;
+  margin-top: 0;
   flex-direction: column;
   z-index: 999;
 }
@@ -51,7 +51,7 @@ const StyledHeader = styled.div`
   display: flex;
   justify-content: space-between;
   position: fixed;
-  margin-top: -30px;
+  margin-top: 15px;
   z-index: 999;
 
 }

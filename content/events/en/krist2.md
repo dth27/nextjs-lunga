@@ -3,11 +3,12 @@ id: 1
 id2: 1b
 date:
 name:
-stage:
+where:
 time:
 descr1:
 descr2:
 descr3:
+type:
 img:
 facebook: www.facebook.com
 instagram:  www.spotify.com

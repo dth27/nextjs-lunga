@@ -3,11 +3,14 @@
   "resources": {
     "en": {
       "para1": "LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, with the only exception being the final concerts.",
-      "tba": "We're still working on the events of the summer 2022, stay tuned for updates!"
+      "tba": "We're still working on the events of the summer 2022, stay tuned for updates!",
+      "day": "Day"
     },
     "is": {
       "para1": "LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
-      "tba": "Bíðið spennt, við erum að vinna í viðburðum sumarsins!"
+      "tba": "Bíðið spennt, við erum að vinna í viðburðum sumarsins!",
+      "day": "Dagur"
+
     }
   }
 }
