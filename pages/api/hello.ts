@@ -16,9 +16,9 @@ export default function handler(
 		lang, path
   } = req.body
   
-  const files = fs.readdirSync(`content/${path}/${lang}`)
+  const files = fs.readdirSync(`components/content/${path}/${lang}`)
   const posts = files.map((fileName) => {
-    const readFile = fs.readFileSync(`content/${path}/${lang}/${fileName}`, 'utf-8')
+    const readFile = fs.readFileSync(`components/content/${path}/${lang}/${fileName}`, 'utf-8')
     const { data: frontmatter } = matter(readFile)
     return {
       frontmatter,
