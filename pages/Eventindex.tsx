@@ -39,23 +39,24 @@ export const EventIndex = () => {
           <div className='text'>{e('tba')}</div>
         </div>
         {/* Todo Remove hidden when ready! */}
-        <div className='eventindex-container'>
+        <div className='eventindex-container hidden'>
           <table>
-            <tr>
-              <th className='narrow'>{e('day')}</th>
-              <th className='narrow'>Klukkan</th>
-              <th>Hvað</th>
-              <th>Tegund</th>
-              <th>Hvar</th>
-            </tr>
+            <thead>
+              <tr>
+                <th className='narrow'>{e('day')}</th>
+                <th className='narrow'>Klukkan</th>
+                <th>Hvað</th>
+                <th>Tegund</th>
+                <th>Hvar</th>
+              </tr>
+            </thead>
             <tbody>
               {events &&
                 events.map((event: any, index) => {
                   const { frontmatter } = event
-console.log(frontmatter.soundcloud)
                   return (
                     <>
-                      <tr onClick={() => toggleOpen(frontmatter.id)}>
+                      <tr onClick={() => toggleOpen(frontmatter.id)} key={index}>
                         <td className='border-bottom normal narrow'>
                           {frontmatter.date}
                         </td>
@@ -76,6 +77,7 @@ console.log(frontmatter.soundcloud)
                         className={
                           op.includes(frontmatter.id) ? 'border' : 'hidden'
                         }
+                       
                       >
                         <td className='border-top' colSpan={3}>
                           {frontmatter.descr1}
@@ -153,6 +155,7 @@ console.log(frontmatter.soundcloud)
                     </>
                   )
                 })}
+                
             </tbody>
           </table>
         </div>
@@ -251,7 +254,7 @@ const StyledEventIndex = styled.div`
     justify-content: center;
     align-self: center;
   }
-  .name{
+  .name {
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -265,6 +268,4 @@ const StyledEventIndex = styled.div`
     margin: 20px;
   }
 `
-const StyledImage = styled.img`
-
-`
+const StyledImage = styled.img``

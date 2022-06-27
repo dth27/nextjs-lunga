@@ -12,14 +12,6 @@ export const links = [
       label: 'concerts',
     },
     {
-      link: '/Lungalab',
-      label: 'lungalab',
-    },
-    {
-      link: '/Youthexchange',
-      label: 'youthexchange',
-    },
-    {
       link: '/Eventindex',
       label: 'eventindex',
     },
@@ -27,6 +19,16 @@ export const links = [
       link: '/Shop',
       label: 'shop',
     },
+    // {
+    //   link: '/Lungalab',
+    //   label: 'lungalab',
+    // },
+    {
+      link: '/Youthexchange',
+      label: 'youthexchange',
+    },
+   
+    
     {
       link: '/Contact',
       label: 'contact',

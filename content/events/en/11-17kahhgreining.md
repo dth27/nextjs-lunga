@@ -11,7 +11,7 @@ descr2: Are you kisuhnappur, álfahnappur, kisuhestur or álfahestur? We will fi
 descr3: 
 artist1:
 artist2:
-img: '/images/eventindex/kahhgreining.jpg'
+img: ''
 facebook: 
 instagram: 
 website:

@@ -11,7 +11,7 @@ descr2: Ertu kisuhnappur, álfahnappur, kisuhestur eða álfahestur? Við komums
 descr3: 
 artist1:
 artist2:
-img: '/images/eventindex/kahhgreining.jpg'
+img: ''
 facebook: 
 instagram: 
 website:
