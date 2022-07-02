@@ -36,7 +36,7 @@ export const Workshops = ({ content }: any) => {
   useEffect(() => {
     fetch('api/get-content', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify({ lang, path: 'workshops' }),
     })
       .then((res) => res.json())

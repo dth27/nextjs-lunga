@@ -33,7 +33,7 @@ export const EventIndex = ({content}: any) => {
   React.useEffect(() => {
     fetch('api/get-content', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify({ lang, path: 'events' }),
     })
       .then((res) => res.json())
