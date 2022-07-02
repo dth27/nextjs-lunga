@@ -3,8 +3,8 @@ import { initReactI18next } from 'react-i18next';
 import { translationsOptions } from './translate';
 
 i18next.use(initReactI18next).init({
-  lng: 'is',
-  fallbackLng: 'en',
+  lng: 'en',
+  fallbackLng: 'is',
   nsSeparator: ':',
   ...translationsOptions,
 });
