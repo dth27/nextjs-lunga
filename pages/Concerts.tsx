@@ -9,7 +9,7 @@ import i18next from 'i18next'
 import { FrontmatterConcerts } from '../types'
 import getContent from '../utils/content/getContent'
 
-export const getStaticProps = async (ctx: any) => {
+export const getServerSideProps = async (ctx: any) => {
   let lang = i18next.language
   let content = await getContent(lang, 'concerts')
   if(content){

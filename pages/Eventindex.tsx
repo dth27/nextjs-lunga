@@ -6,7 +6,7 @@ import React from 'react'
 import { FrontmatterEvents } from '../types'
 import getContent from '../utils/content/getContent'
 
-export const getStaticProps = async (ctx: any) => {
+export const getServerSideProps = async (ctx: any) => {
   let lang = i18next.language
   let content = await getContent(lang, 'events')
   if(content){
