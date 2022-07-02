@@ -8,40 +8,37 @@ import React, { useEffect } from 'react'
 import { FrontmatterWorkshops } from '../types'
 import i18next from 'i18next'
 import getContent from '../utils/content/getContent'
+import { getEnglishPosts, getIcelandicPosts } from '../lib/api'
 
-export const getInitialProps = async (ctx: any) => {
+export const getStaticProps = async (ctx: any) => {
   let lang = i18next.language
-  let content = await getContent(lang, 'workshops')
-  if (content) {
+  let islContent = getIcelandicPosts('workshops')
+  let enContent = getEnglishPosts('workshops')
+  if (islContent) {
     return {
       props: {
-        content
-      }
+        islContent,
+        enContent,
+      },
     }
-  }
-  else {
+  } else {
     return {
-      props: {}
+      props: {},
     }
   }
-
 }
-
-export const Workshops = ({ content }: any) => {
+export const Workshops = ({ islContent, enContent }: any) => {
   const { t: l } = useTranslation('links')
   const { t: w } = useTranslation('workshops')
   let lang = i18next.language
+  let content = lang == 'is' ? islContent : enContent
   const [workshops, setWorkshops] =
     React.useState<Array<FrontmatterWorkshops>>(content)
   useEffect(() => {
-    fetch('api/get-content', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({ lang, path: 'workshops' }),
-    })
-      .then((res) => res.json())
-      .then((data) => setWorkshops(data))
-  }, [i18next.language])
+    if (lang == 'is') {
+      setWorkshops(islContent)
+    } else setWorkshops(enContent)
+  }, [lang])
 
   let opened: string[] = ['']
   const [op, updateOp] = React.useState([''])
@@ -180,14 +177,15 @@ export const Workshops = ({ content }: any) => {
               </div>
             )
           })}
-        <div className="seperator"></div>
-        <div className="sub-header">
+        <div className='seperator'></div>
+        <div className='sub-header'>
           <a
-            className="nav-link"
-            href="https://podio.com/webforms/27609545/2144502"
-            target="_blank" rel="noreferrer"
+            className='nav-link'
+            href='https://podio.com/webforms/27609545/2144502'
+            target='_blank'
+            rel='noreferrer'
           >
-            {w("applyhere")}
+            {w('applyhere')}
           </a>
         </div>
       </StyledWorkshops>

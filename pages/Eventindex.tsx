@@ -5,40 +5,37 @@ import i18next from 'i18next'
 import React from 'react'
 import { FrontmatterEvents } from '../types'
 import getContent from '../utils/content/getContent'
+import { getEnglishPosts, getIcelandicPosts } from '../lib/api'
 
-export const getInitialProps = async (ctx: any) => {
+export const getStaticProps = async (ctx: any) => {
   let lang = i18next.language
-  let content = await getContent(lang, 'events')
-  if(content){
+  //let content = await getContent(lang, 'concerts')
+  let islContent = getIcelandicPosts('events')
+  let enContent = getEnglishPosts('events')
+  if (islContent) {
     return {
       props: {
-        content
-      }
+        islContent,
+        enContent,
+      },
     }
-  }
-  else {
+  } else {
     return {
-      props: {}
+      props: {},
     }
   }
-  
 }
-
-export const EventIndex = ({content}: any) => {
+export const EventIndex = ({ islContent, enContent }: any) => {
   const { t: e } = useTranslation('eventindex')
   const { t: l } = useTranslation('links')
   let lang = i18next.language
-
+  let content = lang == 'is' ? islContent : enContent
   const [events, setEvents] = React.useState<Array<FrontmatterEvents>>(content)
   React.useEffect(() => {
-    fetch('api/get-content', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-      body: JSON.stringify({ lang, path: 'events' }),
-    })
-      .then((res) => res.json())
-      .then((data) => setEvents(data))
-  }, [i18next.language])
+    if (lang == 'is') {
+      setEvents(islContent)
+    } else setEvents(enContent)
+  }, [lang])
   let opened: string[] = ['']
   const [op, updateOp] = React.useState([''])
   const toggleOpen = (id: string) => {
@@ -76,7 +73,10 @@ export const EventIndex = ({content}: any) => {
                   const { frontmatter } = event
                   return (
                     <>
-                      <tr onClick={() => toggleOpen(frontmatter.id)} key={index}>
+                      <tr
+                        onClick={() => toggleOpen(frontmatter.id)}
+                        key={index}
+                      >
                         <td className='border-bottom normal narrow'>
                           {frontmatter.date}
                         </td>
@@ -97,7 +97,6 @@ export const EventIndex = ({content}: any) => {
                         className={
                           op.includes(frontmatter.id) ? 'border' : 'hidden'
                         }
-                       
                       >
                         <td className='border-top' colSpan={3}>
                           {frontmatter.descr1}
@@ -175,7 +174,6 @@ export const EventIndex = ({content}: any) => {
                     </>
                   )
                 })}
-                
             </tbody>
           </table>
         </div>
