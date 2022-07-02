@@ -7,15 +7,34 @@ import matter from 'gray-matter'
 import React, { useEffect } from 'react'
 import { FrontmatterWorkshops } from '../types'
 import i18next from 'i18next'
+import getContent from '../utils/content/getContent'
 
-export const Workshops = () => {
+export const getStaticProps = async (ctx: any) => {
+  let lang = i18next.language
+  let content = await getContent(lang, 'workshops')
+  if (content) {
+    return {
+      props: {
+        content
+      }
+    }
+  }
+  else {
+    return {
+      props: {}
+    }
+  }
+
+}
+
+export const Workshops = ({ content }: any) => {
   const { t: l } = useTranslation('links')
   const { t: w } = useTranslation('workshops')
   let lang = i18next.language
   const [workshops, setWorkshops] =
-    React.useState<Array<FrontmatterWorkshops>>()
+    React.useState<Array<FrontmatterWorkshops>>(content)
   useEffect(() => {
-    fetch('api/hello', {
+    fetch('api/get-content', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ lang, path: 'workshops' }),
@@ -161,16 +180,16 @@ export const Workshops = () => {
               </div>
             )
           })}
-           <div className="seperator"></div>
-           <div className="sub-header">
-      <a
-        className="nav-link"
-        href="https://podio.com/webforms/27609545/2144502"
-        target="_blank" rel="noreferrer"
-      >
-        {w("applyhere") }
-      </a>
-    </div>
+        <div className="seperator"></div>
+        <div className="sub-header">
+          <a
+            className="nav-link"
+            href="https://podio.com/webforms/27609545/2144502"
+            target="_blank" rel="noreferrer"
+          >
+            {w("applyhere")}
+          </a>
+        </div>
       </StyledWorkshops>
     </Layout>
   )

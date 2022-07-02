@@ -6,12 +6,15 @@ import Footer from '../components/Footer/Footer'
 import { useTranslation } from 'react-i18next'
 import Link from 'next/link'
 import { links } from '../utils/constants/links'
+import i18next from 'i18next'
+import getContent from '../utils/content/getContent'
 
-const Home: NextPage = () => {
+
+export const Home = () => {
   const { t: c, i18n } = useTranslation('concerts')
   const { t: l } = useTranslation('links')
   const lang = i18n.language
-  
+
   return (
     <Frontpage className='frontpage'>
       <Header Frontpage />
@@ -31,13 +34,12 @@ const Home: NextPage = () => {
           return (
             <div
               key={index}
-              className={`skew-container link-container ${main} ${
-                lang == 'en' && 'rightalign'
-              }`}
+              className={`skew-container link-container ${main} ${lang == 'en' && 'rightalign'
+                }`}
             >
               <div>
                 <Link href={link.link} >
-                  <a className={`nav-link ${main.length>0 ? main : language} `} > {l(link.label)}</a>
+                  <a className={`nav-link ${main.length > 0 ? main : language} `} > {l(link.label)}</a>
                 </Link>
               </div>
             </div>

@@ -4,14 +4,34 @@ import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 import React from 'react'
 import { FrontmatterEvents } from '../types'
-export const EventIndex = () => {
+import getContent from '../utils/content/getContent'
+
+export const getStaticProps = async (ctx: any) => {
+  let lang = i18next.language
+  let content = await getContent(lang, 'events')
+  if(content){
+    return {
+      props: {
+        content
+      }
+    }
+  }
+  else {
+    return {
+      props: {}
+    }
+  }
+  
+}
+
+export const EventIndex = ({content}: any) => {
   const { t: e } = useTranslation('eventindex')
   const { t: l } = useTranslation('links')
   let lang = i18next.language
 
-  const [events, setEvents] = React.useState<Array<FrontmatterEvents>>()
+  const [events, setEvents] = React.useState<Array<FrontmatterEvents>>(content)
   React.useEffect(() => {
-    fetch('api/hello', {
+    fetch('api/get-content', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ lang, path: 'events' }),

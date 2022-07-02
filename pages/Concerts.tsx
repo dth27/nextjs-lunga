@@ -7,15 +7,33 @@ import matter from 'gray-matter'
 import React, { useEffect } from 'react'
 import i18next from 'i18next'
 import { FrontmatterConcerts } from '../types'
+import getContent from '../utils/content/getContent'
 
-export const Concerts = () => {
+export const getStaticProps = async (ctx: any) => {
+  let lang = i18next.language
+  let content = await getContent(lang, 'concerts')
+  if(content){
+    return {
+      props: {
+        content
+      }
+    }
+  }
+  else {
+    return {
+      props: {}
+    }
+  }
+  
+}
+export const Concerts = ({content}: any) => {
   const { t: l } = useTranslation('links')
   const { t: c } = useTranslation('concerts')
   let lang = i18next.language
 
-  const [concerts, setConcerts] = React.useState<Array<FrontmatterConcerts>>()
+  const [concerts, setConcerts] = React.useState<Array<FrontmatterConcerts>>(content)
   useEffect(() => {
-    fetch('api/hello', {
+    fetch('api/get-content', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ lang, path: 'concerts' }),
