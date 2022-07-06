@@ -5,7 +5,7 @@ export const Footer = () => {
     <StyledFooter className='footer'>
       <div className='footer-item link-container'>
         <a
-          className='nav-link'
+          className='nav-footer'
           href='https://www.lungaschool.is'
           target='_blank rel="noreferrer"'
         >
@@ -14,7 +14,7 @@ export const Footer = () => {
       </div>
       <div className='footer-item link-container'>
         <a
-          className='nav-link'
+          className='nav-footer '
           href='https://www.instagram.com/lunga.festival/'
           target='_blank rel="noreferrer"'
         >
@@ -23,7 +23,7 @@ export const Footer = () => {
       </div>
       <div className='footer-item link-container'>
         <a
-          className='nav-link'
+          className='nav-footer'
           href='https://www.facebook.com/lunga.festival/'
           target='_blank rel="noreferrer"'
         >
@@ -32,7 +32,7 @@ export const Footer = () => {
       </div>
       <div className='footer-item link-container'>
         <a
-          className='nav-link'
+          className='nav-footer'
           href='https://lunga21.tumblr.com'
           target='_blank rel="noreferrer"'
         >
@@ -50,12 +50,11 @@ const StyledFooter = styled.div`
   justify-content: space-around;
   font-weight: 600;
   background-color: #fff;
-  font-size: 26px;
   color: #000000;
 
   .footer-item {
-    text-align: center;
     flex-grow: 1;
-    padding: 10px;
+    text-align: center;
   }
+  
 `

@@ -2,7 +2,7 @@
 name: Gugusar
 id: 19
 id2: 19b
-stage: TBA
+stage: Center Stage
 time: TBA
 descr1: gugusar er átján ára gömul tónlistarkona sem semur alla sína tónlist sjálf í stúdíóinu sínu. Hún byrjaði að pródúsera sína eigin tónlist þegar hún var einungis fjórtán ára og hefur gert það síðan.
 descr2:

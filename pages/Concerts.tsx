@@ -66,7 +66,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                   </td>
 
                   <td className='border-bottom Width' colSpan={1}>
-                    {frontmatter.time}
+                    {frontmatter.stage}
                   </td>
                 </tr>
                 {/* Hidden content */}
@@ -86,7 +86,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                       {frontmatter.soundcloud && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.soundcloud}
                             target='_blank rel="noreferrer"'
                           >
@@ -97,7 +97,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                       {frontmatter.spotify && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.spotify}
                             target='_blank rel="noreferrer"'
                           >
@@ -108,7 +108,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                       {frontmatter.instagram && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.instagram}
                             target='_blank rel="noreferrer"'
                           >
@@ -120,7 +120,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                       {frontmatter.youtube && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.youtube}
                             target='_blank rel="noreferrer"'
                           >
@@ -132,7 +132,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                       {frontmatter.facebook && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.facebook}
                             target='_blank rel="noreferrer"'
                           >
@@ -143,7 +143,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                       {frontmatter.website && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.website}
                             target='_blank rel="noreferrer"'
                           >
@@ -155,7 +155,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                       {frontmatter.mixcloud && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.mixcloud}
                             target='_blank rel="noreferrer"'
                           >

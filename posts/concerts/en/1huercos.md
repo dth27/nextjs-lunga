@@ -2,7 +2,7 @@
 name: Huerco S
 id: 10
 id2: 10b
-stage: TBA
+stage: Fjarðarsel & B.I.O
 time: TBA
 descr1: Fueled by an ethos less bound by genre and more bound by feeling, Brian Leeds makes music for the mind and for the floor, finding lost artifacts and carving out sounds that speak to an altered state of home, or place. Music that plays tricks on your brain, music that makes you question or surrender your mind, music very much rooted in audio archaeology and personal exploration.
 descr2: Coming out from playing punk and metal bands as a teenager in Kansas, Brian picked up dance music as “it was the opposite of what I’d been involved with for so long. I wanted something more tangible, less abrasive and more sensual.” His fast-evolving works as Huerco S – released on Software, Proibito, Opal Tapes, and Future Times – worked with a sonic palette of recontextualisation, low fidelity, and a subtle sense of humor long missing from the genre.

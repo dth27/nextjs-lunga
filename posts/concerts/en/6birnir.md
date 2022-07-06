@@ -2,7 +2,7 @@
 name: Birnir
 id: 16
 id2: 16b
-stage: TBA
+stage: Center Stage
 time: TBA
 descr1: Birnir has been one of Iceland's most popular rappers since his debut in 2017. Last year he released the critically acclaimed album Bushido which cemented his spot as both the top dog of Icelandic rap and a pop icon. Birnir's catalogue is diverse and Lunga guests can expect a high energy epic performance.
 descr2:

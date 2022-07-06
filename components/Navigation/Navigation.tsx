@@ -74,11 +74,9 @@ const StyledNavigation = styled.div`
   }
 
   .little-nav .skew-container-m {
-    font-size: 48px;
+    font-size: 10px;
   }
   .nav-link {
-    /* background-color: white; */
-    /* z-index: 99; */
     max-height: 20px;
     display: unset;
   }
@@ -90,13 +88,12 @@ const StyledNavigation = styled.div`
   }
   .skew-container-m > div > a > span:hover {
     background-color: #000;
-    background-color: #fff;
   }
   .skew-container-m {
     border-top: 2px solid #000;
-    border-bottom: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
     max-width: 99.9%;
     text-decoration: none;
     box-sizing: border-box;

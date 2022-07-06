@@ -46,9 +46,9 @@ export const Home = () => {
           )
         })}
       </div>
-      <div className='little-nav '>
+
         <Footer />
-      </div>
+
     </Frontpage>
   )
 }
@@ -96,23 +96,21 @@ const Frontpage = styled.div`
 }
 
 .little-nav .skew-container {
-  font-size: 3rem;
+  font-size: 10px;
 }
 .skew-container {
   border-top: 2px solid #000;
   max-width: 99.9%;
   text-decoration: none;
   box-sizing: border-box;
-  font-size: 96px;
   font-weight: 600;
-    color: black;
+  color: black;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr auto;
   font-weight: 600;
-  font-size: 3rem;
   color: #000000;
   border-bottom: #000 2px solid;
 }

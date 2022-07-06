@@ -115,7 +115,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
                       {frontmatter.applyhere && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.applyhere}
                             target='_blank rel="noreferrer"'
                           >
@@ -126,7 +126,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
                       {frontmatter.instagram && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.instagram}
                             target='_blank rel="noreferrer"'
                           >
@@ -137,7 +137,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
                       {frontmatter.website && (
                         <div>
                           <a
-                            className='nav-link'
+                            className='nav-link-small'
                             href={frontmatter.website}
                             target='_blank rel="noreferrer"'
                           >

@@ -2,7 +2,7 @@
 name: russian.girls
 id: 21
 id2: 21b
-stage: TBA
+stage: Center Stage
 time: TBA
 descr1: russian.girls started out as a solo project of Guðlaugur Hörðdal Einarsson in 2011, but later became a platform for him and his friends to make music. Today russian.girls is known as a trio, as Tatjana Dís Aldísar and Gylfi Freeland Sigurðsson joined the project in 2016. Together they've released four EPs, most recently under the Icelandic/German techno label bbb recors. As once described, russian.girls make music that is “entirely their own” surprising their listeners with each release.
 descr2:

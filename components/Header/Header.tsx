@@ -89,8 +89,6 @@ const StyledHeader = styled.div`
   font-weight: 600;
   max-height: 20px;
   font-size: 16px;
-
-
 }
 
 @media (max-width: 909px) {
@@ -99,7 +97,7 @@ const StyledHeader = styled.div`
   }
 
   .header {
-    margin-top: -40px;
+   /* margin-top: -40px;*/
   }
 }
 ` 
