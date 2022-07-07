@@ -10,7 +10,7 @@ about3: Við leitum fanga í náttúrunni, skoðum gjörðina sem það er að s
 aboutteacher1: Svikaskáld er sex kvenna skáldakollektív. Saman hafa þær gefið út þrjár ljóðabækur og síðast skáldsöguna Olíu (2021) sem hlaut tilnefningu til Íslensku bókmenntaverðlaunanna. Þær hafa haldið fjölmargar ritsmiðjur fyrir ungt fólk og staðið fyrir mánaðarlegum ljóðakvöldum í Gröndalshúsi.
 aboutteacher2: Ragnheiður Harpa Leifsdóttir er rithöfundur og sviðslistakona. Hún hefur samið og unnið að leiksýningum, gjörningum, myndlistarverkum hérlendis og erlendis. Ritverk hennar og ljóð hennar hafa birst í ýmsum útgáfum, á sviði og heyrst í útvarpi. Hún hefur birt ljóð í bókum Svikaskálda en ljóðabók hennar Sítrónur og náttmyrkur kom út haustið 2019. Ljóðabókin Urðarflétta er væntanleg í haust.
 aboutteacher3: Melkorka Ólafsdóttir er tónlistarkona og skáld. Hún hefur skrifað ljóð frá barnsaldri og gefið út ljóðaheftin Unglingsljóð (2000) og Ástarljóð (2004), ásamt ljóðabókinni Hérna eru fjöllin blá (2019). Ljóð eftir hana hafa m.a. birst á Starafugli og í bókum Svikaskálda en Melkorka hefur auk þess skrifað fyrir ýmis tækifæri og tilefni, t.d. í Stundina og fyrir Víðsjá. Melkorka lauk mastersnámi í ritlist frá HÍ vorið 2018. Undanfarin 15 ár hefur hún starfað sem tónlistarkona og verkefnastjóri í Hörpu, en hefur nýverið tekið við starfi dagskrárgerðarmanns á RÚV.
-mynd: '/images/workshop/svikaskald.png'
+mynd: '/images/workshop/svikaskald.jpg'
 website: https://www.svikaskald.com/
 applyhere: https://podio.com/webforms/27465134/2125633
 ---

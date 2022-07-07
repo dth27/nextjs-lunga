@@ -1,9 +1,9 @@
 ---
 name: Gugusar
-id: 19
-id2: 19b
+id: 13
+id2: 13b
 stage: Center Stage
-time: TBA
+time: 15 July
 descr1: gugusar is an eighteen year old singer, producer and a songwriter from Reykjavík, Iceland. She started producing her own music only at fourteen years old and has been doing since.
 descr2:
 descr3:

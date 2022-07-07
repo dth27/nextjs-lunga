@@ -56,15 +56,15 @@ export const EventIndex = ({ islContent, enContent }: any) => {
           <div className='text'>{e('tba')}</div>
         </div>
         {/* Todo Remove hidden when ready! */}
-        <div className='eventindex-container hidden'>
+        <div className='eventindex-container'>
           <table>
             <thead>
               <tr>
                 <th className='narrow'>{e('day')}</th>
-                <th className='narrow'>Klukkan</th>
-                <th>Hvað</th>
-                <th>Tegund</th>
-                <th>Hvar</th>
+                <th className='narrow'>{e('time')}</th>
+                <th>{e('what')}</th>
+                <th>{e('type')}</th>
+                <th>{e('where')}</th>
               </tr>
             </thead>
             <tbody>
@@ -114,7 +114,7 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                             {frontmatter.soundcloud && (
                               <div>
                                 <a
-                                  className='nav-link'
+                                  className='nav-link-small'
                                   href={frontmatter.soundcloud}
                                   target='_blank rel="noreferrer"'
                                 >
@@ -123,51 +123,61 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                               </div>
                             )}
 
-                            <div>
-                              <a
-                                className='nav-link'
-                                href={frontmatter.spotify}
-                                target='_blank rel="noreferrer"'
-                              >
-                                Spotify
-                              </a>
-                            </div>
-                            <div>
-                              <a
-                                className='nav-link'
-                                href={frontmatter.instagram}
-                                target='_blank rel="noreferrer"'
-                              >
-                                Instagram
-                              </a>
-                            </div>
-                            <div>
-                              <a
-                                className='nav-link'
-                                href={frontmatter.youtube}
-                                target='_blank rel="noreferrer"'
-                              >
-                                Youtube
-                              </a>
-                            </div>
-                            <div>
-                              <a
-                                className='nav-link'
-                                href={frontmatter.facebook}
-                                target='_blank rel="noreferrer"'
-                              >
-                                Facebook
-                              </a>
-                            </div>
-                            <div>
-                              <a
-                                className='nav-link'
-                                href={frontmatter.website}
-                                target='_blank rel="noreferrer"'
-                              >
-                                Website
-                              </a>
-                            </div>
+                            {frontmatter.spotify && (
+                        <div>
+                          <a
+                            className='nav-link-small'
+                            href={frontmatter.spotify}
+                            target='_blank rel="noreferrer"'
+                          >
+                            Spotify
+                          </a>
+                        </div>
+                      )}
+                            {frontmatter.instagram && (
+                        <div>
+                          <a
+                            className='nav-link-small'
+                            href={frontmatter.instagram}
+                            target='_blank rel="noreferrer"'
+                          >
+                            Instagram
+                          </a>
+                        </div>
+                      )}
+                               {frontmatter.youtube && (
+                        <div>
+                          <a
+                            className='nav-link-small'
+                            href={frontmatter.youtube}
+                            target='_blank rel="noreferrer"'
+                          >
+                            Youtube
+                          </a>
+                        </div>
+                      )}
+                            {frontmatter.facebook && (
+                        <div>
+                          <a
+                            className='nav-link-small'
+                            href={frontmatter.facebook}
+                            target='_blank rel="noreferrer"'
+                          >
+                            Facebook
+                          </a>
+                        </div>
+                      )}
+                            {frontmatter.website && (
+                        <div>
+                          <a
+                            className='nav-link-small'
+                            href={frontmatter.website}
+                            target='_blank rel="noreferrer"'
+                          >
+                            Website
+                          </a>
+                        </div>
+                      )}
                           </div>
                         </td>
                       </tr>
@@ -179,9 +189,9 @@ export const EventIndex = ({ islContent, enContent }: any) => {
         </div>
 
         <br />
-        <div className='img-container'>
+       {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
-        </div>
+        </div>*/}
       </StyledEventIndex>
     </Layout>
   )
@@ -241,6 +251,7 @@ const StyledEventIndex = styled.div`
   td.border-bottom {
     border-top: solid 2px #000;
     padding-top: 10px;
+    cursor: pointer;
   }
 
   img {

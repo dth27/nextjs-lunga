@@ -1,9 +1,9 @@
 ---
 name: Svala
-id: 23
-id2: 23b
+id: 5
+id2: 5b
 stage: Center Stage
-time: TBA
+time: 16 July
 descr1:
 descr2:
 descr3:

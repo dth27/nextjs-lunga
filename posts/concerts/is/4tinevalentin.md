@@ -1,9 +1,9 @@
 ---
 name: Tine Valentin
-id: 14
-id2: 14b
+id: 4
+id2: 4b
 stage: Loft Stage
-time: TBA
+time: 16. júlí
 descr1: Tine Valentin býr og starfar í Kaupmannahöfn. Tine byggir settin sín aðallega á raftónlist en kannar einnig lendur teknó, house og breaks -tónlistar. Innblásin af tónlistinni sem hún elskar leitast Tine eftir að finna sinn eiginn hljóm fyrir ákaft dansgólfið.
 descr2:
 descr3:

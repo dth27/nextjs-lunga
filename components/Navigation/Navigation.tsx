@@ -26,7 +26,7 @@ export const Navigation = () => {
           <div className={`skew-container-m ${lang == 'en' && 'rightalign'}`}>
             <div className={` ${language} `}>
               <Link href='/'>
-                <a className={`nav-link`}>{l('home')}</a>
+                <a className={`nav-link-menu`}>{l('home')}</a>
               </Link>
             </div>
           </div>
@@ -46,7 +46,7 @@ export const Navigation = () => {
                       }`}>
                   <Link href={link.link} >
                     <a
-                      className={`nav-link  ${
+                      className={`nav-link-menu ${
                         main.length > 0 && main 
                       } `}
                     >

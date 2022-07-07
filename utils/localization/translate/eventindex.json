@@ -2,14 +2,22 @@
   "namespace": "eventindex",
   "resources": {
     "en": {
-      "para1": "LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, with the only exception being the final concerts.",
-      "tba": "We're still working on the events of the summer 2022, stay tuned for updates!",
-      "day": "Day"
+      "para1": "LungA offers a range of international events for the entire duration of the festival – they are all open and free of charge, unless specifically stated otherwise.",
+      "tba": "The exhibitions Excercise, House of Van Helzing, Stored Void and Living Exhibition are open every day 11–16 July.",
+      "day": "Day",
+      "time": "Time",
+      "what": "What",
+      "type": "Type",
+      "where": "Where"
     },
     "is": {
-      "para1": "LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna og að tónlistarveislu LungA undanskilinni þá er öll dagskráin frí.",
-      "tba": "Bíðið spennt, við erum að vinna í viðburðum sumarsins!",
-      "day": "Dagur"
+      "para1": "LungA býður upp á háklassa alþjóðlega viðburði yfir alla vikuna. Viðburðir eru ókeypis og aðgengilegir öllum nema annað sé sérstaklega tekið fram.",
+      "tba": "Sýningarnar Excercise, House of Van Helzing, Stored Void & Lifandi sýning eru opnar alla daga 11.–16. júlí.",
+      "day": "Dagur",
+      "time": "Klukkan",
+      "what": "Hvað",
+      "type": "Tegund",
+      "where": "Hvar"
 
     }
   }

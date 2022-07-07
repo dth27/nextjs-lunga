@@ -1,7 +1,7 @@
 ---
-id: 5
-id2: 5b
-date: 11.–17.07.
+id: 8
+id2: 8b
+date: 11–17 July
 time: TBA
 name: KÁHH greining
 type: Performance series
@@ -11,10 +11,6 @@ descr2: Are you kisuhnappur, álfahnappur, kisuhestur or álfahestur? We will fi
 descr3: 
 artist1:
 artist2:
-img: ''
-facebook: 
-instagram: 
-website:
-youtube: 
-spotify: 
+img: '/images/eventindex/kahh.jpg'
+instagram: https://www.instagram.com/kahh.greining/
 ---

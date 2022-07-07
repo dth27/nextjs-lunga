@@ -1,7 +1,7 @@
 ---
-id: 
-id2: 
-date: 12.07
+id: 9
+id2: 9b
+date: 12. júlí
 time: 20
 name: 155 - eenvijfvijf
 type: Bíósýning

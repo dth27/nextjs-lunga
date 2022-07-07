@@ -1,7 +1,7 @@
 ---
-id: 5
-id2: 5b
-date: 11–17.07
+id: 8
+id2: 8b
+date: 11.–17. júlí
 time: TBA
 name: KÁHH greining
 type: Gjörningaröð
@@ -11,9 +11,9 @@ descr2: Ertu kisuhnappur, álfahnappur, kisuhestur eða álfahestur? Við komums
 descr3: 
 artist1:
 artist2:
-img: ''
+img: '/images/eventindex/kahh.jpg'
 facebook: 
-instagram: 
+instagram: https://www.instagram.com/kahh.greining/
 website:
 youtube: 
 spotify: 

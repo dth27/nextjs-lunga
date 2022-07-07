@@ -46,6 +46,15 @@ body {
   color: inherit;
 }
 
+.nav-link-menu {
+  font-size: 60px;
+  text-decoration: none;
+/*  line-height: 115%;*/
+}
+.nav-link-menu:hover {
+  color: inherit;
+}
+
 
 .subtitle {
   font-size: 48px;
@@ -99,7 +108,6 @@ a:link,
   }
 
 }
-
 
 .center {
   text-align: center;
