@@ -68,6 +68,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                   <td className='border-bottom Width' colSpan={1}>
                     {frontmatter.stage}
                   </td>
+                  
                 </tr>
                 {/* Hidden content */}
                 <tr className={op.includes(frontmatter.id) ? '' : 'hidden'}>
