@@ -176,21 +176,30 @@ export const Concerts = ({ islContent, enContent }: any) => {
   }, [opened])
   return (
     <Layout title={l('concerts')}>
+
+
+
       <StyledConcerts>
-        <div className='center sub-header nav-link'>
-          <a
-            className='nav-link'
-            href='https://tix.is/is/event/13027/'
-            target='_blank rel="noreferrer"'
-          >
-            {c('ticket')}
-          </a>
-        </div>
+
 
         <div className='footer-container'>
           <div className='sub-text'>{c('header')}</div>
           <div className='text'>{c('info1')}</div>
         </div>
+
+
+        <div className='center sub-header nav-link'>
+          <a
+              className='nav-link'
+              href='https://tix.is/is/event/13027/'
+              target='_blank rel="noreferrer"'
+          >
+            {c('ticket')}
+          </a>
+        </div>
+
+
+
         <table>
           <thead>
             <tr>
@@ -213,10 +222,12 @@ export const Concerts = ({ islContent, enContent }: any) => {
           </a>
         </div>
 
-        <div className='img-container'>
-          <img className='img-child' src='/tumblr/2021-6.jpg' />
-        </div>
+
       </StyledConcerts>
+
+      {/*<div className='img-container'>*/}
+      {/*  <img className='img-child' src='/tumblr/2021-6.jpg' />*/}
+      {/*</div>*/}
     </Layout>
   )
 }
@@ -329,30 +340,46 @@ const StyledConcerts = styled.div`
 
   .footer-container {
     display: flex;
-    justify-content: space-between;
-    margin: 10px;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
   }
+  
 
   .sub-text {
     /* Headline 2 */
-    font-weight: 600;
     font-size: 48px;
-    margin-left: 40px;
-    width: 80%;
+    font-weight: 600;
     text-align: left;
-    padding: 20px;
     line-height: 105%;
+    width: 40%;
+    padding: 10px;
   }
 
   .text {
-    font-style: normal;
-    font-weight: 600;
     font-size: 24px;
-    line-height: 29px;
-    color: #000000;
-    padding: 20px;
+    font-weight: 600;
     text-align: left;
+    line-height: 115%;
+    color: #000;
+    width: 40%;
+    padding: 10px;
+
   }
+
+  @media all and (max-width: 500px) {
+    .footer-container {
+      flex-direction: column;
+    }
+    .sub-text {
+      width: 100%
+    }
+    .text{
+      width: 100%
+    }
+    
+  }
+  
 
   .img-container {
     display: flex;
@@ -363,11 +390,11 @@ const StyledConcerts = styled.div`
   }
 
   .img-child {
-    max-width: 100%;
-    height: auto;
+    width: 10px;
+    height: 10px;
     align-self: center;
     margin: 20px;
-    width: 67rem;
+
   }
   .hidden {
     display: none;

@@ -201,7 +201,12 @@ export default EventIndex
 const StyledEventIndex = styled.div`
   .head-container {
     display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
   }
+  
+  
   .grid-container {
     display: flex;
     justify-content: space-between;
@@ -209,9 +214,11 @@ const StyledEventIndex = styled.div`
   }
   .footer-container {
     display: flex;
-    justify-content: space-between;
-    margin: 0 10px 0 10px;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
   }
+  
   .hidden {
     display: none;
   }
