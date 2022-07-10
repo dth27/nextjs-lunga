@@ -1,7 +1,7 @@
 ---
 id: 1
 id2: 1b
-date: 10-15 July
+date: 11-15 July
 time: 16–17
 name: Improv for Dance Enthusiasts
 type: Daily Sessions
