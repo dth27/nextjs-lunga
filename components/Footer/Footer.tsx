@@ -33,7 +33,7 @@ export const Footer = () => {
       <div className='footer-item link-container'>
         <a
           className='nav-footer'
-          href='https://lunga21.tumblr.com'
+          href='https://lunga22.tumblr.com'
           target='_blank rel="noreferrer"'
         >
           Tumblr
