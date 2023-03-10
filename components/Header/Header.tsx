@@ -87,7 +87,7 @@ const StyledHeader = styled.div`
   display: flex;
   background-color: #FFF;
   font-weight: 600;
-  max-height: 20px;
+  // max-height: 20px;
   font-size: 16px;
 }
 

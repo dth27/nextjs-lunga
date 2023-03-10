@@ -26,6 +26,11 @@ export const Home = () => {
           {c('ticket')}
         </a>
       </div> */}
+
+           <div className='center date'>
+           {c('LungA Bliss, 9.–16. 07 2023, Seyðisfjörður, IS.')}
+     
+     </div> 
       <div className='navigation'>
         {links.map((link, index) => {
           let main: string = link.label == 'lungalab' ? 'main-con' : ''
@@ -66,7 +71,7 @@ const Frontpage = styled.div`
 }
 .subtitle {
   display: inline-block;
-  font-size: 3rem;
+  font-size: 1rem;
   width: 38%;
 }
 
@@ -119,5 +124,13 @@ const Frontpage = styled.div`
 }
 .logo-container {
   text-align: center;
+}
+.date {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 115%;
+  padding: 10px;
+  
 }
 `
