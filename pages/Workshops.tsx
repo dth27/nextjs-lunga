@@ -57,27 +57,30 @@ export const Workshops = ({ islContent, enContent }: any) => {
       <StyledWorkshops>
         <div className='flex-grid'>
           <div className='col'>
-            <div className='text'>{w('5day')}</div>
+          <div className='text'>{w('tba')}</div>
+            {/* <div className='text'>{w('5day')}</div>
             <div className='textsmall'>{w('5dayprice')}</div>
             <br />
-            <div className='textsmall'>{w('5dayinfo')}</div>
+            <div className='textsmall'>{w('5dayinfo')}</div> */}
           </div>
 
           <div className='col'>
-            <div className='text'>{w('3day')}</div>
+          <div className='textsmall'>{w('tbainfo')}</div>
+
+            {/* <div className='text'>{w('3day')}</div>
             <div className='textsmall'>{w('3dayprice1')}</div>
             <div className='textsmall'>{w('3dayprice2')}</div>
             <br />
 
-            <div className='textsmall'>{w('3dayinfo')}</div>
+            <div className='textsmall'>{w('3dayinfo')}</div> */}
           </div>
 
-          <div className='col'>
+          {/* <div className='col'>
             <div className='text'>{w('childreninfo')}</div>
-          </div>
+          </div> */}
         </div>
 
-        <div className='sub-header'>
+        {/* <div className='sub-header'>
           <a
             className='nav-link'
             href='https://podio.com/webforms/27609545/2144502'
@@ -85,7 +88,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
           >
             {w('applyhere')}
           </a>
-        </div>
+        </div> */}
         {workshops &&
           workshops.map((workshop: any, index: any) => {
             const { frontmatter } = workshop
@@ -112,7 +115,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
 
                   <div className='col'>
                     <div className='workshop-about2'>
-                      {frontmatter.applyhere && (
+                      {/* {frontmatter.applyhere && (
                         <div>
                           <a
                             className='nav-link-small'
@@ -122,7 +125,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
                             {w('applyhere')}
                           </a>
                         </div>
-                      )}
+                      )} */}
                       {frontmatter.instagram && (
                         <div>
                           <a
@@ -178,7 +181,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
             )
           })}
         <div className='seperator'></div>
-        <div className='sub-header'>
+        {/* <div className='sub-header'>
           <a
             className='nav-link'
             href='https://podio.com/webforms/27609545/2144502'
@@ -187,7 +190,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
           >
             {w('applyhere')}
           </a>
-        </div>
+        </div> */}
       </StyledWorkshops>
     </Layout>
   )
@@ -220,7 +223,7 @@ const StyledWorkshops = styled.div`
 
   .seperator {
     width: 100%;
-    border-top: 2px solid #000000;
+    border-top: 1px solid #000000;
   }
 
   .sub-text {

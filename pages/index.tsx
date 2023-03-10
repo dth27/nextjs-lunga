@@ -21,11 +21,11 @@ export const Home = () => {
       <div className='logo-container'>
         <img src='/23-banner_2.png' />
       </div>
-      <div className='center sub-header'>
+      {/* <div className='center sub-header'>
         <a href='https://tix.is/is/event/13027/' target='_blank rel="noreferrer"'>
           {c('ticket')}
         </a>
-      </div>
+      </div> */}
       <div className='navigation'>
         {links.map((link, index) => {
           let main: string = link.label == 'lungalab' ? 'main-con' : ''
@@ -99,7 +99,7 @@ const Frontpage = styled.div`
   font-size: 10px;
 }
 .skew-container {
-  border-top: 2px solid #000;
+  border-top: 1px solid #000;
   max-width: 99.9%;
   text-decoration: none;
   box-sizing: border-box;

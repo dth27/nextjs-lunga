@@ -73,7 +73,7 @@ const StyledHeader = styled.div`
 
 .checkbox {
   margin: 0 4px 0 15px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   box-sizing: border-box;
   width: 1.25em;
   height: 1.25em;

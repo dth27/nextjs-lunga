@@ -130,7 +130,7 @@ const StyledContact = styled.div`
   }
 
   td {
-    border-bottom: solid 2px #000;
+    border-bottom: solid 1px #000;
     padding-left: 20px;
     font-size: 20px;
     font-weight: 600;
@@ -152,8 +152,8 @@ const StyledContact = styled.div`
     color: #000000;
   }
   .table {
-    border-top: 2px solid #000000;
-    border-bottom: 2px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;

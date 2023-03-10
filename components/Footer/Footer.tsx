@@ -30,7 +30,7 @@ export const Footer = () => {
           Facebook
         </a>
       </div>
-      <div className='footer-item link-container'>
+      {/* <div className='footer-item link-container'>
         <a
           className='nav-footer'
           href='https://lunga22.tumblr.com'
@@ -38,7 +38,7 @@ export const Footer = () => {
         >
           Tumblr
         </a>
-      </div>
+      </div> */}
     </StyledFooter>
   )
 }

@@ -188,7 +188,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
         </div>
 
 
-        <div className='center sub-header nav-link'>
+        {/* <div className='center sub-header nav-link'>
           <a
               className='nav-link'
               href='https://tix.is/is/event/13027/'
@@ -196,7 +196,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
           >
             {c('ticket')}
           </a>
-        </div>
+        </div> */}
 
 
 
@@ -212,7 +212,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
 
         <br />
         <br />
-        <div className='center sub-header nav-link'>
+        {/* <div className='center sub-header nav-link'>
           <a
             className='nav-link'
             href='https://tix.is/is/event/13027/'
@@ -220,7 +220,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
           >
             {c('ticket')}
           </a>
-        </div>
+        </div> */}
 
 
       </StyledConcerts>
@@ -266,7 +266,7 @@ const StyledConcerts = styled.div`
   }
 
   .border-top {
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
   }
 
   .grid-container,
@@ -317,7 +317,7 @@ const StyledConcerts = styled.div`
   }
 
   td.border-bottom {
-    border-top: solid 2px #000;
+    border-top: solid 1px #000;
     padding-top: 10px;
   }
 

@@ -256,7 +256,7 @@ const StyledEventIndex = styled.div`
   }
 
   td.border-bottom {
-    border-top: solid 2px #000;
+    border-top: solid 1px #000;
     padding-top: 10px;
     cursor: pointer;
   }
@@ -268,7 +268,6 @@ const StyledEventIndex = styled.div`
   .subtext {
     font-weight: 600;
     font-size: 36px;
-
     color: #000000;
   }
 
@@ -277,10 +276,10 @@ const StyledEventIndex = styled.div`
     font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-
     color: #000000;
     margin: 50px 0px 0 0px;
     text-align: left;
+    margin-left: 40px;
   }
 
   .img-container {

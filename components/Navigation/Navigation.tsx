@@ -90,7 +90,7 @@ const StyledNavigation = styled.div`
     background-color: #000;
   }
   .skew-container-m {
-    border-top: 2px solid #000;
+    border-top: 1px solid #000;
     border-bottom: 0;
     border-left: 0;
     border-right: 0;

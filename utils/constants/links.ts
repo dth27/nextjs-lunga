@@ -15,18 +15,18 @@ export const links = [
       link: '/Eventindex',
       label: 'eventindex',
     },
-    {
-      link: '/Shop',
-      label: 'shop',
-    },
+   // {
+   //    link: '/Shop',
+    //   label: 'shop',
+   //  },
     // {
     //   link: '/Lungalab',
     //   label: 'lungalab',
     // },
-    {
-      link: '/Youthexchange',
-      label: 'youthexchange',
-    },
+    // {
+   //    link: '/Youthexchange',
+    //   label: 'youthexchange',
+    // },
    
     
     {

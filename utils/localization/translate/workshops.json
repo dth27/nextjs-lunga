@@ -3,7 +3,9 @@
   "resources": {
     "en": {
       "firstline": "LungA offers 5 workshops total this year!",
-      "tba": "Workshops will be announced in June 2021 – applications for the workshops will open then as well.",
+      "tba": "Workshops will be announced in June 2023 – applications for the workshops will open then as well.",
+      "tbainfo": "Until then, here are the workshops from 2022.",
+
       "applyhere": "Apply here!",
       "5day": "5 day workshop",
       "5dayprice": "50.000 ISK",
@@ -18,7 +20,9 @@
     },
     "is": {
       "firstline": "Listasmiðjur LungA eru 6 talsins í ár!",
-      "tba": "Listasmiðjur verða birtar í júní 2021 og þá opnast einnig fyrir umsóknir",
+      "tba": "Listasmiðjur verða birtar í júní 2023 og þá opnast einnig fyrir umsóknir.",
+      "tbainfo": "Þangað til, er hægt að skoða listasmiðjur frá 2022.",
+
       "applyhere": "Sæktu um hér!",
       "weekinfo": "Smiðjurnar eru 5 dagar. Verð: 50.000kr.",
       "onlineinfo": "",
