@@ -19,7 +19,7 @@ export const Home = () => {
     <Frontpage className='frontpage'>
       <Header Frontpage />
       <div className='logo-container'>
-        <img src='/22-banner.png' />
+        <img src='/23-banner_2.png' />
       </div>
       <div className='center sub-header'>
         <a href='https://tix.is/is/event/13027/' target='_blank rel="noreferrer"'>
