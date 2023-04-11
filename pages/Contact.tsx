@@ -19,17 +19,7 @@ export const Contact = () => {
               <td>
                 {r('director')}
                 <br />
-                {r('exhangeprogram')}
-              </td>
-              <td>Björt Sigfinnsdóttir</td>
-              <td>bjort@lunga.is</td>
-              <td>(+354) 8663046</td>
-            </tr>
-            <tr>
-              <td>
-                {r('curator')}
-                <br />
-                {r('events')}
+
               </td>
               <td>Þórhildur Tinna Sigurðardóttir</td>
               <td>tinna@lunga.is</td>
@@ -37,71 +27,52 @@ export const Contact = () => {
             </tr>
             <tr>
               <td>
-                {r('workshops')}
+                {r('director')}
                 <br />
-                {r('production')}
               </td>
-              <td>Sesselja Hlín Jónasardóttir</td>
-              <td>sesselja@lunga.is</td>
-              <td>(+354) 7702444</td>
-            </tr>
-            <tr>
-              <td>{r('concerts')}</td>
-              <td>Hilmar Guðjónsson</td>
-              <td>hilmar@lunga.is</td>
-              <td>(+45) 53613527</td>
-            </tr>
-            <tr>
-              <td>{r('volunteers')}</td>
-              <td>Unnur Birna J. Backmann</td>
-              <td>unnur@lunga.is</td>
-              <td> </td>
-            </tr>
-            <tr>
-              <td>{r('creativeproductionfamilyfestival')}</td>
-              <td>Lama-sea Dear</td>
-              <td>lama@lunga.is</td>
-              <td>(+354) 7758882</td>
-            </tr>
-            <tr>
-              <td>{r('exhangeprogram')} </td>
-              <td>Minerva Pietilä</td>
-              <td>minerva@kaospilot.dk</td>
-              <td></td>
+              <td>Helena Aðalsteinsdóttir</td>
+              <td>helena@lunga.is</td>
+              <td>(+44)(0)7858810254</td>
             </tr>
             <tr>
               <td>
-                {r('sponsors')} <br />
+                {r('music')}
+              </td>
+              <td>Margrét Björk Ólafsdóttir</td>
+              <td>helga.gudrun1@gmail.com</td>
+              <td>(+44)(0)7471084711</td>
+            </tr>
+
+            <tr>
+              <td>
+                {r('bookingbackstagemanager')}
+              </td>
+              <td>Bibba</td>
+              <td>helga.gudrun1@gmail.com</td>
+              <td>(+354) 6984159</td>
+            </tr>
+
+            <tr>
+              <td>
+                {r('curatorworkshop')}
+              </td>
+              <td>Katerína Spathi</td>
+              <td>katerina@lunga.is</td>
+              <td>(+354) 7713319</td>
+            </tr>
+
+
+            <tr>
+              <td>
                 {r('socialmedia')}
               </td>
-              <td>Birna Ketilsdóttir Schram</td>
-              <td>birna@lunga.is</td>
+              <td>Halldóra Kristín</td>
+              <td></td>
               <td></td>
             </tr>
-            <tr>
-              <td>{r('pr')}</td>
-              <td>Þóra Flygenring Sigurðardóttir</td>
-              <td>thora@lunga.is</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>{r('booking')}</td>
-              <td>Simon Bergkjær</td>
-              <td>simon@lunga.is</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>{r('booking')}</td>
-              <td>Ýmir Gíslason</td>
-              <td>ymir@lunga.is</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>{r('photographer')}</td>
-              <td>Melkorka Embla Hjartardóttir</td>
-              <td> </td>
-              <td></td>
-            </tr>
+
+
+
             <tr>
               <td>{r('graphics')}</td>
               <td>Gréta Þorkelsdóttir</td>
@@ -109,11 +80,25 @@ export const Contact = () => {
               <td></td>
             </tr>
             <tr>
-              <td>{r('programming')}</td>
+              <td>{r('graphics')}</td>
+              <td>Paula Buškevica</td>
+              <td>sendingthistopaula@gmail.com</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>{r('coding')}</td>
               <td>Diljá Þorkelsdóttir</td>
               <td>dilja4@hotmail.com</td>
               <td></td>
             </tr>
+            <tr>
+              <td>{r('photographer')}</td>
+              <td>Vikram Pradhan</td>
+              <td></td>
+              <td></td>
+            </tr>
+
+
           </tbody>
         </table>
       </StyledContact>

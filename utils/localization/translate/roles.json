@@ -2,40 +2,32 @@
     "namespace": "roles",
     "resources": {
       "en": {
-        "director": "Festival Director",
-        "exhangeprogram": "Erasmus Youth exchange program",
-        "curator": "Curator",
-        "events": "Event manager",
-        "workshops": "Workshops",
-        "concerts": "Concerts",
-        "production": "Production",
-        "sponsors": "Sponsors",
-        "volunteers": "Volunteers and ticket sales",
-        "creativeproductionfamilyfestival": "Creative production and Family festival",
-        "socialmedia": "Social Media Manager",
-        "pr": "PR Manager",
-        "booking": "Booking",
-        "photographer": "Photographer",
-        "graphics": "Graphic Design",
-        "programming": "Programming"
+        "director": "Festival director",
+        "music":"Head of music",
+        "bookingbackstagemanager": "Booking and backstage manager",
+        "curatorworkshop": "Curator of exhibitions and workshops",
+        "socialmedia": "Social media manager",
+
+       
+       
+        "graphics": "Graphic Design and coding",
+        "coding": "Coding",
+        "photographer": "Photographer"
       },
       "is": {
-        "director": "Framkvæmdastýra",
-      "exhangeprogram": "Ungmennaskipti Erasmus+",
-      "curator": "Sýningarstjóri",
-      "events": "Viðburðarstjóri",
-      "workshops": "Listasmiðjur",
-      "production": "Verkstjórn",
-      "concerts": "Tónleikar",
-      "volunteers": "Sjálfboðaliðar og miðasala",
-      "creativeproductionfamilyfestival": "Framleiðsla og fjölskylduhátíð",
-      "sponsors": "Styrktaraðilar",
+
+      "director": "Hátíðarstjóri",
+      "music":"Tónleikastjóri",
+      "bookingbackstagemanager": "Bókari og framkvæmd tónleika",
+      "curatorworkshop": "Sýningarstjóri sýninga og vinnustofa",
+
+
       "socialmedia": "Samfélagsmiðlafulltrúi",
-      "pr": "Fjölmiðlafulltrúi",
-      "booking": "Bókanir",
-      "photographer": "Ljósmyndari",
-      "graphics": "Grafísk hönnun",
-      "programming": "Forritun"
+
+      "graphics": "Grafísk hönnun og forritun",
+      "coding": "Forritun",
+      "photographer": "Ljósmyndari"
+      
       }
     }
   }
