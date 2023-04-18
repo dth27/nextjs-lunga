@@ -22,6 +22,7 @@ export const Contact = () => {
 
               </td>
               <td>Þórhildur Tinna Sigurðardóttir</td>
+              
               <td>tinna@lunga.is</td>
               <td>(+354) 8486962</td>
             </tr>
@@ -31,6 +32,7 @@ export const Contact = () => {
                 <br />
               </td>
               <td>Helena Aðalsteinsdóttir</td>
+              
               <td>helena@lunga.is</td>
               <td>(+44)(0)7858810254</td>
             </tr>
@@ -39,7 +41,7 @@ export const Contact = () => {
                 {r('music')}
               </td>
               <td>Margrét Björk Ólafsdóttir</td>
-              <td>helga.gudrun1@gmail.com</td>
+              <td>margret@lunga.is</td>
               <td>(+44)(0)7471084711</td>
             </tr>
 
