@@ -188,15 +188,15 @@ export const Concerts = ({ islContent, enContent }: any) => {
         </div>
 
 
-        {/* <div className='center sub-header nav-link'>
+     <div className='center sub-header nav-link'>
           <a
               className='nav-link'
-              href='https://tix.is/is/event/13027/'
+              href='https://tix.is/is/event/15292/lunga-bliss/'
               target='_blank rel="noreferrer"'
           >
             {c('ticket')}
           </a>
-        </div> */}
+        </div> 
 
 
 

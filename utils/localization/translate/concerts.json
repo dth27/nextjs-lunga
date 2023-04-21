@@ -2,19 +2,19 @@
   "namespace": "concerts",
   "resources": {
     "en": {
-      "header": "LungA Bliss concerts will be annnounced soon.",
-      "info1": "Until then, here are the concerts from last year. Stay tuned for more announcements, coming SOON.",
+      "header": "The first acts for LungA Bliss are here; Stay tuned for more announcements, coming SOON.",
+      "info1": "",
       "info2": "Stay tuned for further announcements here on our website and the festival's social media",
       "ticket": "Buy tickets",
-      "artist": "Artist",
+      "artist": " ",
       "place": "Venue"
     },
     "is": {
-      "header": "Tónlistaratriði LungA Bliss 2023 verða kynnt bráðlega.",
-      "info1": "Þangað til, er hægt að skoða tónlistaratriðin frá 2022. Fylgist með fleiri tilkynningum hér og á samfélagsmiðlum okkar.",
+      "header": "Fyrstu tónlistaratriði LungA Bliss hafa verið tilkynnt. Fylgist með fleiri tilkynningum hér og á samfélagsmiðlum okkar",
+      "info1": "",
       "info2": "Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
       "ticket": "Kaupa miða",
-      "artist": "Tónlistatriði",
+      "artist": " ",
       "place": "Staðsetning"
     }
   }
