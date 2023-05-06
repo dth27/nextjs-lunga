@@ -1,7 +1,7 @@
 ---
 name: Countess Malaise
-id: 5
-id2: 5b
+id: 15
+id2: 15b
 stage: TBA
 time: 
 descr1: With an established presence in Iceland’s rap scene, Countess Malaise’s high-energy performances have already gotten her the pleasure of performing at multiple music festivals and is a welcome addition to lineups at alternative & queer venues across Europe.
