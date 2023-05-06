@@ -1,7 +1,7 @@
 ---
 name: Gróa
-id: 6
-id2: 6b
+id: 16
+id2: 16b
 stage: TBA
 time: 
 descr1: GRÓA is a energetic art-punk band. Their live-shows are often performance related but their unique, aggressive-melodic, new wave, sounds constantly shine throughout their set, and creates a new world combined with the audience. Gróa's music makes your ass shake, hips wiggle, toes tingle, breasts bounce, whole body grow an ounce.

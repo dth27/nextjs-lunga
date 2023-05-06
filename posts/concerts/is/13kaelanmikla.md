@@ -1,7 +1,7 @@
 ---
 name: Kælan Mikla
-id: 3
-id2: 3b
+id: 13
+id2: 13b
 stage: TBA
 time: 
 descr1: Hljómsveitin Kælan Mikla var stofnuð árið 2013 í Reykjavík. Hún samanstendur af Laufey Soffíu (söngur), Margréti Rósu (bassi) og Sólveigu Matthildi (synthesizer). Tónlistin þeirra einkennist af hinum kalda og myrka íslenska vetri. Textarnir draga innblástur frá náttúru, göldrum, þjóðsögum og goðsögnum. Draumkenndur, hrollvekjandi hljóðheimur og ómótstæðilegir post-pönk taktar blandast við himneskar raddir og öskur sem lætur blóðið frjósa í æðunum. Á tónleikum býður Kælan Mikla áhorfendum að stíga inn í dáleiðandi ævintýri og ferðast gegnum töfraheiminn þeirra sem er ávallt í stöðugri þróun, og skilur salinn eftir í álögum. 

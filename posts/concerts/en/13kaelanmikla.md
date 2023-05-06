@@ -1,7 +1,7 @@
 ---
 name: Kælan Mikla
-id: 3
-id2: 3b
+id: 13
+id2: 13b
 stage: TBA
 time: 
 descr1: Kælan Mikla is an Icelandic band, formed in 2013. The trio consists of Laufey Soffía (lead vocals), Margrét Rósa (bass) and Sólveig Matthildur (synthesizer).
