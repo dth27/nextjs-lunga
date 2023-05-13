@@ -45,14 +45,7 @@ export const Contact = () => {
               <td>(+44)(0)7471084711</td>
             </tr>
 
-            <tr>
-              <td>
-                {r('bookingbackstagemanager')}
-              </td>
-              <td>Bibba</td>
-              <td>helga.gudrun1@gmail.com</td>
-              <td>(+354) 6984159</td>
-            </tr>
+           
 
             <tr>
               <td>
