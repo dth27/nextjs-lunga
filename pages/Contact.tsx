@@ -62,7 +62,7 @@ export const Contact = () => {
                 {r('socialmedia')}
               </td>
               <td>Halldóra Kristín</td>
-              <td></td>
+              <td>halldora@lunga.is</td>
               <td></td>
             </tr>
 
