@@ -33,3 +33,6 @@ yarn-error.log*
 .vscode/
 # typescript
 *.tsbuildinfo
+Agent
+key.txt
+key.txt.pub
