@@ -77,7 +77,7 @@ export const Contact = () => {
             <tr>
               <td>{r('graphics')}</td>
               <td>Paula Buškevica</td>
-              <td>sendingthistopaula@gmail.com</td>
+              <td>paula@lunga.is</td>
               <td></td>
             </tr>
             <tr>
