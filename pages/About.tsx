@@ -20,11 +20,13 @@ const About: NextPage = () => {
       </div>
 
       <div className='text-container'>
-        <div className='sub-line'>{al('firstline')}</div>
+      <div className='sub-line'>{al('firstline')}</div>
         <div className='text-body'>{al('para1')}</div>
         <div className='text-body'>{al('para2')}</div>
         <div className='text-body'>{al('para3')}</div>
-
+        <div className='theme'>{al('theme')}</div>
+        <div className='text-body'>{al('themepara1')}</div>
+        <div className='text-body'>{al('themepara2')}</div>
         <div className='sub-line'>{al('lastline')}</div>
       </div>
       <div className='headlines headline'>{al('footer')}</div>
