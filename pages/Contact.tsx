@@ -61,12 +61,19 @@ export const Contact = () => {
               <td>
                 {r('socialmedia')}
               </td>
-              <td>Halldóra Kristín</td>
+              <td>Halldóra Kristín Lárusdóttir</td>
               <td>halldora@lunga.is</td>
-              <td></td>
+              <td>(+354) 8630880</td>
             </tr>
 
-
+            <tr>
+              <td>
+                {r('PR')}
+              </td>
+              <td>Þóra Flygenring Sigurðardóttir</td>
+              <td>thora@lunga.is</td>
+              <td>(+354) 8486884</td>
+            </tr>
 
             <tr>
               <td>{r('graphics')}</td>
