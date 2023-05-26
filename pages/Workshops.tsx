@@ -10,23 +10,23 @@ import i18next from 'i18next'
 import getContent from '../utils/content/getContent'
 import { getEnglishPosts, getIcelandicPosts } from '../lib/api'
 
-// export const getStaticProps = async (ctx: any) => {
-//   let lang = i18next.language
-//   let islContent = getIcelandicPosts('workshops')
-//   let enContent = getEnglishPosts('workshops')
-//   if (islContent) {
-//     return {
-//       props: {
-//         islContent,
-//         enContent,
-//       },
-//     }
-//   } else {
-//     return {
-//       props: {},
-//     }
-//   }
-// }
+export const getStaticProps = async (ctx: any) => {
+  let lang = i18next.language
+  let islContent = getIcelandicPosts('workshops')
+  let enContent = getEnglishPosts('workshops')
+  if (islContent) {
+    return {
+      props: {
+        islContent,
+        enContent,
+      },
+    }
+  } else {
+    return {
+      props: {},
+    }
+  }
+}
 export const Workshops = ({ islContent, enContent }: any) => {
   const { t: l } = useTranslation('links')
   const { t: w } = useTranslation('workshops')
