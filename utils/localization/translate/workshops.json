@@ -2,9 +2,9 @@
   "namespace": "workshops",
   "resources": {
     "en": {
-      "firstline": "LungA offers 5 workshops total this year!",
-      "tba": "Workshops will be announced in June 2023 – applications for the workshops will open then as well.",
-      "tbainfo": "Until then, here are the workshops from 2022.",
+      "firstline": "LungA offers 6 workshops total this year!",
+      "tba": "Workshops are open for registration 27th and 28th of May, 23:59 GMT",
+      "tbainfo": "LungA has a long-standing tradition for week-long workshops that end with final presentations, exhibitions and a harvest celebration, the 2 day LungA concerts. Those who sign up and get a spot in one of the workshops get to experience the real LungA magic and it's  a unique opportunity to challenge themselves in a safe environment. Whether it’s about getting to know your creative side, or going deeper into your own artistic practice, you will find a workshop that will spark your imagination and take you on a journey where you might come to know yourself and others deeper. LungA is a great start for those seeking a career in the creative industries and/or art, internationally and domestically.",
 
       "applyhere": "Apply here!",
       "5day": "5 day workshop",
@@ -20,8 +20,8 @@
     },
     "is": {
       "firstline": "Listasmiðjur LungA eru 6 talsins í ár!",
-      "tba": "Listasmiðjur verða birtar í júní 2023 og þá opnast einnig fyrir umsóknir.",
-      "tbainfo": "Þangað til, er hægt að skoða listasmiðjur frá 2022.",
+      "tba": "Við tökum á móti umsókum helgina 27. og 28 maí, til 23:59 á íslenskum tíma.",
+      "tbainfo": "LungA á langa sögu af listasmiðjum, sem standa yfir í heila viku. Að vikunni lokinni, á föstudeginum nánar til tekið, opna lokasýningar á sama tíma og LungA tónleikarnir hefjast sem eru opnir öllum sem tryggja sér miða! Þeir sam sækja listasmiðjurnar fá einstakt tækifæri til að koma sjálfum sér á óvart í öruggu umhverfi, og þeir  kynnast sönnum töfrum LungA með heildrænni upplifun á öllu því sem hátíðin hefur uppá að bjóða. Hvort sem að þú ert að stíga þín fyrstu skref í list eða að þróa listsköpun þína lengra þá muntu finna listasmiðju sem hentar þér og þínum listrænu þörfum vel. Þú leggst í leiðangur þar sem margar óvæntar uppákomur munu hjálpa þér í að kynnast öðrum og sjálfum þér nánar. LungA er tilvalinn vettvangur fyrir þá sem hafa áhuga á því að starfa í skapandi geiranum og myndlistarheiminum, á alþjóðlegum skala og á landsvísu.",
 
       "applyhere": "Sæktu um hér!",
       "weekinfo": "Smiðjurnar eru 5 dagar. Verð: 50.000kr.",
