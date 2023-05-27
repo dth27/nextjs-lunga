@@ -127,6 +127,9 @@ a:link,
   font-weight: 600;
   text-align: center;
 }
+.margin-top {
+  margin-top: 10%;
+}
 .sub-line {
   font-size: 48px;
   font-weight: 600;

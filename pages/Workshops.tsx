@@ -62,17 +62,25 @@ export const Workshops = ({ islContent, enContent }: any) => {
             <div className='textsmall'>{w('5dayprice')}</div>
             <br />
             <div className='textsmall'>{w('5dayinfo')}</div> */}
+                <div className='sub-header margin-top'>
+          <a
+            className='nav-link'
+            href='https://forms.gle/Ueb6K3xfKd1gNPY66'
+            target='_blank rel="noreferrer"'
+          >
+            {w('applyhere')}
+          </a>
+        </div>
           </div>
 
           <div className='col'>
           <div className='textsmall'>{w('tbainfo')}</div>
-
             {/* <div className='text'>{w('3day')}</div>
             <div className='textsmall'>{w('3dayprice1')}</div>
-            <div className='textsmall'>{w('3dayprice2')}</div>
+            <div className='textsmall'>{w('3dayprice2')}</div> */}
             <br />
 
-            <div className='textsmall'>{w('3dayinfo')}</div> */}
+            <div className='textsmall'>{w('3dayinfo')}</div>
           </div>
 
           {/* <div className='col'>
@@ -174,6 +182,12 @@ export const Workshops = ({ islContent, enContent }: any) => {
                       <br />
                       <br />
                       {frontmatter.aboutteacher3}
+                      <br />
+                      <br />
+                      {frontmatter.aboutteacher4}
+                      <br />
+                      <br />
+                      {frontmatter.aboutteacher5}
                     </div>
                   </div>
                 </div>
@@ -181,16 +195,16 @@ export const Workshops = ({ islContent, enContent }: any) => {
             )
           })}
         <div className='seperator'></div>
-        {/* <div className='sub-header'>
+        <div className='sub-header'>
           <a
             className='nav-link'
-            href='https://podio.com/webforms/27609545/2144502'
+            href='https://forms.gle/Ueb6K3xfKd1gNPY66'
             target='_blank'
             rel='noreferrer'
           >
             {w('applyhere')}
           </a>
-        </div> */}
+        </div>
       </StyledWorkshops>
     </Layout>
   )
