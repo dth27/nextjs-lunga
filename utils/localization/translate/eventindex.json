@@ -3,7 +3,7 @@
   "resources": {
     "en": {
       "para1": "LungA Bliss events will be announced soon.",
-      "tba": "Until then, here are the events from 2022.",
+      "tba": "",
       "day": "Day",
       "time": "Time",
       "what": "What",
@@ -12,7 +12,7 @@
     },
     "is": {
       "para1": "Viðburður LungA Bliss verða tilkynntir bráðlega.",
-      "tba": "Þangað til, er hægt að skoða viðburði 2022. Fylgist með fleiri tilkynningum hér og á samfélagsmiðlum okkar.",
+      "tba": "",
       "day": "Dagur",
       "time": "Klukkan",
       "what": "Hvað",
