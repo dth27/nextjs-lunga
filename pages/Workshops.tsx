@@ -62,7 +62,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
             <div className='textsmall'>{w('5dayprice')}</div>
             <br />
             <div className='textsmall'>{w('5dayinfo')}</div> */}
-                <div className='sub-header margin-top'>
+                {/* <div className='sub-header margin-top'>
           <a
             className='nav-link'
             href='https://forms.gle/Ueb6K3xfKd1gNPY66'
@@ -70,7 +70,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
           >
             {w('applyhere')}
           </a>
-        </div>
+        </div> */}
           </div>
 
           <div className='col'>
@@ -196,14 +196,14 @@ export const Workshops = ({ islContent, enContent }: any) => {
           })}
         <div className='seperator'></div>
         <div className='sub-header'>
-          <a
+          {/* <a
             className='nav-link'
             href='https://forms.gle/Ueb6K3xfKd1gNPY66'
             target='_blank'
             rel='noreferrer'
           >
             {w('applyhere')}
-          </a>
+          </a> */}
         </div>
       </StyledWorkshops>
     </Layout>
