@@ -55,47 +55,8 @@ export const Visualartists = ({ islContent, enContent }: any) => {
   return (
     <Layout title={l('visualartists')}>
       <StyledVisualartists className=''>
-        <div className='flex-grid'>
-          <div className='col'>
-          <div className='text'>{w('info')}</div>
-            {/* <div className='text'>{w('5day')}</div>
-            <div className='textsmall'>{w('5dayprice')}</div>
-            <br />
-            <div className='textsmall'>{w('5dayinfo')}</div> */}
-                {/* <div className='sub-header margin-top'>
-          <a
-            className='nav-link'
-            href='https://forms.gle/Ueb6K3xfKd1gNPY66'
-            target='_blank rel="noreferrer"'
-          >
-            {w('applyhere')}
-          </a>
-        </div> */}
-          </div>
+       
 
-          <div className='col'>
-          <div className='textsmall'>{w('moreinfo')}</div>
-            {/* <div className='text'>{w('3day')}</div>
-            <div className='textsmall'>{w('3dayprice1')}</div>
-            <div className='textsmall'>{w('3dayprice2')}</div> */}
-            <br />
-
-            <div className='textsmall'>{w('3dayinfo')}</div>
-          </div>
-          {/* <div className='col'>
-            <div className='text'>{w('childreninfo')}</div>
-          </div> */}
-        </div>
-
-        {/* <div className='sub-header'>
-          <a
-            className='nav-link'
-            href='https://podio.com/webforms/27609545/2144502'
-            target='_blank rel="noreferrer"'
-          >
-            {w('applyhere')}
-          </a>
-        </div> */}
         {visualartists &&
           visualartists.map((visualartists: any, index: any) => {
             const { frontmatter } = visualartists
@@ -107,7 +68,7 @@ export const Visualartists = ({ islContent, enContent }: any) => {
                   <div className='col'>
                     <div className='visualartists-artist'>{frontmatter.artist}</div>
                   </div>
-                  {/* <div className='col'>
+                  <div className='col'>
                     <div className='visualartists-exhibition'>
                       {frontmatter.exhibition1}
                       <br />
@@ -115,13 +76,13 @@ export const Visualartists = ({ islContent, enContent }: any) => {
                       <br />
                       {frontmatter.exhibition3}
                     </div>
-                  </div> */}
-                  {/* <div className='col'>
+                  </div> 
+                 <div className='col'>
                     <div className='visualartists-exhibitiontype'>{frontmatter.exhibitiontype}</div>
-                  </div> */}
+                  </div> 
                 </div>
                 {/* info commmented out here */}
-                {/* <div className='img-container'>
+                <div className='img-container'>
                   <img className='img-child' src={frontmatter.mynd} />
                 </div>
                 <div className='flex-grid'>
@@ -175,7 +136,7 @@ export const Visualartists = ({ islContent, enContent }: any) => {
                       {frontmatter.exhibitioninfo5}
                     </div>
                   </div>
-                </div> */}
+                </div> 
                 {/* until here */}
               </div>
             )
