@@ -2,7 +2,7 @@
 name: Kælan Mikla
 id: 13
 id2: 13b
-stage: TBA
+stage: Herðubreið concert hall
 time: 
 descr1: Kælan Mikla is an Icelandic band, formed in 2013. The trio consists of Laufey Soffía (lead vocals), Margrét Rósa (bass) and Sólveig Matthildur (synthesizer).
 descr2: Their sound is defined by the darkness and cold of the Icelandic winter. In their lyrics the band explores themes of nature, magic, folklore and mythology. Sweeping eerie soundscapes, irresistible post-punk hooks and dance beats couple with angelic voices and blood-curdling shrieks.

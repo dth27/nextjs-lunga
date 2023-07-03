@@ -8,6 +8,10 @@ export const links = [
       label: 'workshops',
     },
     {
+      link: '/Visualartists',
+      label: 'visualartists',
+    },
+    {
       link: '/Concerts',
       label: 'concerts',
     },

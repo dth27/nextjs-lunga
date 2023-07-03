@@ -2,7 +2,7 @@
 name: Curro & Flaaryr 
 id: 20
 id2: 20b
-stage: TBA
+stage: Tvísöngur
 time: 
 descr1: Curro Rodrígez and Flaaryr (Diego Manatrizio) are two artists based in Reykjavík who have found connecting points in their seemingly very different artistic practices and backgrounds.
 descr2: With the shared goal of exploring the primordial states where people and inanimate bodies become hard to tell apart, they created this immersive experience using the most basic elements of stones and voice. Infinite percussive loops build a sonic foundation and meet the deepest voice from flamenco “lo jondo” sometimes in harmonious dialogue and sometimes in a violent clash. The performance happens inside the installation and the installation is the performed instrument itself.

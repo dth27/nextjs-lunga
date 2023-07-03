@@ -184,7 +184,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
 
         <div className='footer-container'>
           <div className='sub-text'>{c('header')}</div>
-          <div className='text'>{c('info1')}</div>
+          <div className='text'>{c('info2')}</div>
         </div>
 
 

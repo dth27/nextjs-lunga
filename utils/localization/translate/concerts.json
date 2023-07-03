@@ -2,7 +2,7 @@
   "namespace": "concerts",
   "resources": {
     "en": {
-      "header": "The first acts for LungA Bliss are here; Stay tuned for more announcements, coming SOON.",
+      "header": "The LungA BLISS concerts will take place from Friday to Sunday, 14—16 July.",
       "info1": "",
       "info2": "Stay tuned for further announcements here on our website and the festival's social media",
       "ticket": "Buy tickets",
@@ -10,7 +10,7 @@
       "place": "Venue"
     },
     "is": {
-      "header": "Fyrstu tónlistaratriði LungA Bliss hafa verið tilkynnt. Fylgist með fleiri tilkynningum hér og á samfélagsmiðlum okkar",
+      "header": "LungA BLISS tónleikarnir verða frá föstudegi til sunnudags, 14.—16. júlí.",
       "info1": "",
       "info2": "Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
       "ticket": "Kaupa miða",

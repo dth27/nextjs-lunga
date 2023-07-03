@@ -55,7 +55,7 @@ export const EventIndex = ({ islContent, enContent }: any) => {
           <div className='sub-text'>{e('para1')}</div>
           <div className='text'>{e('tba')}</div>
         </div>
-        {/* Todo Remove hidden when ready! */}
+        {/* info commented out here */}
         {/* <div className='eventindex-container'>
           <table>
             <thead>
@@ -187,7 +187,7 @@ export const EventIndex = ({ islContent, enContent }: any) => {
             </tbody>
           </table>
         </div> */}
-
+        {/* until here */}
         <br />
        <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />

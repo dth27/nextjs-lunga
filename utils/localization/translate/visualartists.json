@@ -1,0 +1,41 @@
+{
+  "namespace": "visualartists",
+  "resources": {
+    "en": {
+      "firstline": "",
+      "info": "Exhibitions will be open throughout the week 14:00–19:00, Monday to Saturday.",
+      "moreinfo": "",
+
+      "applyhere": "",
+      "5day": "",
+      "5dayprice": "",
+      "5dayinfo": "",
+      "3day": "",
+      "3dayprice1": "",
+      "3dayprice2": "",
+      "3dayinfo": "",
+      "childreninfo": "",
+      "generalinfo": "",
+      "website": ""
+    },
+    "is": {
+      "firstline": "",
+      "info": "Sýningar verða opnar alla vikuna 14:00–19:00 frá mánudegi til sunnudags.",
+      "moreinfo": "",
+
+      "applyhere": "",
+      "weekinfo": "",
+      "onlineinfo": "",
+      "5day": "",
+      "5dayprice": "",
+      "5dayinfo": "",
+      "3day": "",
+      "3dayprice1": "",
+      "3dayprice2": "",
+      "3dayinfo": "",
+      "childreninfo": "",
+      "generalinfo": "",
+      "website": ""
+    }
+  }
+}
