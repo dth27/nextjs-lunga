@@ -7,6 +7,6 @@ about3:
 exhibitioninfo1: LOVE letters to go
 exhibitioninfo2: Gamla Sýslumannshúsið
 exhibitioninfo3: "Participatory performance: 10, 13, 16 July, 21:00"
-mynd: ''
+mynd: '/images/eventindex/loveletters.jpg'
 instagram: 
 ---
