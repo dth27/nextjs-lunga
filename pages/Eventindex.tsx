@@ -52,11 +52,11 @@ export const EventIndex = ({ islContent, enContent }: any) => {
     <Layout title={l('eventindex')}>
       <StyledEventIndex className=''>
         <div className='head-container'>
-          <div className='sub-text'>{e('para1')}</div>
-          <div className='text'>{e('tba')}</div>
+          {/* <div className='sub-text'>{e('para1')}</div>
+          <div className='text'>{e('tba')}</div> */}
         </div>
         {/* info commented out here */}
-        {/* <div className='eventindex-container'>
+         <div className='eventindex-container'>
           <table>
             <thead>
               <tr>
@@ -186,12 +186,12 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                 })}
             </tbody>
           </table>
-        </div> */}
+        </div> 
         {/* until here */}
         <br />
-       <div className='img-container'>
+       {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
-        </div>
+        </div> */}
       </StyledEventIndex>
     </Layout>
   )
@@ -262,7 +262,7 @@ const StyledEventIndex = styled.div`
   }
 
   img {
-    width: 50vw;
+    width: 35vw;
   }
 
   .subtext {

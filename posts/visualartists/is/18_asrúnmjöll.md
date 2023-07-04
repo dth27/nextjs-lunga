@@ -1,5 +1,5 @@
 ---
-artist: Ásrún Mjöll
+artist: Ásrún Mjöll & Berglind Erna
 exhibition1: 
 about1: 
 about2: 
