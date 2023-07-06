@@ -203,17 +203,16 @@ export const EventIndex = ({ islContent, enContent }: any) => {
               <li>4 Aldan</li>
               <li>5 Kaffi Lára</li>
               <li>6 The Church</li>
-              <li>7 Junkyard</li>
-              <li>8 Saman Sauna</li>
-              <li>9 Hospital</li>
-              <li>10 Herðubreið HB: LungA HQ, HB Bíó, HB Concert Hall, HB Gallery, HB GYM, HB Lobby, HB Plan</li>
-              <li>11 Swimming pool</li>
-              <li>12 Heima</li>
-              <li>13 Skaftfell</li>
-              <li>14 The Technical Museum</li>
-              <li>15 Lunga Bliss Tattoo Studios</li>
-              <li>16 Tvísöngur</li>
-              <li>17 SILO</li>
+              <li>7 Saman Sauna</li>
+              <li>8 Hospital</li>
+              <li>9 Herðubreið HB: LungA HQ, HB Bíó, HB Concert Hall, HB Gallery, HB GYM, HB Lobby, HB Plan</li>
+              <li>10 Swimming pool</li>
+              <li>11 Heima</li>
+              <li>12 Skaftfell</li>
+              <li>13 The Technical Museum</li>
+              <li>14 Lunga Bliss Tattoo Studios</li>
+              <li>15 Tvísöngur</li>
+              <li>16 SILO</li>
             </ul>
             </div>
         </div>
