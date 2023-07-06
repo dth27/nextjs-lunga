@@ -203,7 +203,6 @@ export const EventIndex = ({ islContent, enContent }: any) => {
               <li>4 Aldan</li>
               <li>5 Kaffi Lára</li>
               <li>6 The Church</li>
-
               <li>7 Saman Sauna</li>
               <li>8 Hospital</li>
               <li>9 Herðubreið HB: LungA HQ, HB Bíó, HB Concert Hall, HB Gallery, HB GYM, HB Lobby, HB Plan</li>
