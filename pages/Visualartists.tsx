@@ -5,7 +5,7 @@ import { GetStaticProps } from 'next'
 import fs from 'fs'
 import matter from 'gray-matter'
 import React, { useEffect } from 'react'
-import { FrontmatterWorkshops } from '../types'
+import { FrontmatterVisualartists } from '../types'
 import i18next from 'i18next'
 import getContent from '../utils/content/getContent'
 import { getEnglishPosts, getIcelandicPosts } from '../lib/api'
@@ -29,11 +29,11 @@ export const getStaticProps = async (ctx: any) => {
 }
 export const Visualartists = ({ islContent, enContent }: any) => {
   const { t: l } = useTranslation('links')
-  const { t: w } = useTranslation('visualartists')
+  const { t: v } = useTranslation('visualartists')
   let lang = i18next.language
   let content = lang == 'is' ? islContent : enContent
   const [visualartists, setVisualartists] =
-    React.useState<Array<FrontmatterWorkshops>>(content)
+    React.useState<Array<FrontmatterVisualartists>>(content)
   useEffect(() => {
     if (lang == 'is') {
       setVisualartists(islContent)
@@ -56,7 +56,7 @@ export const Visualartists = ({ islContent, enContent }: any) => {
     <Layout title={l('visualartists')}>
       <StyledVisualartists className=''>
        
-
+      <div className='text'>{v('subtitle')}</div>
         {visualartists &&
           visualartists.map((visualartists: any, index: any) => {
             const { frontmatter } = visualartists
@@ -206,7 +206,7 @@ const StyledVisualartists = styled.div`
     text-align: center;
   }
 
-  .workshoptable {
+  .visualartisttable {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
@@ -283,7 +283,9 @@ const StyledVisualartists = styled.div`
     margin-left: 20px;
     margin-right: 20px;
     line-height: 115%;
+    padding-bottom: 30px;
   }
+
   .textsmall {
     font-style: normal;
     font-weight: 600;

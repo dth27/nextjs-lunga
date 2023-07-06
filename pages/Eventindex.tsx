@@ -52,10 +52,10 @@ export const EventIndex = ({ islContent, enContent }: any) => {
     <Layout title={l('eventindex')}>
       <StyledEventIndex className=''>
         <div className='head-container'>
-          {/* <div className='sub-text'>{e('para1')}</div>
-          <div className='text'>{e('tba')}</div> */}
+          <div className='sub-text'>{e('para1')}</div>
+          <div className='text'>{e('tba')}</div>
         </div>
-        {/* info commented out here */}
+        {/*commented out here */}
          <div className='eventindex-container'>
           <table>
             <thead>
@@ -188,10 +188,59 @@ export const EventIndex = ({ islContent, enContent }: any) => {
           </table>
         </div> 
         {/* until here */}
-        <br />
+
        {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
         </div> */}
+
+        <div className='eventindex-mapcontainer'>
+          <img className='eventindex-map' src="/images/eventindex/map.svg" alt="LungA Venue Map" />
+          <div className='eventindex-maplegend'>
+            <ul>
+              <li>1 Fjarðarsel</li>
+              <li>2 Supermarket</li>
+              <li>3 Gamla Sýslumannshúsið</li>
+              <li>4 Aldan</li>
+              <li>5 Kaffi Lára</li>
+              <li>6 The Church</li>
+              <li>7 Junkyard</li>
+              <li>8 Saman Sauna</li>
+              <li>9 Hospital</li>
+              <li>10 Herðubreið HB: LungA HQ, HB Bíó, HB Concert Hall, HB Gallery, HB GYM, HB Lobby, HB Plan</li>
+              <li>11 Swimming pool</li>
+              <li>12 Heima</li>
+              <li>13 Skaftfell</li>
+              <li>14 The Technical Museum</li>
+              <li>15 Lunga Bliss Tattoo Studios</li>
+              <li>16 Tvísöngur</li>
+              <li>17 SILO</li>
+            </ul>
+            </div>
+        </div>
+        <div className='eventindex-mapcontainer-mobile'>
+          <img className='eventindex-map' src="/images/eventindex/map.svg" alt="LungA Venue Map" />
+          <div className='eventindex-maplegend'>
+            <ul>
+              <li>1 Fjarðarsel</li>
+              <li>2 Supermarket</li>
+              <li>3 Gamla Sýslumannshúsið</li>
+              <li>4 Aldan</li>
+              <li>5 Kaffi Lára</li>
+              <li>6 The Church</li>
+              <li>7 Junkyard</li>
+              <li>8 Saman Sauna</li>
+              <li>9 Hospital</li>
+              <li>10 Herðubreið HB: LungA HQ, HB Bíó, HB Concert Hall, HB Gallery, HB GYM, HB Lobby, HB Plan</li>
+              <li>11 Swimming pool</li>
+              <li>12 Heima</li>
+              <li>13 Skaftfell</li>
+              <li>14 The Technical Museum</li>
+              <li>15 Lunga Bliss Tattoo Studios</li>
+              <li>16 Tvísöngur</li>
+              <li>17 SILO</li>
+            </ul>
+            </div>
+        </div>
       </StyledEventIndex>
     </Layout>
   )
@@ -206,7 +255,35 @@ const StyledEventIndex = styled.div`
     justify-content: space-around;
   }
   
-  
+.eventindex-mapcontainer-mobile {
+  display:none;
+}
+
+  .eventindex-mapcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .eventindex-map {
+    width: 75vw;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .eventindex-maplegend {
+    margin-left: -20px;
+    margin-bottom: -23px;
+    font-size: 20px;
+    width: 430px;
+  }
+    .eventindex-maplegend ul{
+    list-style-type: none;
+    font-size: 20px;
+  }
   .grid-container {
     display: flex;
     justify-content: space-between;
@@ -227,8 +304,9 @@ const StyledEventIndex = styled.div`
   }
   .sub-text {
     /* Headline 2 */
+    width: 700px;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 24px;
     margin-left: 40px;
     text-align: left;
     color: #000000;
@@ -302,5 +380,38 @@ const StyledEventIndex = styled.div`
     align-self: center;
     margin: 20px;
   }
+
+  @media (max-width: 844px) {
+
+    .name {
+      font-size: 50px;
+    }
+
+    .eventindex-mapcontainer-mobile {
+      display: none;
+      flex-direction: column;
+      position: relative;
+    }
+
+    .eventindex-mapcontainer {
+      display: none;
+    }
+
+    .eventindex-map {
+      width: 100%;
+    }
+
+    .eventindex-maplegend {
+      text-align: left;
+      margin-left: -20px;
+      margin-bottom: inherit;
+      width: inherit;
+    }
+
+    img {
+      width: 85vw;
+    }
+  }
+
 `
 const StyledImage = styled.img``

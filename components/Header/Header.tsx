@@ -91,6 +91,13 @@ const StyledHeader = styled.div`
   font-size: 16px;
 }
 
+@media (max-width: 844px) {
+  .language-thing {
+    margin-top: 10px;
+  }
+
+}
+
 @media (max-width: 909px) {
   .language-options {
     font-size: 20px;

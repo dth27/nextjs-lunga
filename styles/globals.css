@@ -12,8 +12,8 @@ body {
   border-left: solid 2px #000;
   width: 100%;
 }
-#app {
-}
+/* #app {
+} */
 
 .pointer-mouse {
   cursor: pointer;
@@ -106,9 +106,7 @@ a:link,
   .nav-link {
     font-size: 12vw;
   }
-
 }
-
 .center {
   text-align: center;
 }
@@ -181,4 +179,3 @@ a:link,
   font-weight: 600;
   font-style: normal;
 }
-
