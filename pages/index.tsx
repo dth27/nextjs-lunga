@@ -129,6 +129,7 @@ const Frontpage = styled.div`
 .logo-container {
   text-align: center;
 }
+
 .date {
   font-size: 24px;
   font-weight: 600;
@@ -136,5 +137,17 @@ const Frontpage = styled.div`
   line-height: 115%;
   padding: 10px;
   
+}
+
+@media (max-width: 844px) {
+  .logo-container {
+    padding-top: 58px;
+  }
+  
+  .sub-header {
+    padding-top: 0px;
+    margin-top: 0px;
+    line-height: 90%;
+  }
 }
 `

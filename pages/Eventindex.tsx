@@ -382,8 +382,22 @@ const StyledEventIndex = styled.div`
 
   @media (max-width: 844px) {
 
+    @media (max-width: 800px) {
+      .flex-grid {
+        display: block;
+  
+        .col {
+          width: 100%;
+          margin: 10px;
+        }
+      }
+    }
+
+    .headline {
+      20vw;
+    }
     .name {
-      font-size: 50px;
+      font-size: 12vw;
     }
 
     .eventindex-mapcontainer-mobile {

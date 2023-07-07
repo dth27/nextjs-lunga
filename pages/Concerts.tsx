@@ -377,9 +377,16 @@ const StyledConcerts = styled.div`
     .text{
       width: 100%
     }
-    
+  
   }
   
+  @media (max-width: 844px) {
+ .table {
+  margin: 5px 0px;
+  width: 105%;
+ }
+
+  }
 
   .img-container {
     display: flex;

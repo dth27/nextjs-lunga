@@ -95,30 +95,6 @@ export const Visualartists = ({ islContent, enContent }: any) => {
                       <br />
                       {frontmatter.about3}
                     </div>
-                    <div className='visualartists-links'>
-                      {frontmatter.instagram && (
-                        <div>
-                          <a
-                            className='nav-link-small'
-                            href={frontmatter.instagram}
-                            target='_blank rel="noreferrer"'
-                          >
-                            Instagram
-                          </a>
-                        </div>
-                      )}
-                      {frontmatter.website && (
-                        <div>
-                          <a
-                            className='nav-link-small'
-                            href={frontmatter.website}
-                            target='_blank rel="noreferrer"'
-                          >
-                            Website
-                          </a>
-                        </div>
-                      )}
-                    </div>
                   </div>
                   <div className='col'>
                   <div className='visualartist-exhibitiontitle'>
@@ -135,6 +111,30 @@ export const Visualartists = ({ islContent, enContent }: any) => {
                       <br />
                       {frontmatter.exhibitioninfo5}
                     </div>
+                    <div className='visualartists-links'>
+                        {frontmatter.instagram && (
+                          <div>
+                            <a
+                              className='nav-link-small'
+                              href={frontmatter.instagram}
+                              target='_blank rel="noreferrer"'
+                            >
+                              Instagram
+                            </a>
+                          </div>
+                        )}
+                        {frontmatter.website && (
+                          <div>
+                            <a
+                              className='nav-link-small'
+                              href={frontmatter.website}
+                              target='_blank rel="noreferrer"'
+                            >
+                              Website
+                            </a>
+                          </div>
+                        )}
+                      </div>
                   </div>
                 </div> 
                 {/* until here */}
@@ -176,6 +176,14 @@ const StyledVisualartists = styled.div`
         margin: 10px;
       }
     }
+    .visualartists-links {
+    margin: -40px 30px 0px 30px;
+    }
+
+    // .visualartist-exhibitioninfo {
+    //   margin-bottom: 50px;
+    // }
+  
   }
 
   .head-container {
@@ -310,5 +318,8 @@ const StyledVisualartists = styled.div`
     height: auto;
     align-self: center;
     margin: 0px 30px 30px 30px;
+  }
+
+  @media (max-width: 844px) {
   }
 `
