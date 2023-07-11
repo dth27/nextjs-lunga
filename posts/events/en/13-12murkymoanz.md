@@ -1,12 +1,12 @@
 ---
-id: 14
-id2: 14b
+id: 17
+id2: 17b
 date: 13 July
-time: "19:30"
+time: "19.30"
 name: Murky MoanZ and Herring Godz (Venus Jasper)
 type: Performance
 where: SILO
-descr1: 
+descr1: An emotional vocal worship + ritual mud rave.
 descr2: 
 descr3: 
 artist1:

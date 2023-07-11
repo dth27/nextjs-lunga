@@ -105,6 +105,10 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                           {frontmatter.descr2} <br />
                           <br />
                           {frontmatter.descr3}
+                          <br />
+                          <div className='note'>
+                          {frontmatter.note}
+                          </div>
                         </td>
 
                         <td className='border-top' colSpan={2}>
@@ -340,6 +344,10 @@ const StyledEventIndex = styled.div`
 
   img {
     width: 35vw;
+  }
+
+  .note {
+    font-style: italic;
   }
 
   .subtext {

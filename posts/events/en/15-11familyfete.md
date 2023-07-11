@@ -2,7 +2,7 @@
 id: 23
 id2: 23b
 date: 15 July
-time: "14:00–17:00"
+time: "14.00–17.00"
 name: LungA Family Fête
 type: Fun for the entire family
 where: The garden behind the Blue Church

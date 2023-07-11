@@ -1,8 +1,8 @@
 ---
 id: 16
 id2: 16b
-date: 14 júlí
-time: "12:00–15:00"
+date: 14. júlí
+time: "12.00–15.00"
 name: Records of Affinity (3/3)
 type: Myndbandsverk
 where: Herðubreið Bíó

@@ -1,8 +1,8 @@
 ---
-id: 9
-id2: 9b
+id: 10
+id2: 10b
 date: 11 July
-time: '17:00–19:00'
+time: '17.00–19.00'
 name: Records of Affinity (1/3)
 type: Film screening series
 where: Herðubreið Bíó

@@ -2,7 +2,7 @@
 id: 18
 id2: 18b
 date: 14 July
-time: "15:00"
+time: "15.00"
 name: Records of Affinity, Panel
 type: Panel discussion
 where: Herðubreið Bíó

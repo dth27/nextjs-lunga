@@ -2,7 +2,7 @@
 id: 16
 id2: 16b
 date: 14 July
-time: "12:00–15:00"
+time: "12.00–15.00"
 name: Records of Affinity (3/3)
 type: Film screening series
 where: Herðubreið Bíó

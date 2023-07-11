@@ -2,7 +2,7 @@
 id: 21
 id2: 21b
 date: 14. júlí
-time: "17:00–18:00"
+time: "17.00–18.00"
 name: Tíst, tíst! Tweet, tweet! Cwir, cwir! (Nanna Gunnars & Magdalena Tworek)
 type: Listræn sögustund
 where: Sundlaug

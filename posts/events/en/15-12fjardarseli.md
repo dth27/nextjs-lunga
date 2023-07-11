@@ -2,7 +2,7 @@
 id: 24
 id2: 24b
 date: 15 July
-time: "14:00–18:00"
+time: "14.00–18.00"
 name: Eternal Roots Soundsystem, Tommasi, Zakia
 type: Concerts
 where: Rarik stage, Fjarðarseli
