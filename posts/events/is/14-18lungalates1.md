@@ -2,8 +2,8 @@
 id: 33
 id2: 33b
 date: 15. júlí
-time: "23.00–03.00"
-name: JADZIA, XWIFE x Kosmodod, Cyber (DJ set), Seyðisfjörður Community Radio DJs
+time: "23.00–02.00"
+name: snailaway, Zakia, RA, Ívar Pétur
 type: LungA Lates
 where: Skaftfell Bistro & Kaffi Lára
 descr1:
