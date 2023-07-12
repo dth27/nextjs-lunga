@@ -1,11 +1,11 @@
 ---
-id: 10
-id2: 10b
-date: 11. júlí
+id: 15
+id2: 15b
+date: 12 July
 time: '18.00'
-name: Kidney vortex (Bea Xu)
-type: Gjörningur
-where: Fjarðará vatn
+name: Performance (Radek Przedpełski)
+type: Performance
+where: Tvísöngur
 descr1: 
 descr2: 
 descr3: 

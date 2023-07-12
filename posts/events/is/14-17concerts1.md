@@ -1,6 +1,6 @@
 ---
-id: 22
-id2: 22b
+id: 28
+id2: 28b
 date: 14. júlí
 time: "19.00–00.00"
 name: KK, Lottó, Nuha Ruby Ra, Neonme & Dream Wife

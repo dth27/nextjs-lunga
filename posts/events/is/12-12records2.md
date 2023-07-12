@@ -1,6 +1,6 @@
 ---
-id: 11
-id2: 11b
+id: 14
+id2: 14b
 date: 12. júlí
 time: '17.00–19.00'
 name: Records of Affinity (2/3)

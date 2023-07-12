@@ -1,6 +1,6 @@
 ---
-id: 14
-id2: 14b
+id: 19
+id2: 19b
 date: 13. júlí
 time: "19.30"
 name: Murky MoanZ and Herring Godz (Venus Jasper)

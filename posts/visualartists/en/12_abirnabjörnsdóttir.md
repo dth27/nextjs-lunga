@@ -6,7 +6,7 @@ about2: "Birna has co-founded different artist run platforms such as the summer 
 about3: "Birna holds a BFA from Gerrit Rietveld Academie and her work has been exhibited in the Reykjavík Art Museum, Art Rotterdam art fair, Laurel Project Space, the North Atlantic House, Sequences biannual and the Living Art Museum."
 exhibitioninfo1: The Messengers 
 exhibitioninfo2: Sæti bus (Smyril Line parking lot) / Stálstjörnur's backyard. 
-exhibitioninfo3: Open 12.00-20.00 Tue-Wed and Fri-Sun / Open 17.00–20.00 every day.
+exhibitioninfo3: Open 12.00-20.00 Tue-Wed and Fri-Sun / 17.00–20.00 every day
 mynd: '/images/visualartist/birna.jpeg'
 instagram: https://instagram.com/b__i__r__n__a
 website: https://www.bbbirna.info

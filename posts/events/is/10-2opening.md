@@ -1,6 +1,6 @@
 ---
-id: 2
-id2: 2b
+id: 1
+id2: 1b
 date: 10. júlí
 time: '17.00'
 name: Opnunarhátíð

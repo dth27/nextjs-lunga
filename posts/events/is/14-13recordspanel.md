@@ -1,6 +1,6 @@
 ---
-id: 18
-id2: 18b
+id: 24
+id2: 24b
 date: 14. júlí
 time: "15.00"
 name: Records of Affinity, Panel

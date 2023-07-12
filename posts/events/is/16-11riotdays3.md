@@ -1,6 +1,6 @@
 ---
-id: 18
-id2: 18b
+id: 34
+id2: 34b
 date: 16. An emotional vocal worship + ritual mud rave.
 time: '19.00'
 name: Riot Days (Pussy Riot)

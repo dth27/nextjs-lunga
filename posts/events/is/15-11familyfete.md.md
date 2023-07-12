@@ -1,6 +1,6 @@
 ---
-id: 23
-id2: 23b
+id: 29
+id2: 29b
 date: 15. júlí
 time: "14.00–17.00"
 name: LungA fjölskylduhátíð

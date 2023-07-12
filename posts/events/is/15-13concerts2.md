@@ -1,6 +1,6 @@
 ---
-id: 25
-id2: 25b
+id: 32
+id2: 32b
 date: 15. júlí
 time: "19.00–00.00"
 name: Róshildur, Kælan Mikla, snny, Countess Malaise, Gróa

@@ -1,6 +1,6 @@
 ---
-id: 10
-id2: 10b
+id: 9
+id2: 9b
 date: 11 July
 time: '17.00–19.00'
 name: Records of Affinity (1/3)

@@ -1,6 +1,6 @@
 ---
-id: 9
-id2: 9b
+id: 34
+id2: 34b
 date: 16 July
 time: '19.00'
 name: Riot Days (Pussy Riot)
