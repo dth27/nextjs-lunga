@@ -1,7 +1,7 @@
 ---
 id: 34
 id2: 34b
-date: 16. An emotional vocal worship + ritual mud rave.
+date: 16. júlí
 time: '19.00'
 name: Riot Days (Pussy Riot)
 type: Gjörningur
