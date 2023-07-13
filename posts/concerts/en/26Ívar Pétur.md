@@ -8,7 +8,6 @@ descr1:  Ívar Pétur is born and bred in Seyðisfjörður and a veteran in the 
 descr2: Ívar only has one motive for any DJ set, regardless of time, place, size or occasion, and that is, in collaboration with the people attending, to create as crazy, fun, loving and safe a party as humanly possible in that moment in time.
 descr3: 
 img: /images/concert/ivarpetur.jpeg
-instagram: 
-youtube: 
-spotify: 
+instagram: "https://www.instagram.com/ivarpetur/?hl=en"
+soundcloud: "https://soundcloud.com/ivarpetur"
 ---

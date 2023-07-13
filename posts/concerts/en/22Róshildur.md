@@ -8,7 +8,6 @@ descr1:  Róshildur is an Icelandic musician, producer, and performer whose alte
 descr2: Róshildur weaves together loops, samples, synths and vocals to create her own unique sound.
 descr3: 
 img: /images/concert/roshildur.jpg
-instagram: 
-youtube: 
-spotify: 
+instagram: "instagram.com/annaroshildur/?hl=en"
+spotify: "https://open.spotify.com/artist/1P39L2HVvG5bBb1mSUuye8"
 ---

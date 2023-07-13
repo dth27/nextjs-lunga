@@ -11,6 +11,8 @@ type Concert = {
     instagram?:  string
     youtube?: string 
     spotify?: string
+    soundcloud?: string
+    website?: string
 }
 
 export type FrontmatterConcerts = {

@@ -8,7 +8,7 @@ descr1:  "Alina Petrova, the innovative multi-instrumentalist, sound artist, and
 descr2: "Drawing inspiration from diverse musical and artistic traditions, she seamlessly combines classical, electronic, and experimental elements, crafting an immersive and transformative experience for listeners. Her compositions transcend conventional boundaries, evoking a sense of curiosity and introspection in those who encounter her work."
 descr3: "Alina's prowess as a multi-instrumentalist is unparalleled, showcasing her mastery over various instruments such as the piano, violin, erchu, viola, pipa and module synthesizers. Her technical virtuosity merges effortlessly with her intuitive creativity, resulting in captivating and emotive musical landscapes that resonate deeply with her audience."
 img: /images/concert/alina.jpeg
-instagram: 
-youtube: 
-spotify: 
+instagram: "https://www.instagram.com/alin_a_alinn/"
+website: "https://alina-sound.com/"
+spotify: "https://open.spotify.com/artist/5uWalE20jzNoiZans6L70t?si=f6sJoLzIRX6Fvau2vAVNoA&nd=1"
 ---
