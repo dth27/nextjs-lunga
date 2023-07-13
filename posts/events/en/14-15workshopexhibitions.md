@@ -2,7 +2,7 @@
 id: 28
 id2: 28b
 date: 14 July
-time: "16.00–19.00"
+time: "16.00–18.00"
 name: Final Workshop Exhibitions
 type: Exhibition openings
 where: All around town

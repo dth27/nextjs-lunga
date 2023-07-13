@@ -2,7 +2,7 @@
 id: 28
 id2: 28b
 date: 14. júlí
-time: "16.00–19.00"
+time: "16.00–18.00"
 name: Lokasýningar listasmiðja
 type: Sýningaropnun
 where: Víðs vegar um bæinn
