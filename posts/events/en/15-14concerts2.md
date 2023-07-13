@@ -1,9 +1,9 @@
 ---
-id: 32
-id2: 32b
+id: 36
+id2: 36b
 date: 15 July
 time: "19.00–00.00"
-name: Róshildur, Kælan Mikla, snny, Countess Malaise, Gróa
+name: Róshildur, Kælan Mikla, rosemary loves a blackberry, Countess Malaise, Gróa
 type: Concerts
 where: Herðubreið Concert Hall
 descr1:

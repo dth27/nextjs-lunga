@@ -1,6 +1,6 @@
 ---
-id: 22
-id2: 22b
+id: 24
+id2: 24b
 date: 14 July
 time: "12.00–15.00"
 name: Records of Affinity (3/3)

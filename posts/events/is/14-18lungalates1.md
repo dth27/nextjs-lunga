@@ -1,7 +1,7 @@
 ---
-id: 33
-id2: 33b
-date: 15. júlí
+id: 31
+id2: 31b
+date: 14. júlí
 time: "23.00–02.00"
 name: snailaway, Zakia, RA, Ívar Pétur
 type: LungA Lates

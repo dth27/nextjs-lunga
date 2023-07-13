@@ -1,6 +1,6 @@
 ---
-id: 25
-id2: 25b
+id: 27
+id2: 27b
 date: 14 July
 time: "15.30–16.30"
 name: LungA Ungar, Workshop Exhibition

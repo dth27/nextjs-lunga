@@ -1,6 +1,6 @@
 ---
-id: 26
-id2: 26b
+id: 28
+id2: 28b
 date: 14 July
 time: "16.00–19.00"
 name: Final Workshop Exhibitions

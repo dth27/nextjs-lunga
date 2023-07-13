@@ -6,7 +6,7 @@ about2: "Tack’s work has been exhibited widely, including solo and group exhib
 about3: 
 exhibitioninfo1: "Tender raptures, let them guide you"
 exhibitioninfo2: "Tækniminjasafnið"
-exhibitioninfo3: "Exhibition opening: 10 July, 17:00–20:30"
+exhibitioninfo3: "Exhibition: 10–16 July 14.00–19.00"
 mynd: '/images/visualartist/ratack.jpeg'
 instagram: 
 ---

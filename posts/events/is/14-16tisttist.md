@@ -1,6 +1,6 @@
 ---
-id: 27
-id2: 27b
+id: 29
+id2: 29b
 date: 14. júlí
 time: "17.00–18.00"
 name: Tíst, tíst! Tweet, tweet! Cwir, cwir! (Nanna Gunnars & Magdalena Tworek)

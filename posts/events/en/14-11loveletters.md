@@ -1,6 +1,6 @@
 ---
-id: 21
-id2: 21b
+id: 23
+id2: 23b
 date: 14 July
 time: '11.30–13.30'
 name: LOVE letters to go (Ásrún Mjöll & Berglind Erna)

@@ -6,7 +6,7 @@ about2: "Berglind and Ásrún have known each other for over 20 years. Their pat
 about3: 
 exhibitioninfo1: "LOVE letters to go"
 exhibitioninfo2: "Gamla Sýslumannshúsið"
-exhibitioninfo3: "12 July Wed, 16.00–18.00 / 14 July Thu, 11.30–13.30 / 15 July Fri, 12.00–15.00"
+exhibitioninfo3: "Performances: 12 July Wed, 16.00–18.00 / 14 July Thu, 11.30–13.30 / 15 July Fri, 12.00–15.00"
 mynd: '/images/eventindex/loveletters.jpg'
 instagram: 
 website: 

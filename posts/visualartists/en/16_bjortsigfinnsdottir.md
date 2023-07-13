@@ -6,7 +6,7 @@ about2: "The exhibited works at LungA this year are also her most recent work of
 about3: 
 exhibitioninfo1: "Embers of Splendor"
 exhibitioninfo2: "Skaftfell Bistro"
-exhibitioninfo3: "Opið: Mán: 17.00 – 20.30, Þri – Sun: 12.00 – 22.00"
+exhibitioninfo3: "Exhibition: 10–16 July, 12.00-22.00"
 mynd: ''
 instagram: 
 ---
