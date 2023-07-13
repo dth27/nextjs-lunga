@@ -1,5 +1,5 @@
 ---
-artist: Augnablikin
+artist: "Augnablikin"
 exhibition1: 
 about1: 
 about2: 
