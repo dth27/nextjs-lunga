@@ -1,5 +1,5 @@
 ---
-artist: Á. Birna Björnsdóttir
+artist: A. Birna Bjornsdottir
 exhibition1: 
 about1: 
 about2: 

@@ -1,5 +1,5 @@
 ---
-artist: Á. Birna Björnsdóttir
+artist: A. Birna Bjornsdottir
 exhibition1: 
 about1: "Á. Birna Björnsdóttir is a visual artist interested in the uses of technology in our daily lives and the disparity between embodied experiences and factual knowledge. Frequently engaging intangible materials such as sunlight, electricity, sound and electromagnetic fields in her installations, her works navigate between worlds of various materialities."
 about2: "Birna has co-founded different artist run platforms such as the summer camp and artist network Laumulistasamsteypan, GSM exhibition space in frequencies and at7 project space."
