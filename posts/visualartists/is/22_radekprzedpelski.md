@@ -6,7 +6,7 @@ about2: "Radek co-edited a volume on Deleuze, Guattari and the Art of Multiplici
 about3: "He is a part of Long Distance Residency project, where the group will travel by ecological means to exhibit at LungA."
 exhibitioninfo1: "Long Distance Residency"
 exhibitioninfo2: "Garður"
-exhibitioninfo3: "Sýning: 10. –16. júlí, 14.00–19.00"
+exhibitioninfo3: "Sýning: 10.–16. júlí, 14.00–19.00"
 mynd: '/images/visualartist/radek.jpeg'
 instagram: 
 ---

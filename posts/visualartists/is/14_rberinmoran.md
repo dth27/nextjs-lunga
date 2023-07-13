@@ -6,7 +6,7 @@ about2: "Rb received a BFA from the Art Institute of Chicago and they have exhib
 about3: 
 exhibitioninfo1: "NIX"
 exhibitioninfo2: "HB"
-exhibitioninfo3: "Sýning: 10. –16. júlí, 14.00–19.00"
+exhibitioninfo3: "Sýning: 10.–16. júlí, 14.00–19.00"
 mynd: '/images/visualartist/rberinmoran.jpeg'
 instagram: "https://www.instagram.com/squirrelpoodle/"
 ---

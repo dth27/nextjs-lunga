@@ -6,7 +6,7 @@ about2: "They are a part of Long Distance Residency project, where the group wil
 about3: 
 exhibitioninfo1: "Long Distance Residency / Tender raptures, let them guide you"
 exhibitioninfo2: "Tækniminjasafnið"
-exhibitioninfo3: "Sýning: 10. –16. júlí, 14.00–19.00"
+exhibitioninfo3: "Sýning: 10.–16. júlí, 14.00–19.00"
 mynd: '/images/visualartist/beaxu.jpeg'
 instagram: "https://www.instagram.com/_fei__fei_/"
 website: "https://beaxu.xyz/"

@@ -6,7 +6,7 @@ about2: "The exhibited works at LungA this year are also her most recent work of
 about3: 
 exhibitioninfo1: "Embers of Splendor"
 exhibitioninfo2: "Skaftfell Bistró"
-exhibitioninfo3: "Sýning: 10–16. júlí 12.00 – 22.00"
+exhibitioninfo3: "Sýning: 10–16. júlí 12.00–22.00"
 mynd: ''
 instagram: "https://www.instagram.com/art__no.added.sugar/"
 ---

@@ -5,7 +5,7 @@ about1: "Niamh Schmidtke (she/they) explores the political complications of ‘b
 about2: "Niamh co-produces the radio show Future Artefacts FM, with artist Nina Davies and are currently working on commissions for Science Gallery International in Berlin, and the Hunt Museum in Ireland. They completed their MFA at Goldsmiths, London with a First Class Honours in 2021 and hold a Fine Art Honours BA from Limerick School of Art and Design (2019)." 
 exhibitioninfo1: "Long Distance Residency"
 exhibitioninfo2: "Garður"
-exhibitioninfo3: "Sýning: 10. –16. júlí, 14.00–19.00"
+exhibitioninfo3: "Sýning: 10.–16. júlí, 14.00–19.00"
 mynd: '/images/visualartist/niamh.jpg'
 instagram: 
 ---

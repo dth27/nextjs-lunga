@@ -6,7 +6,7 @@ about2: "They initiated a research project around Wetland Worship, focusing on s
 about3: "Based in the Netherlands, Venus Jasper obtained an MFA from the Piet Zwart Institute, Rotterdam, in 2013. They made certified explorations of Somatic Psychotherapy, Reiki Healing, Music Production, Permaculture Design, Natural Building, and Speculative Writing. They are co-curator for RE_NATURE manifestation. Internationally they’ve shown at Rupert (LT), MuHKA(BE), Tidens Krav (NO), Grünerløkka Kunsthall (NO), OPYUM Festival (FR), Art Villa Garikula (GE), Gallery D.O.R. (BE), The Manse (USA), Te Whare Toi (NZ). In the Netherlands at MU — Hybrid Arthouse, Goethe Institute Rotterdam, Garage Rotterdam, Lustwarande, TENT, MELLY, Onomatopee, Het Nieuwe Instituut, Mediamatic, IMPAKT, W139, 1646 The Hague, and Kunsthuis SYB, amongst others." 
 exhibitioninfo1: "Tender raptures, let them guide you / Murky MoanZ and Herring Godz"
 exhibitioninfo2: "Tækniminjasafnið / SILO"
-exhibitioninfo3: "Sýning: 10. –16. júlí, 14.00–19.00 / Gjörningur: 19:30"
+exhibitioninfo3: "Sýning: 10.–16. júlí, 14.00–19.00 / Gjörningur: 13. júlí 19:30"
 mynd: '/images/visualartist/venusjasper.jpeg'
 instagram: https://www.instagram.com/jaspergriepink 
 website: "https://www.jaspergriepink.nl/"
