@@ -8,5 +8,5 @@ exhibitioninfo1: "Long Distance Residency"
 exhibitioninfo2: 
 exhibitioninfo3: 
 mynd: '/images/visualartist/beaxu.jpeg'
-instagram: 
+instagram: "https://www.instagram.com/_fei__fei_/"
 ---
