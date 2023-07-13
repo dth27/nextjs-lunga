@@ -3,7 +3,7 @@ id: 36
 id2: 36b
 date: 15. júlí
 time: "19.00–00.00"
-name: Róshildur, Kælan Mikla, rosemary loves a blackberry, Countess Malaise, Gróa
+name: Róshildur,Lottó, rosemary loves a blackberry, Countess Malaise, Kælan Mikla
 type: Tónleikar
 where: Herðubreið tónlistarsalur
 descr1:
