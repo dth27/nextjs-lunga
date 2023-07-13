@@ -8,5 +8,5 @@ exhibitioninfo1: "Embers of Splendor"
 exhibitioninfo2: "Skaftfell Bistro"
 exhibitioninfo3: "Exhibition: 10–16 July, 12.00-22.00"
 mynd: ''
-instagram: 
+instagram: "https://www.instagram.com/art__no.added.sugar/"
 ---

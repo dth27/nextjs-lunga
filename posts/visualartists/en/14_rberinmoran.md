@@ -8,5 +8,5 @@ exhibitioninfo1: "NIX"
 exhibitioninfo2: "HB"
 exhibitioninfo3: "Exhibition: 10–16 July 14.00–19.00"
 mynd: '/images/visualartist/rberinmoran.jpeg'
-instagram: 
+instagram: "https://www.instagram.com/squirrelpoodle/"
 ---
