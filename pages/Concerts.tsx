@@ -390,6 +390,10 @@ const StyledConcerts = styled.div`
   width: 105%;
  }
 
+ .grid-container {
+  flex-direction: column;
+ }
+
   }
 
   .img-container {
