@@ -3,7 +3,7 @@ id: 37
 id2: 37b
 date: 15 July
 time: "23.00–03.00"
-name: jadzia, XWIFE B2B Kosmodod, Cyber DJ set, Lil Data
+name: WHEREISJASON?, jadzia, XWIFE B2B Kosmodod, Cyber DJ set, Lil Data
 type: LungA Lates Party
 where: Skaftfell Bistro & Kaffi Lára
 descr1:
