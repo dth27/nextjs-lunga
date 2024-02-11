@@ -211,11 +211,9 @@ export const Concerts = ({ islContent, enContent }: any) => {
               <th> {c('place')}</th>
             </tr>
           </thead>
-          {tableBody}
+          {/* {tableBody} */} 
         </table>
 
-        <br />
-        <br />
         {/* <div className='center sub-header nav-link'>
           <a
             className='nav-link'
@@ -229,9 +227,9 @@ export const Concerts = ({ islContent, enContent }: any) => {
 
       </StyledConcerts>
 
-      {/*<div className='img-container'>*/}
-      {/*  <img className='img-child' src='/tumblr/2021-6.jpg' />*/}
-      {/*</div>*/}
+      <div className='img-container'>
+       <img className='img-child' src='/tumblr/2021-6.jpg' />
+      </div>
     </Layout>
   )
 }

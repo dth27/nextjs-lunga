@@ -2,7 +2,7 @@
   "namespace": "concerts",
   "resources": {
     "en": {
-      "header": "To be announced.",
+      "header": "To be announced!",
       "info1": "",
       "info2": "Stay tuned for further announcements here on our website and the festival's social media.",
       "ticket": "",
@@ -10,7 +10,7 @@
       "place": ""
     },
     "is": {
-      "header": "Tilkynnt síðar",
+      "header": "Tilkynnt seinna!",
       "info1": "",
       "info2": "Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
       "ticket": "",

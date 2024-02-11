@@ -97,6 +97,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
             {w('applyhere')}
           </a>
         </div> */}
+        
         {workshops &&
           workshops.map((workshop: any, index: any) => {
             const { frontmatter } = workshop
