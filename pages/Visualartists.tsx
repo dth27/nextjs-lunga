@@ -55,15 +55,18 @@ export const Visualartists = ({ islContent, enContent }: any) => {
   return (
     <Layout title={l('visualartists')}>
       <StyledVisualartists className=''>
-       
+      <div className='text'>{v('firstline')}</div>
       <div className='text'>{v('subtitle')}</div>
+      <div className='img-container'>
+                  <img className='img-child' src="tumblr/8.jpg" />
+                </div>
         {visualartists &&
           visualartists.map((visualartists: any, index: any) => {
             const { frontmatter } = visualartists
 
             return (
               <div key={index}>
-                <div className='seperator'></div>
+                {/* <div className='seperator'></div>
                 <div className='visualartists-name'>
                   <div className='col'>
                     <div className='visualartists-artist'>{frontmatter.artist}</div>
@@ -80,9 +83,9 @@ export const Visualartists = ({ islContent, enContent }: any) => {
                  <div className='col'>
                     <div className='visualartists-exhibitiontype'>{frontmatter.exhibitiontype}</div>
                   </div> 
-                </div>
+                </div> */}
                 {/* info commmented out here */}
-                <div className='img-container'>
+                {/* <div className='img-container'>
                   <img className='img-child' src={frontmatter.mynd} />
                 </div>
                 <div className='flex-grid'>
@@ -136,7 +139,7 @@ export const Visualartists = ({ islContent, enContent }: any) => {
                         )}
                       </div>
                   </div>
-                </div> 
+                </div>  */}
                 {/* until here */}
               </div>
             )

@@ -3,9 +3,9 @@
     "resources": {
       "en": {
         "director": "Festival director",
-        "music":"Head of music",
+        "music":"Music and production",
         "bookingbackstagemanager": "Booking and backstage manager",
-        "curatorworkshop": "Curator of exhibitions and workshops",
+        "curatorworkshop": "Workshops, events, exhibitions",
         "socialmedia": "Community engagement",
         "PR":"PR and communication manager",
         "graphics": "Graphic Design and coding",
@@ -15,9 +15,9 @@
       "is": {
 
       "director": "Hátíðarstjóri",
-      "music":"Tónleikastjóri",
+      "music":"Tónlist og framleiðsla",
       "bookingbackstagemanager": "Bókari og framkvæmd tónleika",
-      "curatorworkshop": "Sýningarstjóri sýninga og vinnustofa",
+      "curatorworkshop": "Listasmiðjur, viðburðir, sýningar",
       "socialmedia": "Samfélagsfulltrúi Seyðisfjarðar",
       "PR":"Kynningarfulltrúi",
       "graphics": "Grafísk hönnun og forritun",

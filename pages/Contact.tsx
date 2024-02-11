@@ -9,12 +9,12 @@ export const Contact = () => {
       <StyledContact>
         <table>
           <tbody>
-            <tr>
+            {/* <tr>
               <td>Lunga Festival</td>
               <td>Hafnargata 44, 710 Seyðisfjörður</td>
               <td>LungA@LungA.is</td>
               <td>kt. 600201 2120</td>
-            </tr>
+            </tr> */}
             <tr>
               <td>
                 {r('director')}
@@ -40,9 +40,9 @@ export const Contact = () => {
               <td>
                 {r('music')}
               </td>
-              <td>Margrét Björk Ólafsdóttir</td>
-              <td>margret@lunga.is</td>
-              <td>(+44)(0)7471084711</td>
+              <td>Lama-sea Dear</td>
+              <td></td>
+              <td></td>
             </tr>
 
            
@@ -66,14 +66,14 @@ export const Contact = () => {
               <td>(+354) 8630880</td>
             </tr>
 
-            <tr>
+            {/* <tr>
               <td>
                 {r('PR')}
               </td>
               <td>Þóra Flygenring Sigurðardóttir</td>
               <td>thora@lunga.is</td>
               <td>(+354) 8486884</td>
-            </tr>
+            </tr> */}
 
             <tr>
               <td>{r('graphics')}</td>

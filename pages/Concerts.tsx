@@ -175,20 +175,18 @@ export const Concerts = ({ islContent, enContent }: any) => {
             )
           })}
         <tr></tr>
+        
       </tbody>
     )
   }, [opened])
   return (
     <Layout title={l('concerts')}>
 
-
-
       <StyledConcerts>
 
-
+      
         <div className='footer-container'>
           <div className='sub-text'>{c('header')}</div>
-          <div className='text'>{c('info2')}</div>
         </div>
 
 
@@ -201,9 +199,6 @@ export const Concerts = ({ islContent, enContent }: any) => {
             {c('ticket')}
           </a>
         </div> 
-
-
-
         <table>
           <thead>
             <tr>
@@ -223,11 +218,9 @@ export const Concerts = ({ islContent, enContent }: any) => {
             {c('ticket')}
           </a>
         </div> */}
-
-
-      </StyledConcerts>
-
-      <div className='img-container'>
+        
+       </StyledConcerts>
+       <div className='img-container'>
        <img className='img-child' src='/tumblr/2021-6.jpg' />
       </div>
     </Layout>
@@ -407,7 +400,6 @@ const StyledConcerts = styled.div`
     height: 10px;
     align-self: center;
     margin: 20px;
-
   }
   .hidden {
     display: none;

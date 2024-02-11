@@ -56,7 +56,7 @@ export const EventIndex = ({ islContent, enContent }: any) => {
           <div className='text'>{e('tba')}</div>
         </div>
         {/*commented out here */}
-         <div className='eventindex-container'>
+         {/* <div className='eventindex-container'>
           <table>
             <thead>
               <tr>
@@ -190,7 +190,7 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                 })}
             </tbody>
           </table>
-        </div> 
+        </div>  */}
         {/* until here */}
 
        {/* <div className='img-container'>

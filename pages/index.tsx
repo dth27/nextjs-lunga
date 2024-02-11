@@ -19,7 +19,7 @@ export const Home = () => {
     <Frontpage className='frontpage'>
       <Header Frontpage />
       <div className='logo-container'>
-        <img src='/23-banner_2.png' />
+        <img src='/24-banner.png' />
       </div>
      <div className='center sub-header'>
         <a href='https://tix.is/is/event/15292/lunga-bliss/' target='_blank rel="noreferrer"'>
@@ -32,7 +32,7 @@ export const Home = () => {
    
 
            <div className='center date'>
-           {c('LungA Bliss, 9.–16. 07 2023, Seyðisfjörður, IS.')}
+           {c('LungA Spiral, 15.–21. July 2023, Seyðisfjörður, Iceland.')}
      
      </div> 
       <div className='navigation'>
@@ -124,7 +124,7 @@ const Frontpage = styled.div`
   border-bottom: #000 2px solid;
 }
 .logo-container > img {
-  max-width: 90%;
+  max-width: 85%;
 }
 .logo-container {
   text-align: center;

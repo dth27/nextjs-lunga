@@ -97,8 +97,10 @@ export const Workshops = ({ islContent, enContent }: any) => {
             {w('applyhere')}
           </a>
         </div> */}
-        
-        {workshops &&
+
+        {/* info commented out here */}
+
+        {/* {workshops &&
           workshops.map((workshop: any, index: any) => {
             const { frontmatter } = workshop
 
@@ -124,7 +126,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
 
                   <div className='col'>
                     <div className='workshop-about2'>
-                      {/* {frontmatter.applyhere && (
+                      {frontmatter.applyhere && (
                         <div>
                           <a
                             className='nav-link-small'
@@ -134,7 +136,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
                             {w('applyhere')}
                           </a>
                         </div>
-                      )} */}
+                      )}
                       {frontmatter.instagram && (
                         <div>
                           <a
@@ -194,7 +196,11 @@ export const Workshops = ({ islContent, enContent }: any) => {
                 </div>
               </div>
             )
-          })}
+          })} */}
+          {/* until here */}
+        <div className='img-container'>
+          <img className='img-child' src='/tumblr/15.jpg' />
+        </div>
         <div className='seperator'></div>
         <div className='sub-header'>
           {/* <a
