@@ -2,20 +2,20 @@
   "namespace": "concerts",
   "resources": {
     "en": {
-      "header": "The LungA BLISS concerts will take place from Friday to Sunday, 14—16 July.",
+      "header": "To be announced.",
       "info1": "",
-      "info2": "Stay tuned for further announcements here on our website and the festival's social media",
-      "ticket": "Buy tickets",
+      "info2": "Stay tuned for further announcements here on our website and the festival's social media.",
+      "ticket": "",
       "artist": " ",
-      "place": "Venue"
+      "place": ""
     },
     "is": {
-      "header": "LungA BLISS tónleikarnir verða frá föstudegi til sunnudags, 14.—16. júlí.",
+      "header": "Tilkynnt síðar",
       "info1": "",
       "info2": "Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
-      "ticket": "Kaupa miða",
-      "artist": " ",
-      "place": "Staðsetning"
+      "ticket": "",
+      "artist": "",
+      "place": ""
     }
   }
 }
