@@ -277,6 +277,7 @@ const StyledEventIndex = styled.div`
   }
 
   .eventindex-mapcontainer {
+    justify-content: center;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -292,10 +293,11 @@ const StyledEventIndex = styled.div`
   }
 
   .eventindex-maplegend {
-    margin-left: -20px;
-    margin-bottom: -23px;
-    font-size: 20px;
-    width: 430px;
+    display: none;
+    // margin-left: -20px;
+    // margin-bottom: -23px;
+    // font-size: 20px;
+    // width: 430px;
   }
     .eventindex-maplegend ul{
     list-style-type: none;
