@@ -184,7 +184,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
 
       <StyledConcerts>
 
-      
+      <div className='tba'>{c('tba')}</div>
         <div className='footer-container'>
           <div className='sub-text'>{c('header')}</div>
         </div>
@@ -218,11 +218,10 @@ export const Concerts = ({ islContent, enContent }: any) => {
             {c('ticket')}
           </a>
         </div> */}
-        
-       </StyledConcerts>
-       <div className='img-container'>
+        <div className='img-container'>
        <img className='img-child' src='/tumblr/2021-6.jpg' />
       </div>
+       </StyledConcerts>
     </Layout>
   )
 }
@@ -236,6 +235,10 @@ const StyledConcerts = styled.div`
   .flex-grid .col {
     flex: 1;
     margin: 10px;
+  }
+
+  .img-child {
+    width: 85%;
   }
 
   @media (max-width: 800px) {
@@ -340,6 +343,14 @@ const StyledConcerts = styled.div`
     justify-content: space-around;
   }
   
+  .tba {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 105%;
+    width: 40%;
+    padding: 10px;
+  }
 
   .sub-text {
     /* Headline 2 */
@@ -396,8 +407,8 @@ const StyledConcerts = styled.div`
   }
 
   .img-child {
-    width: 10px;
-    height: 10px;
+    // width: 10px;
+    // height: 10px;
     align-self: center;
     margin: 20px;
   }

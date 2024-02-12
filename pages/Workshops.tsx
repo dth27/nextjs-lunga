@@ -57,7 +57,7 @@ export const Workshops = ({ islContent, enContent }: any) => {
       <StyledWorkshops>
         <div className='flex-grid'>
           <div className='col'>
-          <div className='text'>{w('tba')}</div>
+          <div className='tba'>{w('tba')}</div>
             {/* <div className='text'>{w('5day')}</div>
             <div className='textsmall'>{w('5dayprice')}</div>
             <br />
@@ -228,6 +228,15 @@ const StyledWorkshops = styled.div`
     margin: 10px;
   }
 
+  .tba {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 105%;
+    width: 40%;
+    padding: 10px;
+  }
+
   @media (max-width: 800px) {
     .flex-grid {
       display: block;
@@ -338,7 +347,7 @@ const StyledWorkshops = styled.div`
   }
 
   .img-child {
-    max-width: 70%;
+    max-width: 85%;
     height: auto;
     align-self: center;
     margin: 30px;

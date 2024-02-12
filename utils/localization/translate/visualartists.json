@@ -2,7 +2,8 @@
   "namespace": "visualartists",
   "resources": {
     "en": {
-      "firstline": "To be announced!",
+      "tba": "To be announced!",
+      "firstline": "",
       "subtitle": "",
       "moreinfo": "Exhibition opening times may vary, please check the Programme for more info.",
 
@@ -19,7 +20,8 @@
       "website": ""
     },
     "is": {
-      "firstline": "Tilkynnt seinna!",
+      "tba": "Tilkynnt seinna!",
+      "firstline": "",
       "subtitle": "",
       "moreinfo": "",
 

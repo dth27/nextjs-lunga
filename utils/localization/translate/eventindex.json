@@ -2,8 +2,8 @@
   "namespace": "eventindex",
   "resources": {
     "en": {
-      "para1": "To be announced!",
-      "tba": "",
+      "para1": "",
+      "tba": "To be announced!",
       "day": "Day",
       "time": "Time",
       "what": "What",
@@ -11,8 +11,8 @@
       "where": "Where"
     },
     "is": {
-      "para1": "Tilkynnt seinna!",
-      "tba": "",
+      "para1": "",
+      "tba": "Tilkynnt seinna!",
       "day": "Dagur",
       "time": "Klukkan",
       "what": "Hvað",

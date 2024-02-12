@@ -51,9 +51,9 @@ export const EventIndex = ({ islContent, enContent }: any) => {
   return (
     <Layout title={l('eventindex')}>
       <StyledEventIndex className=''>
+      <div className='tba'>{e('tba')}</div>
         <div className='head-container'>
           <div className='sub-text'>{e('para1')}</div>
-          <div className='text'>{e('tba')}</div>
         </div>
         {/*commented out here */}
          {/* <div className='eventindex-container'>
@@ -258,9 +258,18 @@ const StyledEventIndex = styled.div`
     justify-content: space-around;
   }
   
-.eventindex-mapcontainer-mobile {
-  display:none;
-}
+  .eventindex-mapcontainer-mobile {
+    display:none;
+  }
+
+  .tba{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 105%;
+    width: 40%;
+    padding: 10px;
+  }
 
   .eventindex-mapcontainer {
     display: flex;

@@ -55,7 +55,7 @@ export const Visualartists = ({ islContent, enContent }: any) => {
   return (
     <Layout title={l('visualartists')}>
       <StyledVisualartists className=''>
-      <div className='text'>{v('firstline')}</div>
+      <div className='tba'>{v('tba')}</div>
       <div className='text'>{v('subtitle')}</div>
       <div className='img-container'>
                   <img className='img-child' src="tumblr/8.jpg" />
@@ -283,6 +283,15 @@ const StyledVisualartists = styled.div`
 
   a:hover {
     color: #00ff38;
+  }
+
+  .tba {
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 105%;
+    width: 40%;
+    padding: 10px;
   }
 
   .text {
