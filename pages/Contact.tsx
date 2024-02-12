@@ -8,57 +8,57 @@ export const Contact = () => {
     <Layout title={l('contact')} noFooter>
       <StyledContact>
         <div className='contacts-container'>
+        <div className="row">
+            <div>{r('organisers')}</div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <div className="row">
+             <div>Þórhildur Tinna Sigurðardóttir</div>
             <div>{r('overall')}</div>
-            <div>Þórhildur Tinna Sigurðardóttir</div>
             <div>tinna@lunga.is</div>
             <div>(+354) 8486962</div>
           </div>
           <div className="row">
-            <div>{r('overall')}</div>
             <div>Helena Aðalsteinsdóttir</div>
+            <div>{r('overall')}</div>
             <div>helena@lunga.is</div>
             <div>(+44)(0)7858810254</div>
           </div>
           <div className="row">
-            <div>{r('community')}</div>
             <div>Halldóra Kristín Lárusdóttir</div>
+            <div>{r('community')}</div>
             <div>halldora@lunga.is</div>
             <div>(+354) 8630880</div>
           </div>
           <div className="row">
-            <div>{r('musicproduction')}</div>
             <div>Lama-sea Dear</div>
+            <div>{r('musicproduction')}</div>
             <div>lama@lunga.is</div>
             <div>(+354)7758882</div>
           </div>
           <div className="row">
-            <div>{r('curatorworkshop')}</div>
             <div>Katerína Spathi</div>
+            <div>{r('curatorworkshop')}</div>
             <div>katerina@lunga.is</div>
             <div>(+354) 7713319</div>
           </div>
           <div className="row">
-            <div>{r('graphics')}</div>
             <div>Gréta Þorkelsdóttir</div>
+            <div>{r('graphics')}</div>
             <div>greta@lunga.is</div>
             <div></div>
           </div>
           <div className="row">
-            <div>{r('graphics')}</div>
             <div>Paula Buškevica</div>
+            <div>{r('graphics')}</div>
             <div>paula@lunga.is</div>
             <div></div>
           </div>
-          <div className="row">
-            <div>{r('coding')}</div>
-            <div>Diljá Þorkelsdóttir</div>
-            <div></div>
-            <div></div>
-          </div>
           <div className="row last">
-            <div>{r('photographer')}</div>
             <div>Vikram Pradhan</div>
+            <div>{r('photographer')}</div>
             <div></div>
             <div></div>
           </div>

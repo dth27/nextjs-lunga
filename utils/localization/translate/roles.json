@@ -2,6 +2,7 @@
     "namespace": "roles",
     "resources": {
       "en": {
+        "organisers": "LungA Organisers",
         "overall": "Artistic direction, fundraising & team support",
         "musicproduction":"Festival production and music",
         "bookingbackstagemanager": "Booking and backstage manager",
@@ -9,12 +10,12 @@
         "tech": "Tech",
         "community": "Community outreach and family festival",
         "PR":"PR and communication manager",
-        "graphics": "Graphic Design and coding",
+        "graphics": "Graphic design and coding",
         "coding": "Coding",
         "photographer": "Photographer"
       },
       "is": {
-
+      "organisers": "LungA Skipuleggjendur",
       "overall": "Framkvæmdastjóri",
       "musicproduction":"Hátíðarframleiðandi og tónleikar",
       "bookingbackstagemanager": "Bókari og framkvæmd tónleika",
