@@ -379,6 +379,13 @@ const StyledConcerts = styled.div`
     padding: 10px;
   }
 
+  .tba {
+    font-size: 29px;
+    width: 95%;
+    padding-top: 28px;
+    padding-left: 10px;
+  }
+
   .text {
     font-size: 24px;
     font-weight: 600;

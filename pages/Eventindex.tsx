@@ -417,6 +417,13 @@ const StyledEventIndex = styled.div`
       }
     }
 
+    .tba {
+      font-size: 29px;
+      width: 95%;
+      padding-top: 28px;
+      padding-left: 10px;
+    }
+
     .headline {
       20vw;
     }

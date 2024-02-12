@@ -333,6 +333,12 @@ const StyledVisualartists = styled.div`
     margin: 0px 30px 30px 30px;
   }
 
-  @media (max-width: 844px) {
+  @media (max-width: 800px) {
+    .tba {
+      font-size: 29px;
+      width: 95%;
+      padding-top: 28px;
+      padding-left: 10px;
+    }
   }
 `

@@ -240,10 +240,17 @@ const StyledWorkshops = styled.div`
   @media (max-width: 800px) {
     .flex-grid {
       display: block;
+    
       .col {
         width: 100%;
         margin: 10px;
       }
+    }
+    .tba {
+      font-size: 29px;
+      width: 95%;
+      padding-top: 28px;
+      padding-left: 10px;
     }
   }
 
