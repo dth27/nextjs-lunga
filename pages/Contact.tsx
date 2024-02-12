@@ -8,7 +8,7 @@ export const Contact = () => {
     <Layout title={l('contact')} noFooter>
       <StyledContact>
         <div className='contacts-container'>
-        <div className="row">
+        <div className="row organisers">
             <div>{r('organisers')}</div>
             <div></div>
             <div></div>
@@ -160,7 +160,7 @@ const StyledContact = styled.div`
     padding: 0.1rem 1.5rem;
     display: grid;
     gap: 1rem;
-    grid-template-columns: 2.5fr 2.5fr 1.7fr 1.7fr;
+    grid-template-columns: 2.2fr 3fr 1.5fr 1.7fr;
     font-size: 20px;
     font-weight: 600;
   }
@@ -212,12 +212,26 @@ const StyledContact = styled.div`
     text-align: left;
   }
 
+  .organisers {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 1vh;
+    color: #000000;
+    margin: 50px 0px 0 0px;
+    text-align: left;
+  }
+
   @media (max-width: 800px) {
     .row {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     gap: 0;
+    }
+
+    .organisers {
+      padding-bottom: 2vh;
     }
 
     .last {
@@ -225,7 +239,7 @@ const StyledContact = styled.div`
     }
 
     .contacts-container {
-      margin-top: 100px;
+      margin-top: 80px;
       margin-bottom: 10px;
     }
   }
