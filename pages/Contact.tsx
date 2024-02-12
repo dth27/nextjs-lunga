@@ -7,17 +7,70 @@ export const Contact = () => {
   return (
     <Layout title={l('contact')} noFooter>
       <StyledContact>
-        <table>
+        <div className='contacts-container'>
+          <div className="row">
+            <div>{r('overall')}</div>
+            <div>Þórhildur Tinna Sigurðardóttir</div>
+            <div>tinna@lunga.is</div>
+            <div>(+354) 8486962</div>
+          </div>
+          <div className="row">
+            <div>{r('overall')}</div>
+            <div>Helena Aðalsteinsdóttir</div>
+            <div>helena@lunga.is</div>
+            <div>(+44)(0)7858810254</div>
+          </div>
+          <div className="row">
+            <div>{r('community')}</div>
+            <div>Halldóra Kristín Lárusdóttir</div>
+            <div>halldora@lunga.is</div>
+            <div>(+354) 8630880</div>
+          </div>
+          <div className="row">
+            <div>{r('musicproduction')}</div>
+            <div>Lama-sea Dear</div>
+            <div>lama@lunga.is</div>
+            <div>(+354)7758882</div>
+          </div>
+          <div className="row">
+            <div>{r('curatorworkshop')}</div>
+            <div>Katerína Spathi</div>
+            <div>katerina@lunga.is</div>
+            <div>(+354) 7713319</div>
+          </div>
+          <div className="row">
+            <div>{r('graphics')}</div>
+            <div>Gréta Þorkelsdóttir</div>
+            <div>greta@lunga.is</div>
+            <div></div>
+          </div>
+          <div className="row">
+            <div>{r('graphics')}</div>
+            <div>Paula Buškevica</div>
+            <div>paula@lunga.is</div>
+            <div></div>
+          </div>
+          <div className="row">
+            <div>{r('coding')}</div>
+            <div>Diljá Þorkelsdóttir</div>
+            <div></div>
+            <div></div>
+          </div>
+          <div className="row last">
+            <div>{r('photographer')}</div>
+            <div>Vikram Pradhan</div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+
+        {/* Previous layout, aka the table, here */}
+
+        {/* <table>
           <tbody>
-            {/* <tr>
-              <td>Lunga Festival</td>
-              <td>Hafnargata 44, 710 Seyðisfjörður</td>
-              <td>LungA@LungA.is</td>
-              <td>kt. 600201 2120</td>
-            </tr> */}
             <tr>
               <td>
-                {r('director')}
+                {r('overall')}
                 <br />
 
               </td>
@@ -26,26 +79,34 @@ export const Contact = () => {
               <td>tinna@lunga.is</td>
               <td>(+354) 8486962</td>
             </tr>
+
             <tr>
               <td>
-                {r('director')}
+                {r('overall')}
                 <br />
               </td>
               <td>Helena Aðalsteinsdóttir</td>
-              
               <td>helena@lunga.is</td>
               <td>(+44)(0)7858810254</td>
             </tr>
+
             <tr>
               <td>
-                {r('music')}
+                {r('community')}
+              </td>
+              <td>Halldóra Kristín Lárusdóttir</td>
+              <td>halldora@lunga.is</td>
+              <td>(+354) 8630880</td>
+            </tr>
+
+            <tr>
+              <td>
+                {r('musicproduction')}
               </td>
               <td>Lama-sea Dear</td>
               <td>lama@lunga.is</td>
               <td>(+354)7758882</td>
             </tr>
-
-           
 
             <tr>
               <td>
@@ -55,34 +116,6 @@ export const Contact = () => {
               <td>katerina@lunga.is</td>
               <td>(+354) 7713319</td>
             </tr>
-
-            <tr>
-              <td>
-                {r('socialmedia')}
-              </td>
-              <td>Halldóra Kristín Lárusdóttir</td>
-              <td>halldora@lunga.is</td>
-              <td>(+354) 8630880</td>
-            </tr>
-
-
-            <tr>
-              <td>
-                {r('tech')}
-              </td>
-              <td>Eiki Ásgeirsson</td>
-              <td></td>
-              <td></td>
-            </tr>
-
-            {/* <tr>
-              <td>
-                {r('PR')}
-              </td>
-              <td>Þóra Flygenring Sigurðardóttir</td>
-              <td>thora@lunga.is</td>
-              <td>(+354) 8486884</td>
-            </tr> */}
 
             <tr>
               <td>{r('graphics')}</td>
@@ -99,19 +132,18 @@ export const Contact = () => {
             <tr>
               <td>{r('coding')}</td>
               <td>Diljá Þorkelsdóttir</td>
-              <td>dilja4@hotmail.com</td>
+              <td></td>
               <td></td>
             </tr>
             <tr>
               <td>{r('photographer')}</td>
               <td>Vikram Pradhan</td>
               <td></td>
-              <td></td>
+              <td>(+354) 846 7419</td>
             </tr>
 
-
           </tbody>
-        </table>
+        </table> */}
       </StyledContact>
     </Layout>
   )
@@ -119,6 +151,20 @@ export const Contact = () => {
 export default Contact
 
 const StyledContact = styled.div`
+  .contacts-container {
+    margin-top: 150px;
+  }
+
+  .row {
+    border-bottom: solid black 1px;
+    padding: 0.1rem 1.5rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 2.5fr 2.5fr 1.7fr 1.7fr;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
   table {
     margin-top: 150px;
     border-spacing: 0;
@@ -164,5 +210,23 @@ const StyledContact = styled.div`
     color: #000000;
     margin: 50px 0px 0 0px;
     text-align: left;
+  }
+
+  @media (max-width: 800px) {
+    .row {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    gap: 0;
+    }
+
+    .last {
+      border: none;
+    }
+
+    .contacts-container {
+      margin-top: 100px;
+      margin-bottom: 10px;
+    }
   }
 `

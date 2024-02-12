@@ -2,12 +2,12 @@
     "namespace": "roles",
     "resources": {
       "en": {
-        "director": "Festival director",
-        "music":"Music and production",
+        "overall": "Overall support",
+        "musicproduction":"Festival production and music",
         "bookingbackstagemanager": "Booking and backstage manager",
-        "curatorworkshop": "Workshops, events, exhibitions",
+        "curatorworkshop": "Workshop curator and events ",
         "tech": "Tech",
-        "socialmedia": "Community engagement",
+        "community": "Community outreach and family festival",
         "PR":"PR and communication manager",
         "graphics": "Graphic Design and coding",
         "coding": "Coding",
@@ -15,12 +15,12 @@
       },
       "is": {
 
-      "director": "Hátíðarstjóri",
-      "music":"Tónlist og framleiðsla",
+      "overall": "Framkvæmdastjóri",
+      "musicproduction":"Hátíðarframleiðandi og tónleikar",
       "bookingbackstagemanager": "Bókari og framkvæmd tónleika",
-      "curatorworkshop": "Listasmiðjur, viðburðir, sýningar",
+      "curatorworkshop": "Listasmiðjur",
       "tech": "Tech",
-      "socialmedia": "Samfélagsfulltrúi Seyðisfjarðar",
+      "community": "Samfélagsfulltrúi og fjölskylduhátíð",
       "PR":"Kynningarfulltrúi",
       "graphics": "Grafísk hönnun og forritun",
       "coding": "Forritun",
