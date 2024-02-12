@@ -196,7 +196,6 @@ export const EventIndex = ({ islContent, enContent }: any) => {
        {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
         </div> */}
-
         <div className='eventindex-mapcontainer'>
           <img className='eventindex-map' src="/images/eventindex/map.svg" alt="LungA Venue Map" />
           <div className='eventindex-maplegend'>
@@ -244,6 +243,7 @@ export const EventIndex = ({ islContent, enContent }: any) => {
             </ul>
             </div>
         </div>
+        {/* <div className='seperator'></div>  */}
       </StyledEventIndex>
     </Layout>
   )
@@ -258,6 +258,11 @@ const StyledEventIndex = styled.div`
     justify-content: space-around;
   }
   
+  .seperator {
+    width: 100%;
+    border-top: 1px solid #000000;
+  }
+
   .eventindex-mapcontainer-mobile {
     display:none;
   }
@@ -418,24 +423,25 @@ const StyledEventIndex = styled.div`
     }
 
     .eventindex-mapcontainer-mobile {
-      display: none;
+      // display: none;
       flex-direction: column;
       position: relative;
     }
 
     .eventindex-mapcontainer {
-      display: none;
+      // display: none;
+      justify-content: center;
     }
 
     .eventindex-map {
-      width: 100%;
+      width: 90%;
+      align-self: center;
+      justify-content: center;
+      margin: 30px 30px 30px 30px;
     }
 
     .eventindex-maplegend {
-      text-align: left;
-      margin-left: -20px;
-      margin-bottom: inherit;
-      width: inherit;
+      display: none;
     }
 
     img {

@@ -56,5 +56,12 @@ const StyledFooter = styled.div`
     flex-grow: 1;
     text-align: center;
   }
+
+  @media (max-width: 800px)  {
+    padding-top: 1vh;
+    // position: fixed;
+    // bottom: 10px;
+    // width: 100%;
+  }
   
 `

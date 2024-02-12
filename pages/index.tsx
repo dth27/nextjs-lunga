@@ -19,20 +19,15 @@ export const Home = () => {
     <Frontpage className='frontpage'>
       <Header Frontpage />
       <div className='logo-container'>
-        <img src='/24-banner.png' />
+        <img src='/24-banner-2.png' />
       </div>
-     <div className='center sub-header'>
+     {/* <div className='center sub-header'>
         <a href='https://tix.is/is/event/15292/lunga-bliss/' target='_blank rel="noreferrer"'>
           {c('ticket')}
         </a>
-      </div> 
-
-      
-      
-   
-
+      </div> */}
            <div className='center date'>
-           {c('LungA Spiral, 15.–21. July 2023, Seyðisfjörður, Iceland.')}
+           {c('LungA Spiral, 15.–21. July 2023, Seyðisfjörður, Iceland')}
      
      </div> 
       <div className='navigation'>
@@ -55,7 +50,7 @@ export const Home = () => {
           )
         })}
       </div>
-
+      <div className='seperator'></div>
         <Footer />
 
     </Frontpage>
@@ -77,6 +72,11 @@ const Frontpage = styled.div`
   display: inline-block;
   font-size: 1rem;
   width: 38%;
+}
+
+.seperator {
+  width: 100%;
+  border-top: 1px solid #000000;
 }
 
 .center {
@@ -124,7 +124,7 @@ const Frontpage = styled.div`
   border-bottom: #000 2px solid;
 }
 .logo-container > img {
-  max-width: 85%;
+  width: 40%;
 }
 .logo-container {
   text-align: center;
@@ -141,7 +141,11 @@ const Frontpage = styled.div`
 
 @media (max-width: 844px) {
   .logo-container {
-    padding-top: 58px;
+    padding-top: 60px;
+  }
+
+  .logo-container > img {
+    width: 88%;
   }
   
   .sub-header {

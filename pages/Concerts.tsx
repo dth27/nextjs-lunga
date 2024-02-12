@@ -189,7 +189,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
           <div className='sub-text'>{c('header')}</div>
         </div>
 
-
+{/* 
      <div className='center sub-header nav-link'>
           <a
               className='nav-link'
@@ -198,8 +198,8 @@ export const Concerts = ({ islContent, enContent }: any) => {
           >
             {c('ticket')}
           </a>
-        </div> 
-        <table>
+        </div>  */}
+        <table className='tableConcerts'>
           <thead>
             <tr>
               <th> {c('artist')}</th>
@@ -221,6 +221,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
         <div className='img-container'>
        <img className='img-child' src='/tumblr/2021-6.jpg' />
       </div>
+      <div className='seperator'></div>
        </StyledConcerts>
     </Layout>
   )
@@ -238,10 +239,22 @@ const StyledConcerts = styled.div`
   }
 
   .img-child {
-    width: 85%;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  .seperator {
+    // width: 100%;
+    // border-top: 1px solid #000000;
+    display: none;
   }
 
   @media (max-width: 800px) {
+
+    table.tableConcerts {
+      display: none;
+    }
+
     .flex-grid {
       display: block;
 
@@ -300,6 +313,10 @@ const StyledConcerts = styled.div`
     font-weight: 600;
     padding-left: 20px;
     text-align: center;
+  }
+
+  table.tableConcerts {
+    display: none;
   }
 
   table {
@@ -383,14 +400,21 @@ const StyledConcerts = styled.div`
     .text{
       width: 100%
     }
-  
+
+    table.tableConcerts {
+      display: none;
+    }
   }
   
   @media (max-width: 844px) {
- .table {
-  margin: 5px 0px;
-  width: 105%;
- }
+
+    table.tableConcerts {
+      display: none;
+    }
+
+  .seperator {
+      display: none;
+   }
 
  .grid-container {
   flex-direction: column;
@@ -410,7 +434,8 @@ const StyledConcerts = styled.div`
     // width: 10px;
     // height: 10px;
     align-self: center;
-    margin: 20px;
+    width: 85%;
+    // margin: 20px;
   }
   .hidden {
     display: none;

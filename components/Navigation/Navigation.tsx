@@ -16,7 +16,6 @@ export const Navigation = () => {
 
   return (
     <StyledNavigation className={menuOpen ? 'menuOpen' : ''}>
-
       <div className='nav-menu' onClick={handleToggle}>
         {!menuOpen ? l('menu') : 'x'}
       </div>

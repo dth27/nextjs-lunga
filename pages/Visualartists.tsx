@@ -194,8 +194,9 @@ const StyledVisualartists = styled.div`
   }
 
   .seperator {
-    width: 100%;
-    border-top: 1px solid #000000;
+    // width: 100%;
+    // border-top: 1px solid #000000;
+    display: none;
   }
 
   .sub-text {
@@ -326,7 +327,7 @@ const StyledVisualartists = styled.div`
   }
 
   .img-child {
-    max-width: 70%;
+    max-width: 85%;
     height: auto;
     align-self: center;
     margin: 0px 30px 30px 30px;

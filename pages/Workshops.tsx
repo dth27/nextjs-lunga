@@ -252,8 +252,7 @@ const StyledWorkshops = styled.div`
   }
 
   .seperator {
-    width: 100%;
-    border-top: 1px solid #000000;
+  display: none;
   }
 
   .sub-text {
