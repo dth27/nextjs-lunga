@@ -233,7 +233,7 @@ const StyledWorkshops = styled.div`
     font-weight: 600;
     text-align: left;
     line-height: 105%;
-    width: 40%;
+    width: 55%;
     padding: 10px;
   }
 
