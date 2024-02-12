@@ -41,8 +41,8 @@ export const Contact = () => {
                 {r('music')}
               </td>
               <td>Lama-sea Dear</td>
-              <td></td>
-              <td></td>
+              <td>lama@lunga.is</td>
+              <td>(+354)7758882</td>
             </tr>
 
            
