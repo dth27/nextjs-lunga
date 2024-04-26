@@ -27,7 +27,7 @@ export const Home = () => {
         </a>
       </div> */}
            <div className='center date'>
-           {c('LungA Spiral, 15.–21. July 2023, Seyðisfjörður, Iceland')}
+           {c('LungA Spiral, 15.–21. July 2024, Seyðisfjörður, Iceland')}
      
      </div> 
       <div className='navigation'>

@@ -2,7 +2,7 @@
   "namespace": "concerts",
   "resources": {
     "en": {
-      "tba": "To be announced!",
+      "tba": "Programme update coming soon! Meanwhile, keep your eyes peeled on our Instagram.",
       "header": "",
       "info1": "",
       "info2": "Stay tuned for further announcements here on our website and the festival's social media.",
@@ -11,7 +11,7 @@
       "place": ""
     },
     "is": {
-      "tba": "Tilkynnt seinna!",
+      "tba": "Dagskráin verður kynnt bráðlega! Þangað til getið þið fylgst með á Instagram.",
       "header": "",
       "info1": "",
       "info2": "Fylgist með tilkynningum hér og á samfélagsmiðlum hátíðarinnar.",
