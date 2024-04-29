@@ -21,11 +21,11 @@ export const Home = () => {
       <div className='logo-container'>
         <img src='/24-banner-2.png' />
       </div>
-     {/* <div className='center sub-header'>
-        <a href='https://tix.is/is/event/15292/lunga-bliss/' target='_blank rel="noreferrer"'>
+     <div className='center sub-header'>
+        <a href='https://tix.is/is/event/17420/lunga-spiral/' target='_blank rel="noreferrer"'>
           {c('ticket')}
         </a>
-      </div> */}
+      </div>
            <div className='center date'>
            {c('LungA Spiral, 15.–21. July 2024, Seyðisfjörður, Iceland')}
      
@@ -84,7 +84,7 @@ const Frontpage = styled.div`
 }
 
 .center a:hover{
-  color: #00FF38;
+  color: #7bd0f5;
 }
 
 .center a:visited{
@@ -114,6 +114,10 @@ const Frontpage = styled.div`
   box-sizing: border-box;
   font-weight: 600;
   color: black;
+}
+
+.center.sub-header a:hover {
+  color: #7bd0f5;
 }
 
 .grid-container {

@@ -189,11 +189,11 @@ export const Concerts = ({ islContent, enContent }: any) => {
           <div className='sub-text'>{c('header')}</div>
         </div>
 
-{/* 
-     <div className='center sub-header nav-link'>
+
+     {/* <div className='center sub-header nav-link'>
           <a
               className='nav-link'
-              href='https://tix.is/is/event/15292/lunga-bliss/'
+              href='https://tix.is/is/event/17420/lunga-spiral/'
               target='_blank rel="noreferrer"'
           >
             {c('ticket')}
@@ -212,7 +212,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
         {/* <div className='center sub-header nav-link'>
           <a
             className='nav-link'
-            href='https://tix.is/is/event/13027/'
+            href='https://tix.is/is/event/17420/lunga-spiral/'
             target='_blank rel="noreferrer"'
           >
             {c('ticket')}
@@ -289,7 +289,7 @@ const StyledConcerts = styled.div`
     cursor: pointer;
   }
   td.border-bottom.name:hover {
-    color: #a3ffa3;
+    color: #7bd0f5;
   }
   td.border-top {
     cursor: auto;
@@ -305,7 +305,7 @@ const StyledConcerts = styled.div`
     text-align: center;
   }
   .nav-link:hover {
-    color: #a3ffa3;
+    color: #7bd0f5;
   }
 
   th {
@@ -341,7 +341,7 @@ const StyledConcerts = styled.div`
   }
 
   .center a:hover {
-    color: #00ff38;
+    color: #7bd0f5;
   }
 
   .center a:visited {

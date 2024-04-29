@@ -80,7 +80,7 @@ const StyledHeader = styled.div`
 }
 
 .active {
-  background: #4dd4e8; 
+  background: #7bd0f5; 
 }
 
 .language-options {

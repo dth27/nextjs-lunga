@@ -124,7 +124,7 @@ const StyledNavigation = styled.div`
     text-align: right;
   }
   .nav-menu:hover {
-    color: #4dd4e8;
+    color: #7bd0f5;
     cursor: pointer;
   }
   .rightalign {
