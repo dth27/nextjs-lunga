@@ -11,7 +11,7 @@ import getContent from '../utils/content/getContent'
 import { getEnglishPosts, getIcelandicPosts } from '../lib/api'
 export const getStaticProps = async (ctx: any) => {
   let lang = i18next.language
-  //let content = await getContent(lang, 'concerts')
+  // let content = await getContent(lang, 'concerts')
   let islContent = getIcelandicPosts('concerts')
   let enContent = getEnglishPosts('concerts')
   if (islContent) {
@@ -69,13 +69,13 @@ export const Concerts = ({ islContent, enContent }: any) => {
                     {frontmatter.stage}
                   </td>
 
-                  {/* <td className='border-bottom Width' colSpan={1}>
+                  <td className='border-bottom Width' colSpan={1}>
                     {frontmatter.time}
-                  </td> */}
+                  </td>
                   
                 </tr>
-                {/* Hidden content */}
-                <tr className={op.includes(frontmatter.id) ? '' : 'hidden'}>
+                {/*content */}
+                <tr className={op.includes(frontmatter.id) ? '' : ''}>
                   <td className=''>
                     {frontmatter.descr1}
                     <br />
@@ -190,7 +190,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
         </div>
 
 
-     {/* <div className='center sub-header nav-link'>
+       <div className='center sub-header nav-link'>
           <a
               className='nav-link'
               href='https://tix.is/is/event/17420/lunga-spiral/'
@@ -198,7 +198,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
           >
             {c('ticket')}
           </a>
-        </div>  */}
+        </div>
         <table className='tableConcerts'>
           <thead>
             <tr>
@@ -206,7 +206,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
               <th> {c('place')}</th>
             </tr>
           </thead>
-          {/* {tableBody} */} 
+          {tableBody} 
         </table>
 
         {/* <div className='center sub-header nav-link'>
@@ -220,7 +220,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
         </div> */}
         <div className='img-container'>
        <img className='img-child' src='/tumblr/2021-6.jpg' />
-      </div>
+        </div>
       <div className='seperator'></div>
        </StyledConcerts>
     </Layout>
@@ -228,6 +228,9 @@ export const Concerts = ({ islContent, enContent }: any) => {
 }
 export default Concerts
 const StyledConcerts = styled.div`
+  .tableConcerts {
+    visibility: collapse;
+  }
   .flex-grid {
     display: flex;
     justify-content: space-between;
@@ -244,15 +247,15 @@ const StyledConcerts = styled.div`
   }
 
   .seperator {
-    // width: 100%;
-    // border-top: 1px solid #000000;
+    width: 100%;
+    border-top: 1px solid #000000;
     display: none;
   }
 
   @media (max-width: 800px) {
 
     table.tableConcerts {
-      display: none;
+      display: flex;
     }
 
     .flex-grid {
@@ -295,8 +298,15 @@ const StyledConcerts = styled.div`
     cursor: auto;
   }
 
+  td {
+    padding-top: 20px;
+  }
+
   td > img {
-    max-width: 45vw;
+    max-width: 30vw;
+    // max-width: 35vw;
+    // height: 45vw;
+    // object-fit: cover;
   }
 
   .name {
@@ -316,7 +326,7 @@ const StyledConcerts = styled.div`
   }
 
   table.tableConcerts {
-    display: none;
+    display: flex;
   }
 
   table {
@@ -351,6 +361,10 @@ const StyledConcerts = styled.div`
   .sub-header {
     text-align: center;
     padding: 20px;
+  }
+
+  .nav-link a:hover{
+    color: #7bd0f5;
   }
 
   .footer-container {
@@ -409,14 +423,23 @@ const StyledConcerts = styled.div`
     }
 
     table.tableConcerts {
-      display: none;
+      display: flex;
     }
   }
   
   @media (max-width: 844px) {
 
+    .sub-header.nav-link a{
+      font-size: 9vw;
+    }
+
+    .sub-header.nav-link {
+      padding: 0px;
+    }
+
     table.tableConcerts {
-      display: none;
+      visibility: collapse;
+      // display: flex;
     }
 
   .seperator {
