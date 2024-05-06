@@ -61,8 +61,8 @@ export const Workshops = ({ islContent, enContent }: any) => {
             {/* <div className='text'>{w('5day')}</div>
             <div className='textsmall'>{w('5dayprice')}</div>
             <br />
-            <div className='textsmall'>{w('5dayinfo')}</div> */}
-                {/* <div className='sub-header margin-top'>
+            <div className='textsmall'>{w('5dayinfo')}</div>
+            <div className='sub-header margin-top'>
           <a
             className='nav-link'
             href='https://forms.gle/Ueb6K3xfKd1gNPY66'
