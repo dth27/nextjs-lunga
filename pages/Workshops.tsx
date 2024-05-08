@@ -78,13 +78,14 @@ export const Workshops = ({ islContent, enContent }: any) => {
             {/* <div className='text'>{w('3day')}</div>
             <div className='textsmall'>{w('3dayprice1')}</div>
             <div className='textsmall'>{w('3dayprice2')}</div> */}
-            {/* <div className='textsmall'>{w('3dayinfo')}</div>
-            <br /> */}
+            <br />
+
+            <div className='textsmall'>{w('3dayinfo')}</div>
           </div>
 
-          <div className='col'>
+          {/* <div className='col'>
             <div className='text'>{w('childreninfo')}</div>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className='sub-header'>
@@ -232,7 +233,7 @@ const StyledWorkshops = styled.div`
     font-weight: 600;
     text-align: left;
     line-height: 105%;
-    width: 100%;
+    width: 55%;
     padding: 10px;
   }
 
