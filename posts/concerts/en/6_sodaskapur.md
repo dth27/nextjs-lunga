@@ -1,5 +1,5 @@
 ---
-name: Sóðaskapur
+name: "Sóðaskapur"
 id: 6
 id2: 6b
 stage:

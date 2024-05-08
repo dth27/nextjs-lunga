@@ -1,5 +1,5 @@
 ---
-name: Sunna Margrét
+name: "Sunna Margrét"
 id: 7
 id2: 7b
 stage: 
