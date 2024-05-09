@@ -61,8 +61,8 @@ export const Workshops = ({ islContent, enContent }: any) => {
             {/* <div className='text'>{w('5day')}</div>
             <div className='textsmall'>{w('5dayprice')}</div>
             <br />
-            <div className='textsmall'>{w('5dayinfo')}</div>
-            <div className='sub-header margin-top'>
+            <div className='textsmall'>{w('5dayinfo')}</div> */}
+            {/* <div className='sub-header margin-top'>
           <a
             className='nav-link'
             href='https://forms.gle/Ueb6K3xfKd1gNPY66'
@@ -70,17 +70,16 @@ export const Workshops = ({ islContent, enContent }: any) => {
           >
             {w('applyhere')}
           </a>
-        </div> */}
+            </div> */}
           </div>
 
           <div className='col'>
           <div className='textsmall'>{w('tbainfo')}</div>
             {/* <div className='text'>{w('3day')}</div>
             <div className='textsmall'>{w('3dayprice1')}</div>
-            <div className='textsmall'>{w('3dayprice2')}</div> */}
+            <div className='textsmall'>{w('3dayprice2')}</div>
             <br />
-
-            <div className='textsmall'>{w('3dayinfo')}</div>
+            <div className='textsmall'>{w('3dayinfo')}</div> */}
           </div>
 
           <div className='col'>
@@ -202,16 +201,16 @@ export const Workshops = ({ islContent, enContent }: any) => {
           <img className='img-child' src='/tumblr/15.jpg' />
         </div>
         <div className='seperator'></div>
-        <div className='sub-header'>
-          {/* <a
+        {/* <div className='sub-header'>
+          <a
             className='nav-link'
             href='https://forms.gle/Ueb6K3xfKd1gNPY66'
             target='_blank'
             rel='noreferrer'
           >
             {w('applyhere')}
-          </a> */}
-        </div>
+          </a>
+        </div> */}
       </StyledWorkshops>
     </Layout>
   )
@@ -256,6 +255,10 @@ const StyledWorkshops = styled.div`
 
   .head-container {
     display: flex;
+  }
+
+  .sub-header {
+    padding: 20px;
   }
 
   .seperator {
@@ -320,7 +323,7 @@ const StyledWorkshops = styled.div`
   }
 
   a:hover {
-    color: #00ff38;
+    color: #7bd0f5;
   }
 
   .text {
