@@ -181,41 +181,30 @@ export const Workshops = ({ islContent, enContent }: any) => {
                 <div className='flex-grid'>
                   <div className='col'>
                     <div className='workshop-about'>
-                      {frontmatter.about1} <br />
-                      <br />
-                      {frontmatter.about2}<br />
-                      <br />
-                      {frontmatter.about3}<br />
-                      <br />
-                      {frontmatter.about4}
+                      <p>{frontmatter.about1}</p>
+                      <p>{frontmatter.about2}</p>
+                      <p>{frontmatter.about3}</p>
+                      <p>{frontmatter.about4}</p>
                     </div>
                   </div>
                   <div className='col'>
                     <div className='workshop-info'>
-                      {frontmatter.aboutteacher1}
-                      <br />
-                      <br />
-                      {frontmatter.aboutteacher2}
-                      <br />
-                      <br />
-                      {frontmatter.aboutteacher3}
-                      <br />
-                      <br />
-                      {frontmatter.aboutteacher4}
-                      <br />
-                      <br />
-                      {frontmatter.aboutteacher5}
+                      <p>{frontmatter.aboutteacher1}</p>
+                      <p>{frontmatter.aboutteacher2}</p>
+                      <p>{frontmatter.aboutteacher3}</p>
+                      <p>{frontmatter.aboutteacher4}</p>
+                      <p>{frontmatter.aboutteacher5}</p>
                     </div>
                   </div>
                 </div>
               </div>
             )
           })}
+          <div className='seperator'></div>
           {/* until here */}
         {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
         </div> */}
-        <div className='seperator'></div>
         {/* <div className='sub-header'>
           <a
             className='nav-link'
@@ -329,7 +318,9 @@ const StyledWorkshops = styled.div`
   }
 
   .seperator {
-  display: none;
+    width: 103%;
+    border-top: 1px solid #000000;
+    margin-top: 10px;
   }
 
   .sub-text {
