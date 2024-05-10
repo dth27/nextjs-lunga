@@ -56,25 +56,28 @@ export const Workshops = ({ islContent, enContent }: any) => {
     <Layout title={l('workshops')}>
       <StyledWorkshops>
         <div className='flex-grid'>
-          <div className='col'>
-          <div className='tba'>{w('tba')}</div>
-            {/* <div className='text'>{w('5day')}</div>
-            <div className='textsmall'>{w('5dayprice')}</div>
-            <br />
-            <div className='textsmall'>{w('5dayinfo')}</div> */}
-            {/* <div className='sub-header margin-top'>
+          <div className='col w-info'>
+           {/* <div className='apply-link-top'>
           <a
-            className='nav-link'
+            className='apply-link'
             href='https://forms.gle/Ueb6K3xfKd1gNPY66'
             target='_blank rel="noreferrer"'
           >
             {w('applyhere')}
           </a>
             </div> */}
+          <div className='tba'>{w('tba')}</div>
+          <br />
+          <div className='text'>{w('5day')}</div>
+            <div className='textsmall'>{w('5dayprice')}</div>
+            <br />
+            <div className='textsmall'>{w('5dayinfo')}</div>
           </div>
 
-          <div className='col'>
+          <div className='col w-info'>
           <div className='textsmall'>{w('tbainfo')}</div>
+          <br />
+          <div className='textsmall'>{w('childreninfo')}</div>
             {/* <div className='text'>{w('3day')}</div>
             <div className='textsmall'>{w('3dayprice1')}</div>
             <div className='textsmall'>{w('3dayprice2')}</div>
@@ -82,9 +85,9 @@ export const Workshops = ({ islContent, enContent }: any) => {
             <div className='textsmall'>{w('3dayinfo')}</div> */}
           </div>
 
-          <div className='col'>
+          {/* <div className='col w-info'>
             <div className='text'>{w('childreninfo')}</div>
-          </div>
+          </div> */}
         </div>
 
         {/* <div className='sub-header'>
@@ -97,16 +100,16 @@ export const Workshops = ({ islContent, enContent }: any) => {
           </a>
         </div> */}
 
-        {/* info commented out here */}
+        {/* info here */}
 
-        {/* {workshops &&
+        {workshops &&
           workshops.map((workshop: any, index: any) => {
             const { frontmatter } = workshop
 
             return (
               <div key={index}>
                 <div className='seperator'></div>
-                <div className='flex-grid'>
+                <div className='flex-grid workshops'>
                   <div className='col'>
                     <div className='workshop-title'>{frontmatter.title}</div>
                   </div>
@@ -119,9 +122,9 @@ export const Workshops = ({ islContent, enContent }: any) => {
                       {frontmatter.teacher3}
                     </div>
                   </div>
-                  <div className='col'>
+                  {/* <div className='col'>
                     <div className='workshop-about2'>{frontmatter.length}</div>
-                  </div>
+                  </div> */}
 
                   <div className='col'>
                     <div className='workshop-about2'>
@@ -141,6 +144,17 @@ export const Workshops = ({ islContent, enContent }: any) => {
                           <a
                             className='nav-link-small'
                             href={frontmatter.instagram}
+                            target='_blank rel="noreferrer"'
+                          >
+                            Instagram
+                          </a>
+                        </div>
+                      )}
+                       {frontmatter.instagram2 && (
+                        <div>
+                          <a
+                            className='nav-link-small'
+                            href={frontmatter.instagram2}
                             target='_blank rel="noreferrer"'
                           >
                             Instagram
@@ -173,6 +187,9 @@ export const Workshops = ({ islContent, enContent }: any) => {
                       <br />
                       <br />
                       {frontmatter.about3}
+                      <br />
+                      <br />
+                      {frontmatter.about4}
                     </div>
                   </div>
                   <div className='col'>
@@ -195,11 +212,11 @@ export const Workshops = ({ islContent, enContent }: any) => {
                 </div>
               </div>
             )
-          })} */}
+          })}
           {/* until here */}
-        <div className='img-container'>
+        {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
-        </div>
+        </div> */}
         <div className='seperator'></div>
         {/* <div className='sub-header'>
           <a
@@ -217,6 +234,12 @@ export const Workshops = ({ islContent, enContent }: any) => {
 }
 export default Workshops
 const StyledWorkshops = styled.div`
+
+  .flex-grid.workshops {
+    padding-top: 30px;
+    padding-left: 10px;
+  }
+
   .flex-grid {
     display: flex;
     justify-content: space-between;
@@ -227,13 +250,34 @@ const StyledWorkshops = styled.div`
     margin: 10px;
   }
 
+  .apply-link {
+    font-size: 5vw;
+    text-align: center;
+
+  }
+
+  .apply-link-top {
+    padding: 0px 0px 20px 0px;
+    margin: 0px;
+    font-size: 0px;
+    text-align: center;
+  }
+
   .tba {
     font-size: 48px;
     font-weight: 600;
     text-align: left;
     line-height: 105%;
-    width: 101%;
-    padding: 0px 10px 10px 10px;
+    width: 88%;
+    padding: 0px 10px 10px 20px;
+  }
+
+  .workshop-about {
+    margin: 10px 30px 30px 30px;
+  }
+
+  .workshop-about2 {
+    text-align: center;
   }
 
   @media (max-width: 800px) {
@@ -250,6 +294,18 @@ const StyledWorkshops = styled.div`
       width: 95%;
       padding-top: 28px;
       padding-left: 10px;
+    }
+
+    .workshop-about2 {
+      text-align: start;
+    }
+
+    .flex-grid.workshops {
+      padding-top: 0px;
+    }
+
+    .col.w-info {
+      padding-bottom: 20px;
     }
   }
 
@@ -303,7 +359,7 @@ const StyledWorkshops = styled.div`
     font-weight: 600;
     font-size: 24px;
     line-height: 120%;
-    margin: 30px;
+    margin: 10px 30px 30px 30px;
   }
 
   .workshop-about2 {
@@ -319,7 +375,7 @@ const StyledWorkshops = styled.div`
     font-weight: 600;
     font-size: 20px;
     line-height: 120%;
-    margin: 30px;
+    margin: 10px 30px 30px 30px;
   }
 
   a:hover {
@@ -356,7 +412,7 @@ const StyledWorkshops = styled.div`
   }
 
   .img-child {
-    max-width: 85%;
+    max-width: 75%;
     height: auto;
     align-self: center;
     margin: 30px;
