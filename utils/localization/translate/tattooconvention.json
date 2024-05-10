@@ -1,0 +1,43 @@
+{
+  "namespace": "tattooconvention",
+  "resources": {
+    "en": {
+      "tba": "To be announced!",
+      "firstline": "",
+      "subtitle": "",
+      "moreinfo": "Exhibition opening times may vary, please check the Programme for more info.",
+
+      "applyhere": "",
+      "5day": "",
+      "5dayprice": "",
+      "5dayinfo": "",
+      "3day": "",
+      "3dayprice1": "",
+      "3dayprice2": "",
+      "3dayinfo": "",
+      "childreninfo": "",
+      "generalinfo": "",
+      "website": ""
+    },
+    "is": {
+      "tba": "Tilkynnt seinna!",
+      "firstline": "",
+      "subtitle": "",
+      "moreinfo": "",
+
+      "applyhere": "",
+      "weekinfo": "",
+      "onlineinfo": "",
+      "5day": "",
+      "5dayprice": "",
+      "5dayinfo": "",
+      "3day": "",
+      "3dayprice1": "",
+      "3dayprice2": "",
+      "3dayinfo": "",
+      "childreninfo": "",
+      "generalinfo": "",
+      "website": ""
+    }
+  }
+}

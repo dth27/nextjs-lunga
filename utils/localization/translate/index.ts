@@ -7,7 +7,7 @@ import subtexts from './subtexts.json'
 import application from './application.json'
 import aboutlunga from './aboutlunga.json'
 import workshops from './workshops.json'
-import visualartists from './visualartists.json'
+import tattooconvention from './tattooconvention.json'
 import lungalab from './lungalab.json'
 import youthexchange from './youthexchange.json'
 import concerts from './concerts.json'
@@ -33,7 +33,7 @@ const translations: Translation[] = [
   application,
   aboutlunga,
   workshops,
-  visualartists,
+  tattooconvention,
   lungalab,
   youthexchange,
   concerts,
