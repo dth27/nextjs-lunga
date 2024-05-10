@@ -183,11 +183,9 @@ export const Workshops = ({ islContent, enContent }: any) => {
                     <div className='workshop-about'>
                       {frontmatter.about1} <br />
                       <br />
-                      {frontmatter.about2}
+                      {frontmatter.about2}<br />
                       <br />
-                      <br />
-                      {frontmatter.about3}
-                      <br />
+                      {frontmatter.about3}<br />
                       <br />
                       {frontmatter.about4}
                     </div>
@@ -296,6 +294,10 @@ const StyledWorkshops = styled.div`
       padding-left: 10px;
     }
 
+    div.workshop-about {
+      margin: 10px 20px 30px 20px;
+    }
+
     .workshop-about2 {
       text-align: start;
     }
@@ -306,6 +308,15 @@ const StyledWorkshops = styled.div`
 
     .col.w-info {
       padding-bottom: 20px;
+    }
+
+    img.img-child {
+      max-width: 85%;
+    }
+
+    div.workshop-info {
+      font-size: 16px;
+      margin: 10px 20px 30px 20px;
     }
   }
 
