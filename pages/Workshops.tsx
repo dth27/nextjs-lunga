@@ -57,32 +57,26 @@ export const Workshops = ({ islContent, enContent }: any) => {
       <StyledWorkshops>
         <div className='flex-grid'>
           <div className='col w-info'>
-           {/* <div className='apply-link-top'>
+            <div className='textsmall'>{w('tbainfo')}</div>
+          </div>
+
+          <div className='col w-info'>
+          {/* <div className='apply-link-top'>
           <a
             className='apply-link'
-            href='https://forms.gle/Ueb6K3xfKd1gNPY66'
+            href='https://docs.google.com/forms/d/e/1FAIpQLSfgJD-E5_nNeKZUd9C1z-uDlGS-oJwtDkq46IEJ4lJ8LKiW0A/viewform'
             target='_blank rel="noreferrer"'
           >
             {w('applyhere')}
           </a>
             </div> */}
-          <div className='tba'>{w('tba')}</div>
-          <br />
+          {/* <div className='tba'>{w('tba')}</div> */}
           <div className='text'>{w('5day')}</div>
-            <div className='textsmall'>{w('5dayprice')}</div>
-            <br />
-            <div className='textsmall'>{w('5dayinfo')}</div>
-          </div>
-
-          <div className='col w-info'>
-          <div className='textsmall'>{w('tbainfo')}</div>
           <br />
-          <div className='textsmall'>{w('childreninfo')}</div>
-            {/* <div className='text'>{w('3day')}</div>
-            <div className='textsmall'>{w('3dayprice1')}</div>
-            <div className='textsmall'>{w('3dayprice2')}</div>
-            <br />
-            <div className='textsmall'>{w('3dayinfo')}</div> */}
+            <div className='textsmall'>{w('5dayprice')}</div>
+            <div className='textsmall'>{w('5dayinfo')}</div>
+            <br /><br />
+            <div className='text'>{w('childreninfo')}</div>
           </div>
 
           {/* <div className='col w-info'>
@@ -90,15 +84,15 @@ export const Workshops = ({ islContent, enContent }: any) => {
           </div> */}
         </div>
 
-        {/* <div className='sub-header'>
+        <div className='sub-header'>
           <a
             className='nav-link'
-            href='https://podio.com/webforms/27609545/2144502'
+            href='https://docs.google.com/forms/d/e/1FAIpQLSfgJD-E5_nNeKZUd9C1z-uDlGS-oJwtDkq46IEJ4lJ8LKiW0A/viewform'
             target='_blank rel="noreferrer"'
           >
             {w('applyhere')}
           </a>
-        </div> */}
+        </div>
 
         {/* info here */}
 
@@ -200,21 +194,21 @@ export const Workshops = ({ islContent, enContent }: any) => {
               </div>
             )
           })}
-          <div className='seperator'></div>
           {/* until here */}
         {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
         </div> */}
-        {/* <div className='sub-header'>
+        <div className='sub-header'>
           <a
             className='nav-link'
-            href='https://forms.gle/Ueb6K3xfKd1gNPY66'
+            href='https://docs.google.com/forms/d/e/1FAIpQLSfgJD-E5_nNeKZUd9C1z-uDlGS-oJwtDkq46IEJ4lJ8LKiW0A/viewform'
             target='_blank'
             rel='noreferrer'
           >
             {w('applyhere')}
           </a>
-        </div> */}
+        </div>
+        {/* <div className='seperator'></div> */}
       </StyledWorkshops>
     </Layout>
   )
@@ -283,6 +277,12 @@ const StyledWorkshops = styled.div`
       padding-left: 10px;
     }
 
+    .apply-link {
+      font-size: 10vw;
+      text-align: center;
+  
+    }
+
     div.workshop-about {
       margin: 10px 20px 30px 20px;
     }
@@ -315,6 +315,7 @@ const StyledWorkshops = styled.div`
 
   .sub-header {
     padding: 20px;
+    font-size: 0px;
   }
 
   .seperator {
