@@ -19,7 +19,5 @@ aboutteacher1: "Anna Kolfinna Kuran er sjálfstætt starfandi listakona búsett 
 aboutteacher2: "Ívar Pétur Kjartansson er tónlistarmaður og plötusnúður sem uppalinn er á Seyðisfirði en búsettur í Reykjavík. Ívar vinnur með flest form tónlistar og semur meðal annars fyrir kvikmyndir, sjónvarp, auglýsingar, svið- og innsetningar. Hann hefur komið fram á sviði um allan heim með hinum ýmsu hljómsveitum, svo sem FM Belfast, Benna Hemm Hemm og Good Moon Deer. Ívar þeytir skífum á klúbbum og öðrum viðburðum og vinnur gjarnan að konsept-miðuðum DJ-settum og þverfaglegum sviðsverkum sem tónsmiður og performer."
 aboutteacher3: "Guðný Hrund Sigurðardóttir er sjálfstætt starfandi leikmyndahönnuður. Hún hlaut bakkalársgráðu í myndlist frá Listaháskóla Íslands árið 2006 og lauk námi frá leikhúshönnunarbraut (e. theatre design department) frá Royal Welsh College of Music and Drama árið 2011. Undanfarið hefur Guðný unnið að leikmyndar- og búningahönnun við sýningar í Þjóðleikhúsinu og Borgarleikhúsinu. Guðný hefur ástríðu fyrir hugmyndum sem mynda heild (e. concepts) og nýtur þess að skapa heima utan um verk sín sem flökta eins og flugeldar."
 mynd: '/images/workshop/feminist-rave2.jpeg'
-instagram: https://www.instagram.com/annakolfinna
-instagram2: https://www.instagram.com/ivarpetur
-applyhere: 
+applyhere: 'https://docs.google.com/forms/d/16rjeX2jHLuMVN2XcPQgkPxsyyDmqOpF29aAPqS5pCks/formrestricted'
 ---
