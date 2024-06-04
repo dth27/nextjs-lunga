@@ -81,25 +81,19 @@ export const Workshops = ({ islContent, enContent }: any) => {
           </div>
 
           <div className='col w-info'>
-          {/* <div className='apply-link-top'>
-          <a
-            className='apply-link'
-            href='https://docs.google.com/forms/d/e/1FAIpQLSfgJD-E5_nNeKZUd9C1z-uDlGS-oJwtDkq46IEJ4lJ8LKiW0A/viewform'
-            target='_blank rel="noreferrer"'
-          >
-            {w('applyhere')}
-          </a>
-            </div> */}
-          {/* <div className='tba'>{w('tba')}</div> */}
           <div className='text'>{w('5day')}</div>
           <br />
             <div className='textsmall'>{w('5dayprice')}</div>
             <div className='textsmall'>{w('5dayinfo')}</div>
             <br /><br />
-            {/* <div className='text'>
-            {w('closed')}
-            </div> */}
-            {/* <div className='text'>{w('childreninfo')}</div> */}
+            <div className='apply-link'>
+          <a
+            href='https://docs.google.com/forms/d/e/1FAIpQLSfgJD-E5_nNeKZUd9C1z-uDlGS-oJwtDkq46IEJ4lJ8LKiW0A/viewform'
+            target='_blank rel="noreferrer"'
+          >
+            {w('applyhere')}
+          </a>
+            </div>
           </div>
         </div>
 

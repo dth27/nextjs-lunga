@@ -6,7 +6,7 @@ about2: "During the workshop we will create works about, around and inside the f
 about3: "The workshop will take place during the week of July 15th-19th. Participants will meet for 15  hours in total, divided over the course of 5 days depending on assignments. A detailed program will be sent to participants closer to date. Participation fee is 25.000 ISK. Included in the fee is the workshop itself, a light snack and a ticket for the LungA Festival Concert."
 aboutteacher1: "Tara Njála Ingvarsdóttir and Silfrún Una Guðlaugsdóttir have been working and polishing their boots together as the duo Tara & Silla since they first began collaborating in 2018 at the Iceland Academy of the Arts. The duo works mainly with performances, installations, video works and sculptures. The main themes in their pieces are celebration, communication, magic and friendship. The duo has participated in many group exhibitions, held two solo exhibitions since they graduated in 2020, most recently ‘’They removed a plank of wood from their pocket’’ in Kling & Bang.
 They taught a performance and video workshop at the LungA school in Seyðisfjörður in 2023 and a performance workshop at the LungA art festival the same year. Tara has been teaching at the children's department of the Reykjavík School of Visual Arts since 2020 and together they have taught children's workshops at Hjallastefnun. Tara and Silla live and work in Reykjavík."
-mynd: '/images/workshop/frothufellir.jpg'
+mynd: '/images/workshop/frothufellir2.jpg'
 instagram:
 website: 
 applyhere: 'https://docs.google.com/forms/d/16rjeX2jHLuMVN2XcPQgkPxsyyDmqOpF29aAPqS5pCks/formrestricted'
