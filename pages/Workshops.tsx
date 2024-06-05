@@ -63,20 +63,20 @@ export const Workshops = ({ islContent, enContent }: any) => {
           <div className='col w-info'>
             <div id="youth-workshop-container" className='text'>{w('childreninfo')}</div>
             <br />
-            <div className='textsmall'>{w('generalinfo')}</div>
+            {/* <div className='textsmall'>{w('generalinfo')}</div>
             <div className='textsmall'>{w('generalinfo2')}</div>
-            <div className='textsmall'>{w('generalinfo3')}</div>
-            <div className='textsmall'>{w('generalinfo4')}</div>
+            <div className='textsmall'>{w('generalinfo3')}</div> */}
+            <div className='textsmall'>{w('generalinfo5')}</div>
             <div className='textsmall'></div>
             <br /><br />
             <div className='apply-link'>
-          <a
-            // className='apply-link'
-            href='https://docs.google.com/forms/d/16rjeX2jHLuMVN2XcPQgkPxsyyDmqOpF29aAPqS5pCks/formrestricted'
-            target='_blank rel="noreferrer"'
-          >
-            {w('applyhere')}
-          </a>
+              <a
+                // className='apply-link'
+                href='https://docs.google.com/forms/d/16rjeX2jHLuMVN2XcPQgkPxsyyDmqOpF29aAPqS5pCks/formrestricted'
+                target='_blank rel="noreferrer"'
+              >
+                {w('applyhere')}
+              </a>
             </div>
           </div>
 
@@ -86,14 +86,14 @@ export const Workshops = ({ islContent, enContent }: any) => {
             <div className='textsmall'>{w('5dayprice')}</div>
             <div className='textsmall'>{w('5dayinfo')}</div>
             <br /><br />
-            <div className='apply-link'>
-          <a
-            href='https://docs.google.com/forms/d/e/1FAIpQLSfgJD-E5_nNeKZUd9C1z-uDlGS-oJwtDkq46IEJ4lJ8LKiW0A/viewform'
-            target='_blank rel="noreferrer"'
-          >
-            {w('applyhere')}
-          </a>
-            </div>
+            {/* <div className='apply-link'>
+              <a
+                href='https://docs.google.com/forms/d/e/1FAIpQLSfgJD-E5_nNeKZUd9C1z-uDlGS-oJwtDkq46IEJ4lJ8LKiW0A/viewform'
+                target='_blank rel="noreferrer"'
+              >
+                {w('applyhere')}
+              </a>
+            </div> */}
           </div>
         </div>
 

@@ -6,7 +6,7 @@
       "tba": "Workshop registration starts on 15 May.",
       "tbainfo": "LungA has a long-standing tradition for week-long workshops that end with final presentations, exhibitions and a harvest celebration, LungA concerts. Those who sign up and get a spot in one of the workshops get to experience the real LungA magic and it's a unique opportunity to challenge themselves. Whether it’s about getting to know your creative side, or going deeper into your own artistic practice, you will find a workshop that will spark your imagination and take you on a journey where you might come to know yourself and others deeper. LungA is a great start for those seeking a career in the creative industries!",
       "applyhere": "Apply here!",
-      "5day": "5 day workshops",
+      "5day": "5 day workshops – registrations closed",
       "5dayprice": "75.000 ISK",
       "5dayinfo": "Included in the price is the workshop, accommodation, three meals a day and a ticket to the final LungA concert.",
       "3day": "3 day workshop",
@@ -18,6 +18,7 @@
       "generalinfo2": "Workshop for 9-14 y/o 25000 ISK",
       "generalinfo3": "Workshops for older than 16 y/o  75.000 ISK*",
       "generalinfo4": "*45.000 ISK for seyðisfirðingar / 55.000 ISK for those from the east",
+      "generalinfo5": "The LungA Festival will be celebrated for the last time this summer. As a farewell kiss we offer three diverse and fun workshops for children and youth, in hopes of inspiring the younger generation to keep the playfulness and creativity alive in Seyðisfjörður for years to come.",
       "closed": "Registrations closed.",
       "website": "Website"
     },
@@ -28,18 +29,19 @@
       "applyhere": "Sæktu um hér!",
       "weekinfo": "Smiðjurnar eru 5 dagar. Verð: 50.000kr.",
       "onlineinfo": "",
-      "5day": "5 daga listasmiðja",
+      "5day": "5 daga listasmiðja – lokað fyrir skráningar",
       "5dayprice": "75.000 kr.",
       "5dayinfo": "Innifalið í verðinu er þátttaka í listasmiðju, gisting, morgunmatur, hádegismatur og kvöldmatur og miði á lokatónleika LungA.",
       "3day": "3 daga listasmiðja.",
       "3dayprice1": "40.000 ISK með eigin gistingu.",
       "3dayprice2": "45.000 ISK með plássi á tjaldsvæði.",
       "3dayinfo": "Innifalið í verðinu er þátttaka í smiðjunni, gisting, morgunmatur, hádegismatur og kvöldmatur, bátsferð og miði á lokatónleika LungA.",
-      "childreninfo": "Krakka- og ungmennasmiðjur (4–21 árs)",
+      "childreninfo": "Barna- og ungmennasmiðjur (4-21 árs)",
       "generalinfo": "Listasmiðja fyrir börn í Skaftfell með Kamillu: 15000 kr.",
       "generalinfo2": "Listasmiðja Froðufellir:  25000 kr.",
       "generalinfo3": "Listasmiðja + matur + miði á tónleika fyrir eldri en 18+: 45.000 kr (for seyðisfirðingar)",
       "generalinfo4": "*45.000 ISK fyrir Seyðfirðinga / 55.000 ISK fyrir Austfirðinga",
+      "generalinfo5": "LungA listahátíð ungs fólks verður haldin í sitt síðasta sinn nú í sumar. Að kveðjukossi verður boðið sérstaklega upp á þrjár fjölbreyttar og skemmtilegar listasmiðjur fyrir börn og ungmenni í von um að veita yngri kynslóðinni innblástur til áframhaldandi leik- og sköpunargleði á Seyðisfirði.",
       "website": "Vefsíða"
     }
   }
