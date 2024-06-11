@@ -39,12 +39,6 @@ export const Contact = () => {
             <div>(+354)7758882</div>
           </div>
           <div className="row">
-            <div>Katerína Spathi</div>
-            <div>{r('curatorworkshop')}</div>
-            <div>katerina@lunga.is</div>
-            <div>(+354) 7713319</div>
-          </div>
-          <div className="row">
             <div>Gréta Þorkelsdóttir</div>
             <div>{r('graphics')}</div>
             <div>greta@lunga.is</div>
