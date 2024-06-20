@@ -12,6 +12,7 @@ import lungalab from './lungalab.json'
 import youthexchange from './youthexchange.json'
 import concerts from './concerts.json'
 import eventindex from './eventindex.json'
+import residents from './residents.json'
 import frontpage from './concerts.json'
 import shop from './shop.json'
 
@@ -38,6 +39,7 @@ const translations: Translation[] = [
   youthexchange,
   concerts,
   eventindex,
+  residents,
   frontpage,
   shop,
 ]

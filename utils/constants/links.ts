@@ -32,7 +32,11 @@ export const links = [
     //   label: 'youthexchange',
     // },
    
-    
+    {
+      link: '/Residents',
+      label: 'residents',
+    },
+
     {
       link: '/Contact',
       label: 'contact',
