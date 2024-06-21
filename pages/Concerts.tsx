@@ -200,12 +200,12 @@ export const Concerts = ({ islContent, enContent }: any) => {
           </a>
         </div> 
         <table className='tableConcerts'>
-          <thead>
+          {/* <thead>
             <tr>
               <th> {c('artist')}</th>
               <th> {c('place')}</th>
             </tr>
-          </thead>
+          </thead> */}
           {tableBody} 
         </table>
 

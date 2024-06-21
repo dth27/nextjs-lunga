@@ -85,18 +85,13 @@ export const Residents = ({ islContent, enContent }: any) => {
                 <div className='img-container'>
                   <img className='img-child' src={frontmatter.mynd} />
                 </div>
-                <div className='flex-grid'>
+                <div className='flex-grid residents'>
                   <div className='col'>
                     <div className='tattooconvention-about'>
                       {frontmatter.about1} <br />
                       <br />
                       {frontmatter.about2}
-                      <br />
-                      <br />
-                      {frontmatter.about3}
                     </div>
-                  </div>
-                  <div className='col'>
                     <div className='tattooconvention-links'>
                         {frontmatter.instagram && (
                           <div>
@@ -135,9 +130,16 @@ export const Residents = ({ islContent, enContent }: any) => {
 }
 export default Residents
 const StyledResidents = styled.div`
-  .flex-grid {
+  .flex-grid.residents{
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    width: 70vw;
+  }
+
+  .flex-grid {
+  display: flex;
+  justify-content: space-between;
   }
 
   .flex-grid .col {
@@ -168,9 +170,9 @@ const StyledResidents = styled.div`
   }
 
   .seperator {
-    // width: 100%;
-    // border-top: 1px solid #000000;
-    display: none;
+    width: 100%;
+    border-top: 1px solid #000000;
+    display: block;
   }
 
   .sub-text {
@@ -301,7 +303,7 @@ const StyledResidents = styled.div`
   }
 
   .img-child {
-    max-width: 55%;
+    max-width: 65%;
     height: auto;
     align-self: center;
     margin: 0px 30px 30px 30px;

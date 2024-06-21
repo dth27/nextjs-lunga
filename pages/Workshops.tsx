@@ -311,7 +311,7 @@ const StyledWorkshops = styled.div`
     }
 
     img.img-child {
-      max-width: 85%;
+      max-width: 65%;
     }
 
     div.workshop-info {
@@ -426,7 +426,7 @@ const StyledWorkshops = styled.div`
   }
 
   .img-child {
-    max-width: 75%;
+    max-width: 65%;
     height: auto;
     align-self: center;
     margin: 30px;
