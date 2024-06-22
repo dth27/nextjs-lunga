@@ -1,5 +1,5 @@
 ---
-name: "'Teitur Magnússon'"
+name: "Teitur Magnússon"
 id: 24
 id2: 24b
 stage: 

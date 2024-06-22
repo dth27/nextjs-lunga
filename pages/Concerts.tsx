@@ -190,7 +190,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
         </div>
 
 
-     <div className='center sub-header nav-link'>
+     {/* <div className='center sub-header nav-link'>
           <a
               className='nav-link'
               href='https://tix.is/is/event/17420/lunga-spiral/'
@@ -198,7 +198,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
           >
             {c('ticket')}
           </a>
-        </div> 
+        </div>  */}
         <table className='tableConcerts'>
           {/* <thead>
             <tr>
