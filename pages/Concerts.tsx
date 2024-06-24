@@ -9,6 +9,7 @@ import i18next from 'i18next'
 import { FrontmatterConcerts } from '../types'
 import getContent from '../utils/content/getContent'
 import { getEnglishPosts, getIcelandicPosts } from '../lib/api'
+import { Fragment } from 'react'
 export const getStaticProps = async (ctx: any) => {
   let lang = i18next.language
   let content = await getContent(lang, 'concerts')
@@ -59,23 +60,23 @@ export const Concerts = ({ islContent, enContent }: any) => {
           concerts.map((concert: any, index: number) => {
             const { frontmatter } = concert
             return (
-              <>
-                <tr onClick={() => toggleOpen(frontmatter.id)} key={index}>
-                  <td className='border-bottom name' colSpan={1}>
+              <Fragment key={index}>
+                <tr onClick={() => toggleOpen(frontmatter.id)}>
+                  <td className='border-bottom name' colSpan={3}>
                     {frontmatter.name}
                   </td>
-
-                  <td className='border-bottom Width' colSpan={1}>
+                  {/* 
+                  <td className='border-bottom width' colSpan={1}>
                     {frontmatter.stage}
                   </td>
 
-                  <td className='border-bottom Width' colSpan={1}>
+                  <td className='border-bottom width' colSpan={1}>
                     {frontmatter.time}
-                  </td>
+                  </td> */}
                   
                 </tr>
 
-                <tr className={op.includes(frontmatter.id) ? '' : ''}>
+                <tr className={op.includes(frontmatter.id) ? '' : 'hidden'}>
                   <td className=''>
                     {frontmatter.descr1}
                     <br />
@@ -171,7 +172,7 @@ export const Concerts = ({ islContent, enContent }: any) => {
                     </div>
                   </td>
                 </tr>
-              </>
+              </Fragment>
             )
           })}
         <tr></tr>
@@ -228,6 +229,10 @@ export const Concerts = ({ islContent, enContent }: any) => {
 }
 export default Concerts
 const StyledConcerts = styled.div`
+  // .tbody {
+  // width: 100%;
+  // }
+
   .flex-grid {
     display: flex;
     justify-content: space-between;
@@ -248,16 +253,16 @@ const StyledConcerts = styled.div`
   }
 
   .seperator {
-    // width: 100%;
-    // border-top: 1px solid #000000;
-    display: none;
+    width: 100%;
+    border-top: 1px solid #000000;
+    display: block;
   }
 
   @media (max-width: 800px) {
 
-    table.tableConcerts {
-      display: flex;
-    }
+    // table.tableConcerts {
+    //   display: flex;
+    // }
 
     .flex-grid {
       display: block;
@@ -274,7 +279,7 @@ const StyledConcerts = styled.div`
     margin-bottom: 10px;
   }
 
-  .Width {
+  .width {
     font-size: 24px;
     font-weight: 600;
     text-align: center;
@@ -317,7 +322,7 @@ const StyledConcerts = styled.div`
   }
 
   table.tableConcerts {
-    display: flex;
+    // display: flex;
   }
 
   table {
@@ -410,18 +415,43 @@ const StyledConcerts = styled.div`
     }
 
     table.tableConcerts {
-      display: flex;
+      // display: flex;
     }
   }
   
   @media (max-width: 844px) {
 
     table.tableConcerts {
-      display: flex;
+     margin-top: 80px;
+      border-spacing: 0;
+      width: 106%;
     }
 
+    table.tableConcerts td {
+      display: flex;
+      padding-right: 20px;
+      padding-left: 20px;
+      
+    }
+
+    td.border-bottom {
+    display: unset;
+    }
+
+    table.tableConcerts td > img {
+    max-width: 93vw;
+    padding-bottom: 10px;    
+    }
+
+  .center.sub-header.nav-link a{
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 2.1rem;
+  }
+
   .seperator {
-      display: none;
+      display: block;
+      width: 106%;
    }
 
  .grid-container {
@@ -446,6 +476,6 @@ const StyledConcerts = styled.div`
     // margin: 20px;
   }
   .hidden {
-    display: flex;
+    display: none;
   }
 `
