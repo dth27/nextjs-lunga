@@ -51,17 +51,17 @@ export const EventIndex = ({ islContent, enContent }: any) => {
   return (
     <Layout title={l('eventindex')}>
       <StyledEventIndex className=''>
-      <div className='tba'>{e('tba')}</div>
+      {/* <div className='tba'>{e('tba')}</div> */}
         <div className='head-container'>
           <div className='sub-text'>{e('para1')}</div>
         </div>
         {/*commented out here */}
-         {/* <div className='eventindex-container'>
+         <div className='eventindex-container'>
           <table>
             <thead>
               <tr>
                 <th className='narrow'>{e('day')}</th>
-                <th className='narrow'>{e('time')}</th>
+                {/* <th className='narrow'>{e('time')}</th> */}
                 <th>{e('what')}</th>
                 <th>{e('type')}</th>
                 <th>{e('where')}</th>
@@ -80,9 +80,9 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                         <td className='border-bottom normal narrow'>
                           {frontmatter.date}
                         </td>
-                        <td className='border-bottom normal narrow'>
+                        {/* <td className='border-bottom normal narrow'>
                           {frontmatter.time}
-                        </td>
+                        </td> */}
                         <td className='border-bottom name'>
                           {frontmatter.name}
                         </td>
@@ -190,13 +190,13 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                 })}
             </tbody>
           </table>
-        </div>  */}
+        </div> 
         {/* until here */}
 
-       {/* <div className='img-container'>
+       <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
-        </div> */}
-        <div className='eventindex-mapcontainer'>
+        </div>
+        {/* <div className='eventindex-mapcontainer'>
           <img className='eventindex-map' src="/images/eventindex/map.svg" alt="LungA Venue Map" />
           <div className='eventindex-maplegend'>
             <ul>
@@ -242,8 +242,8 @@ export const EventIndex = ({ islContent, enContent }: any) => {
               <li>17 SILO</li>
             </ul>
             </div>
-        </div>
-        {/* <div className='seperator'></div>  */}
+        </div> */}
+        <div className='seperator'></div> 
       </StyledEventIndex>
     </Layout>
   )
@@ -251,12 +251,12 @@ export const EventIndex = ({ islContent, enContent }: any) => {
 export default EventIndex
 
 const StyledEventIndex = styled.div`
-  .head-container {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: space-around;
-  }
+  // .head-container {
+  //   display: flex;
+  //   flex-direction: row;
+  //   flex-flow: wrap;
+  //   justify-content: space-around;
+  // }
   
   .seperator {
     width: 100%;

@@ -2,7 +2,7 @@
   "namespace": "eventindex",
   "resources": {
     "en": {
-      "para1": "",
+      "para1": "LungA starts on July 15, with workshops from Monday to Friday. The workshops are now full. Througout the week there will be lots of happenings, see below! If you would like to perform, exhibit your artwork, etc. you are welcome to come to the fjord and create your own happening! We will support you to our best capacity and advertise your events.",
       "tba": "Programme update coming soon! Meanwhile, keep your eyes peeled on our Instagram.",
       "day": "Day",
       "time": "Time",
@@ -11,7 +11,7 @@
       "where": "Where"
     },
     "is": {
-      "para1": "",
+      "para1": "LungA hefst 15. júlí með vinnustofum frá mánudegi til föstudags. Smiðjurnar eru nú fullbókaðar. Alla vikuna verður fullt af uppákomum, sjá hér að neðan! Ef þú vilt koma fram, sýna listaverkin þín o.s.frv. þá er þér velkomið að koma í fjörðinn og búa til þinn eigin viðburð! Við munum styðja þig eftir bestu getu og auglýsa viðburðina þína.",
       "tba": "Dagskráin verður kynnt bráðlega! Þangað til getið þið fylgst með á Instagram.",
       "day": "Dagur",
       "time": "Klukkan",

@@ -184,10 +184,11 @@ export const Concerts = ({ islContent, enContent }: any) => {
     <Layout title={l('concerts')}>
 
       <StyledConcerts>
-
-      <div className='tba'>{c('tba')}</div>
+{/* 
+      <div className='tba'>{c('tba')}</div> */}
         <div className='footer-container'>
-          <div className='sub-text'>{c('header')}</div>
+        <div className='sub-text'>{c('info1')}</div>
+          {/* <div className='sub-text'>{c('header')}</div> */}
         </div>
 
 
@@ -377,12 +378,17 @@ const StyledConcerts = styled.div`
 
   .sub-text {
     /* Headline 2 */
-    font-size: 48px;
+    // font-size: 48px;
     font-weight: 600;
-    text-align: left;
+    // text-align: left;
     line-height: 105%;
     width: 40%;
     padding: 10px;
+    // centered
+    font-size: 40px;
+    text-align: center;
+    width: 62%;
+
   }
 
   .tba {

@@ -55,64 +55,42 @@ export const Tattooconvention = ({ islContent, enContent }: any) => {
   return (
     <Layout title={l('tattooconvention')}>
       <StyledTattooconvention className=''>
-      <div className='tba'>{v('tba')}</div>
-      <div className='text'>{v('subtitle')}</div>
-      <div className='img-container'>
-                  <img className='img-child' src="/tattooconvention.jpeg" />
-                </div>
+      {/* <div className='tba'>{v('tba')}</div> */}
+      <div className='flex-grid'>
+        {/* <div className='text'>{v('firstline')}</div> */}
+        <div className='col w-info'>
+          <div className='text'>{v('moreinfo')}</div>
+        </div>
+        <div className='col w-info'>
+          <div className='text'>{v('moreinfo2')}</div>
+        </div>
+      </div>
+      <div className='sub-text'>{v('subtitle')}</div>
+      {/* <div className='img-container'>
+        <img className='img-child' src="/tattooconvention.jpeg" />
+      </div> */}
         {tattooconvention &&
           tattooconvention.map((tattooconvention: any, index: any) => {
             const { frontmatter } = tattooconvention
 
             return (
               <div key={index}>
-                {/* <div className='seperator'></div>
+                <div className='seperator'></div>
                 <div className='tattooconvention-name'>
                   <div className='col'>
                     <div className='tattooconvention-artist'>{frontmatter.artist}</div>
                   </div>
-                  <div className='col'>
-                    <div className='tattooconvention-exhibition'>
-                      {frontmatter.exhibition1}
-                      <br />
-                      {frontmatter.exhibition2}
-                      <br />
-                      {frontmatter.exhibition3}
-                    </div>
-                  </div> 
-                 <div className='col'>
-                    <div className='tattooconvention-exhibitiontype'>{frontmatter.exhibitiontype}</div>
-                  </div> 
-                </div> */}
+                </div>
                 {/* info commmented out here */}
-                {/* <div className='img-container'>
+                <div className='img-container'>
                   <img className='img-child' src={frontmatter.mynd} />
                 </div>
                 <div className='flex-grid'>
-                  <div className='col'>
+                  <div className='col-tattoo'>
                     <div className='tattooconvention-about'>
                       {frontmatter.about1} <br />
-                      <br />
-                      {frontmatter.about2}
-                      <br />
-                      <br />
-                      {frontmatter.about3}
-                    </div>
-                  </div>
-                  <div className='col'>
-                  <div className='tattooconvention-exhibitiontitle'>
-                  {frontmatter.exhibitioninfo1}
-                    </div>
-                    <div className='tattooconvention-exhibitioninfo'>
-                      {frontmatter.exhibitioninfo2}
-                      <br />
-                      {frontmatter.exhibitioninfo3}
-                      <br />
-                      <br />
-                      {frontmatter.exhibitioninfo4}
-                      <br />
-                      <br />
-                      {frontmatter.exhibitioninfo5}
+                      {/* <br />
+                      {frontmatter.about2} */}
                     </div>
                     <div className='tattooconvention-links'>
                         {frontmatter.instagram && (
@@ -139,21 +117,29 @@ export const Tattooconvention = ({ islContent, enContent }: any) => {
                         )}
                       </div>
                   </div>
-                </div>  */}
+                  {/* <div className='col'> */}
+                  {/* <div className='tattooconvention-exhibitiontitle'>
+                  {frontmatter.exhibitioninfo1}
+                    </div>
+                    <div className='tattooconvention-exhibitioninfo'>
+                      {frontmatter.exhibitioninfo2}
+                      <br />
+                      {frontmatter.exhibitioninfo3}
+                      <br />
+                      <br />
+                      {frontmatter.exhibitioninfo4}
+                      <br />
+                      <br />
+                      {frontmatter.exhibitioninfo5}
+                    </div> */}
+                  {/* </div> */}
+                </div> 
                 {/* until here */}
               </div>
             )
           })}
         <div className='seperator'></div>
         <div className='sub-header'>
-          {/* <a
-            className='nav-link'
-            href='https://forms.gle/Ueb6K3xfKd1gNPY66'
-            target='_blank'
-            rel='noreferrer'
-          >
-            {w('applyhere')}
-          </a> */}
         </div>
       </StyledTattooconvention>
     </Layout>
@@ -166,9 +152,10 @@ const StyledTattooconvention = styled.div`
     justify-content: space-between;
   }
 
-  .flex-grid .col {
+  .flex-grid .col-tattoo {
     flex: 1;
-    margin: 10px;
+    padding: 10px;
+    // margin: auto;
   }
 
   @media (max-width: 800px) {
@@ -194,9 +181,9 @@ const StyledTattooconvention = styled.div`
   }
 
   .seperator {
-    // width: 100%;
-    // border-top: 1px solid #000000;
-    display: none;
+    width: 100%;
+    border-top: 1px solid #000000;
+    display: block;
   }
 
   .sub-text {
@@ -207,6 +194,7 @@ const StyledTattooconvention = styled.div`
     text-align: center;
     color: #000000;
     line-height: 120%;
+    padding-bottom: 50px;
   }
 
   .table {
@@ -232,7 +220,7 @@ const StyledTattooconvention = styled.div`
     line-height: 90%;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 40px;
   }
 
   .tattooconvention-exhibitioninfo {
@@ -253,7 +241,9 @@ const StyledTattooconvention = styled.div`
     font-weight: 600;
     font-size: 24px;
     line-height: 120%;
-    margin: 30px;
+    padding: 10px;
+    margin: auto;
+    width: 800px;
   }
 
   .tattooconvention-about2 {
@@ -265,7 +255,9 @@ const StyledTattooconvention = styled.div`
   }
 
   .tattooconvention-links {
-    margin: 30px;
+    padding: 30px;
+    margin: auto;
+    width: 800px;
   }
 
   .tattooconvention-exhibitiontitle {
@@ -327,7 +319,7 @@ const StyledTattooconvention = styled.div`
   }
 
   .img-child {
-    max-width: 85%;
+    max-width: 50%;
     height: auto;
     align-self: center;
     margin: 0px 30px 30px 30px;
