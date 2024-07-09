@@ -302,5 +302,9 @@ const StyledTattooconvention = styled.div`
        padding: 20px 0px 20px 10px;
        }
 
+    .img-child {
+      max-width: 85%;
+    }
+
   }
 `
