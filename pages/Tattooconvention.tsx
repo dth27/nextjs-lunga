@@ -54,21 +54,19 @@ export const Tattooconvention = ({ islContent, enContent }: any) => {
 
   return (
     <Layout title={l('tattooconvention')}>
-      <StyledTattooconvention className=''>
-      {/* <div className='tba'>{v('tba')}</div> */}
+      <StyledTattooconvention>
       <div className='flex-grid'>
-        {/* <div className='text'>{v('firstline')}</div> */}
-        <div className='col w-info'>
+
+        <div className='col'>
           <div className='text'>{v('moreinfo')}</div>
         </div>
-        <div className='col w-info'>
+
+        <div className='col'>
           <div className='text'>{v('moreinfo2')}</div>
         </div>
+
       </div>
-      <div className='sub-text'>{v('subtitle')}</div>
-      {/* <div className='img-container'>
-        <img className='img-child' src="/tattooconvention.jpeg" />
-      </div> */}
+
         {tattooconvention &&
           tattooconvention.map((tattooconvention: any, index: any) => {
             const { frontmatter } = tattooconvention
@@ -76,71 +74,56 @@ export const Tattooconvention = ({ islContent, enContent }: any) => {
             return (
               <div key={index}>
                 <div className='seperator'></div>
-                <div className='tattooconvention-name'>
+
+                <div className='flex-grid'>
                   <div className='col'>
                     <div className='tattooconvention-artist'>{frontmatter.artist}</div>
                   </div>
                 </div>
-                {/* info commmented out here */}
+
                 <div className='img-container'>
                   <img className='img-child' src={frontmatter.mynd} />
                 </div>
+
                 <div className='flex-grid'>
-                  <div className='col-tattoo'>
+                  
+                  <div className='col'>
                     <div className='tattooconvention-about'>
-                      {frontmatter.about1} <br />
-                      {/* <br />
-                      {frontmatter.about2} */}
+                      {frontmatter.about1}
                     </div>
+         
                     <div className='tattooconvention-links'>
-                        {frontmatter.instagram && (
-                          <div>
-                            <a
-                              className='nav-link-small'
-                              href={frontmatter.instagram}
-                              target='_blank rel="noreferrer"'
-                            >
-                              Instagram
-                            </a>
-                          </div>
-                        )}
-                        {frontmatter.website && (
-                          <div>
-                            <a
-                              className='nav-link-small'
-                              href={frontmatter.website}
-                              target='_blank rel="noreferrer"'
-                            >
-                              Website
-                            </a>
-                          </div>
-                        )}
-                      </div>
-                  </div>
-                  {/* <div className='col'> */}
-                  {/* <div className='tattooconvention-exhibitiontitle'>
-                  {frontmatter.exhibitioninfo1}
+                      {frontmatter.instagram && (
+                        <div>
+                          <a
+                            className='nav-link-small'
+                            href={frontmatter.instagram}
+                            target='_blank rel="noreferrer"'
+                          >
+                            Instagram
+                          </a>
+                        </div>
+                      )}
+                      {frontmatter.website && (
+                        <div>
+                          <a
+                            className='nav-link-small'
+                            href={frontmatter.website}
+                            target='_blank rel="noreferrer"'
+                          >
+                            Website
+                          </a>
+                        </div>
+                      )}
                     </div>
-                    <div className='tattooconvention-exhibitioninfo'>
-                      {frontmatter.exhibitioninfo2}
-                      <br />
-                      {frontmatter.exhibitioninfo3}
-                      <br />
-                      <br />
-                      {frontmatter.exhibitioninfo4}
-                      <br />
-                      <br />
-                      {frontmatter.exhibitioninfo5}
-                    </div> */}
-                  {/* </div> */}
-                </div> 
-                {/* until here */}
+                  </div>
+
+                </div>
+
               </div>
             )
           })}
         <div className='seperator'></div>
-        <div className='sub-header'>
-        </div>
       </StyledTattooconvention>
     </Layout>
   )
@@ -152,29 +135,15 @@ const StyledTattooconvention = styled.div`
     justify-content: space-between;
   }
 
-  .flex-grid .col-tattoo {
+  .flex-grid .col {
     flex: 1;
     padding: 10px;
-    // margin: auto;
+    margin: auto;
   }
 
-  @media (max-width: 800px) {
-    .flex-grid {
-      display: block;
-      .col {
-        width: 100%;
-        margin: 10px;
-      }
-    }
-    .tattooconvention-links {
+  .tattooconvention-links {
     margin: -40px 30px 0px 30px;
     }
-
-    // .tattooconvention-exhibitioninfo {
-    //   margin-bottom: 50px;
-    // }
-  
-  }
 
   .head-container {
     display: flex;
@@ -187,7 +156,6 @@ const StyledTattooconvention = styled.div`
   }
 
   .sub-text {
-    /* Headline 2 */
     font-weight: 600;
     font-size: 48px;
     margin-left: 40px;
@@ -195,22 +163,6 @@ const StyledTattooconvention = styled.div`
     color: #000000;
     line-height: 120%;
     padding-bottom: 50px;
-  }
-
-  .table {
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 43px;
-    padding: 15px 0 15px 0;
-    color: #000000;
-    text-align: center;
-  }
-
-  .tattooconventiontable {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    padding: 10px;
   }
 
   .tattooconvention-artist {
@@ -235,7 +187,6 @@ const StyledTattooconvention = styled.div`
     margin: 10px;
   }
   
-
   .tattooconvention-about {
     font-style: normal;
     font-weight: 600;
@@ -332,5 +283,24 @@ const StyledTattooconvention = styled.div`
       padding-top: 28px;
       padding-left: 10px;
     }
+
+    .flex-grid {
+    display: block;
+    }
+  
+    .col {
+      width: 100%;
+      margin: 10px;
+    }
+      
+    .tattooconvention-about {
+       width: unset;
+       }
+
+    .tattooconvention-links {
+       width: unset;
+       padding: 20px 0px 20px 10px;
+       }
+
   }
 `

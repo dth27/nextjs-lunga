@@ -107,6 +107,10 @@ a:link,
   .nav-link {
     font-size: 12vw;
   }
+
+  .nav-link-menu {
+    font-size: 52px;
+}
 }
 .center {
   text-align: center;

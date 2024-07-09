@@ -52,8 +52,10 @@ export const EventIndex = ({ islContent, enContent }: any) => {
     <Layout title={l('eventindex')}>
       <StyledEventIndex className=''>
       {/* <div className='tba'>{e('tba')}</div> */}
-        <div className='head-container'>
+        <div className='flex-container'>
+        <div className='col'>
           <div className='sub-text'>{e('para1')}</div>
+        </div>
         </div>
         {/*commented out here */}
          <div className='eventindex-container'>
@@ -93,98 +95,7 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                           {frontmatter.where}
                         </td>
                       </tr>
-                      <tr
-                        className={
-                          op.includes(frontmatter.id) ? 'border' : 'hidden'
-                        }
-                      >
-                        <td className='border-top' colSpan={3}>
-                          {frontmatter.descr1}
-                          <br />
-                          <br />
-                          {frontmatter.descr2} <br />
-                          <br />
-                          {frontmatter.descr3}
-                          <br />
-                          <div className='note'>
-                          {frontmatter.note}
-                          </div>
-                        </td>
-
-                        <td className='border-top' colSpan={2}>
-                          <StyledImage src={frontmatter.img} />
-
-                          <div className='grid-container'>
-                            {frontmatter.soundcloud && (
-                              <div>
-                                <a
-                                  className='nav-link-small'
-                                  href={frontmatter.soundcloud}
-                                  target='_blank rel="noreferrer"'
-                                >
-                                  Soundcloud
-                                </a>
-                              </div>
-                            )}
-
-                            {frontmatter.spotify && (
-                        <div>
-                          <a
-                            className='nav-link-small'
-                            href={frontmatter.spotify}
-                            target='_blank rel="noreferrer"'
-                          >
-                            Spotify
-                          </a>
-                        </div>
-                      )}
-                            {frontmatter.instagram && (
-                        <div>
-                          <a
-                            className='nav-link-small'
-                            href={frontmatter.instagram}
-                            target='_blank rel="noreferrer"'
-                          >
-                            Instagram
-                          </a>
-                        </div>
-                      )}
-                               {frontmatter.youtube && (
-                        <div>
-                          <a
-                            className='nav-link-small'
-                            href={frontmatter.youtube}
-                            target='_blank rel="noreferrer"'
-                          >
-                            Youtube
-                          </a>
-                        </div>
-                      )}
-                            {frontmatter.facebook && (
-                        <div>
-                          <a
-                            className='nav-link-small'
-                            href={frontmatter.facebook}
-                            target='_blank rel="noreferrer"'
-                          >
-                            Facebook
-                          </a>
-                        </div>
-                      )}
-                            {frontmatter.website && (
-                        <div>
-                          <a
-                            className='nav-link-small'
-                            href={frontmatter.website}
-                            target='_blank rel="noreferrer"'
-                          >
-                            Website
-                          </a>
-                        </div>
-                      )}
-                          </div>
-                        </td>
-                      </tr>
+                    
                     </>
                   )
                 })}
@@ -193,9 +104,9 @@ export const EventIndex = ({ islContent, enContent }: any) => {
         </div> 
         {/* until here */}
 
-       <div className='img-container'>
+       {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
-        </div>
+        </div> */}
         {/* <div className='eventindex-mapcontainer'>
           <img className='eventindex-map' src="/images/eventindex/map.svg" alt="LungA Venue Map" />
           <div className='eventindex-maplegend'>
@@ -259,6 +170,7 @@ const StyledEventIndex = styled.div`
   // }
   
   .seperator {
+    margin-top: 50px;
     width: 100%;
     border-top: 1px solid #000000;
   }
@@ -267,14 +179,14 @@ const StyledEventIndex = styled.div`
     display:none;
   }
 
-  .tba{
-    font-size: 48px;
-    font-weight: 600;
-    text-align: left;
-    line-height: 105%;
-    width: 40%;
-    padding: 10px;
-  }
+  // .tba{
+  //   font-size: 48px;
+  //   font-weight: 600;
+  //   text-align: left;
+  //   line-height: 105%;
+  //   width: 40%;
+  //   padding: 10px;
+  // }
 
   .eventindex-mapcontainer {
     justify-content: center;
@@ -283,14 +195,14 @@ const StyledEventIndex = styled.div`
     align-items: flex-end;
   }
 
-  .eventindex-map {
-    width: 75vw;
-    border: black;
-    border-style: solid;
-    border-width: 1px;
-    margin-top: 30px;
-    margin-left: 20px;
-  }
+  // .eventindex-map {
+  //   width: 75vw;
+  //   border: black;
+  //   border-style: solid;
+  //   border-width: 1px;
+  //   margin-top: 30px;
+  //   margin-left: 20px;
+  // }
 
   .eventindex-maplegend {
     display: none;
@@ -405,16 +317,17 @@ const StyledEventIndex = styled.div`
   }
 
   @media (max-width: 844px) {
-
-    @media (max-width: 800px) {
       .flex-grid {
         display: block;
-  
-        .col {
-          width: 100%;
-          margin: 10px;
-        }
       }
+      
+      .col {
+        width: 100%;
+        margin: 10px;
+      }
+    
+    .sub-text {
+    width: unset;
     }
 
     .tba {
@@ -424,34 +337,31 @@ const StyledEventIndex = styled.div`
       padding-left: 10px;
     }
 
-    .headline {
-      20vw;
-    }
     .name {
       font-size: 12vw;
     }
 
-    .eventindex-mapcontainer-mobile {
-      // display: none;
-      flex-direction: column;
-      position: relative;
-    }
+    // .eventindex-mapcontainer-mobile {
+    //   display: none;
+    //   flex-direction: column;
+    //   position: relative;
+    // }
 
-    .eventindex-mapcontainer {
-      // display: none;
-      justify-content: center;
-    }
+    // .eventindex-mapcontainer {
+    //   display: none;
+    //   justify-content: center;
+    // }
 
-    .eventindex-map {
-      width: 90%;
-      align-self: center;
-      justify-content: center;
-      margin: 30px 30px 30px 30px;
-    }
+    // .eventindex-map {
+    //   width: 90%;
+    //   align-self: center;
+    //   justify-content: center;
+    //   margin: 30px 30px 30px 30px;
+    // }
 
-    .eventindex-maplegend {
-      display: none;
-    }
+    // .eventindex-maplegend {
+    //   display: none;
+    // }
 
     img {
       width: 85vw;
