@@ -1,7 +1,7 @@
 ---
 id: 7
 id2: 7b
-date: Fri, 19. july
+date: Fri, 19 July
 time: ''
 name: "Workshop exhibition openings"
 type: Exhibition

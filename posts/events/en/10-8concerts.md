@@ -1,7 +1,7 @@
 ---
 id: 8
 id2: 8b
-date: Sat, 20. july
+date: Sat, 20 July
 time: ''
 name: "Full day of concerts, LungA's final goodbye"
 type: Concerts

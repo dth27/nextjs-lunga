@@ -24,7 +24,7 @@ export const Contact = () => {
             <div>Helena Solveigar Aðalsteinsbur</div>
             <div>{r('overall')}</div>
             <div>helena@lunga.is</div>
-            <div>(+44)(0)7858810254</div>
+            <div>(+354)6981744</div>
           </div>
           <div className="row">
             <div>Halldóra Kristín Lárusdóttir</div>

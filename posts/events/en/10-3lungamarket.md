@@ -6,7 +6,7 @@ time: ''
 name: LungA Market
 type: Market
 where: Herðubreið
-descr1: "To join the market, please email helena@lunga.is!"
+descr1: "To join the market, please email helena@lunga.is"
 descr2: ""
 descr3: 
 img: 

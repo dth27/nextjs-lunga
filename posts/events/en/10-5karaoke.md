@@ -1,7 +1,7 @@
 ---
 id: 5
 id2: 5b
-date: Tue, 16. july
+date: Tue, 16 July
 time: ''
 name: Our annual karaoke!
 type: Karaoke

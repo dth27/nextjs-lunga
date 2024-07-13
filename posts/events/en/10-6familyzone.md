@@ -1,7 +1,7 @@
 ---
 id: 6
 id2: 6b
-date: Fri, 19. july
+date: Fri, 19 July
 time: ''
 name: "Family Zone"
 type: Family
