@@ -2,7 +2,7 @@
 id: 5
 id2: 5b
 date: Tue, 16 July
-time: ''
+time: '23:00–01:00'
 name: Our annual karaoke!
 type: Karaoke
 where: Herðubreið
