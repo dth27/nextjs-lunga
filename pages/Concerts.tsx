@@ -180,27 +180,14 @@ export const Concerts = ({ islContent, enContent }: any) => {
       </tbody>
     )
   }, [opened])
+  
   return (
     <Layout title={l('concerts')}>
 
       <StyledConcerts>
-{/* 
-      <div className='tba'>{c('tba')}</div> */}
         <div className='footer-container'>
         <div className='sub-text'>{c('info1')}</div>
-          {/* <div className='sub-text'>{c('header')}</div> */}
         </div>
-
-
-     {/* <div className='center sub-header nav-link'>
-          <a
-              className='nav-link'
-              href='https://tix.is/is/event/17420/lunga-spiral/'
-              target='_blank rel="noreferrer"'
-          >
-            {c('ticket')}
-          </a>
-        </div>  */}
         <table className='tableConcerts'>
           {/* <thead>
             <tr>

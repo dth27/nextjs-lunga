@@ -3,13 +3,14 @@ import { Layout } from '../components/Layout/Layout'
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
 import React from 'react'
+import { Fragment } from 'react'
 import { FrontmatterEvents } from '../types'
 import getContent from '../utils/content/getContent'
 import { getEnglishPosts, getIcelandicPosts } from '../lib/api'
 
 export const getStaticProps = async (ctx: any) => {
   let lang = i18next.language
-  //let content = await getContent(lang, 'concerts')
+  let content = await getContent(lang, 'events')
   let islContent = getIcelandicPosts('events')
   let enContent = getEnglishPosts('events')
   if (islContent) {
@@ -25,6 +26,7 @@ export const getStaticProps = async (ctx: any) => {
     }
   }
 }
+
 export const EventIndex = ({ islContent, enContent }: any) => {
   const { t: e } = useTranslation('eventindex')
   const { t: l } = useTranslation('links')
@@ -50,41 +52,40 @@ export const EventIndex = ({ islContent, enContent }: any) => {
 
   return (
     <Layout title={l('eventindex')}>
-      <StyledEventIndex className=''>
-      {/* <div className='tba'>{e('tba')}</div> */}
+
+      <StyledEventIndex>
         <div className='flex-container'>
         <div className='col'>
           <div className='sub-text'>{e('para1')}</div>
         </div>
         </div>
-        {/*commented out here */}
+      {/* event index container */}
          <div className='eventindex-container'>
           <table>
             <thead>
               <tr>
                 <th className='narrow'>{e('day')}</th>
-                {/* <th className='narrow'>{e('time')}</th> */}
+                <th className='narrow'>{e('time')}</th>
                 <th>{e('what')}</th>
                 <th>{e('type')}</th>
                 <th>{e('where')}</th>
               </tr>
             </thead>
+
+            
             <tbody>
               {events &&
                 events.map((event: any, index) => {
                   const { frontmatter } = event
                   return (
-                    <>
-                      <tr
-                        onClick={() => toggleOpen(frontmatter.id)}
-                        key={index}
-                      >
+                    <Fragment key={index}>
+                      <tr>
                         <td className='border-bottom normal narrow'>
                           {frontmatter.date}
                         </td>
-                        {/* <td className='border-bottom normal narrow'>
+                        <td className='border-bottom normal narrow'>
                           {frontmatter.time}
-                        </td> */}
+                        </td>
                         <td className='border-bottom name'>
                           {frontmatter.name}
                         </td>
@@ -95,14 +96,23 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                           {frontmatter.where}
                         </td>
                       </tr>
-                    
-                    </>
+
+                      <tr>
+                        <td></td>
+                        <td></td>
+                        <td className='text description' colSpan={5}>
+                          {frontmatter.descr1}
+                        </td>
+                        </tr>
+                    </Fragment>
                   )
                 })}
             </tbody>
           </table>
         </div> 
         {/* until here */}
+
+        {/* map */}
 
        {/* <div className='img-container'>
           <img className='img-child' src='/tumblr/15.jpg' />
@@ -162,12 +172,12 @@ export const EventIndex = ({ islContent, enContent }: any) => {
 export default EventIndex
 
 const StyledEventIndex = styled.div`
-  // .head-container {
-  //   display: flex;
-  //   flex-direction: row;
-  //   flex-flow: wrap;
-  //   justify-content: space-around;
-  // }
+  .head-container {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+  }
   
   .seperator {
     margin-top: 50px;
@@ -177,6 +187,11 @@ const StyledEventIndex = styled.div`
 
   .eventindex-mapcontainer-mobile {
     display:none;
+  }
+
+  .description {
+      padding-top: 20px;
+      padding-bottom: 10px;
   }
 
   // .tba{
