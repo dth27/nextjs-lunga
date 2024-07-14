@@ -60,7 +60,6 @@ export const EventIndex = ({ islContent, enContent }: any) => {
         </div>
         </div>
       {/* event index container */}
-         <div className='eventindex-container'>
           <table>
             <thead>
               <tr>
@@ -109,7 +108,6 @@ export const EventIndex = ({ islContent, enContent }: any) => {
                 })}
             </tbody>
           </table>
-        </div> 
         {/* until here */}
 
         {/* map */}
