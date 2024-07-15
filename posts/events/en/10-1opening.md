@@ -3,7 +3,7 @@ id: 1
 id2: 1b
 date: Mon, 15 July
 time: '17:00'
-name: "LungA's 25 anniversary exhibition opening"
+name: "Exhibition opening: LungA – Memories"
 type: Opening
 where: Herðubreið
 descr1: 

@@ -2,11 +2,11 @@
 id: 6
 id2: 6b
 date: Fös., 19. júlí
-time: ''
+time: '12:00–16:00'
 name: "Family Zone"
 type: Family
-where: Behind the blue church
-descr1: "Foam performance, candy floss, facepaint, games, snacks! Free to enter"  
+where: Bakvið kirkjuna
+descr1: "Fjölskylduhátíð: Froða, kandífloss, andlitsmálning, leikir og veitingar! Aðgangur ókeypis"  
 descr2: ""
 descr3: 
 img: 

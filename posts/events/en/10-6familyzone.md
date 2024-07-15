@@ -2,7 +2,7 @@
 id: 6
 id2: 6b
 date: Fri, 19 July
-time: ''
+time: '12:00–16:00'
 name: "Family Zone"
 type: Family
 where: Behind the blue church

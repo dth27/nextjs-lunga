@@ -3,7 +3,7 @@ id: 2
 id2: 2b
 date: Mán.–Sun., 15.–21. júlí
 time: ''
-name: 25 ára afmælissýning LungA
+name: LungA – Minningar
 type: Sýning
 where: Síldarverkstæðið
 descr1: ""  
