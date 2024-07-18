@@ -8,5 +8,5 @@ aboutteacher1: "Kamilla Gylfadóttir will host the workshop Skapalónslappi on b
 mynd: '/images/workshop/skapalonslappi.jpeg'
 instagram:
 website: 
-applyhere: 'https://docs.google.com/forms/d/16rjeX2jHLuMVN2XcPQgkPxsyyDmqOpF29aAPqS5pCks/formrestricted'
+applyhere: 
 ---

@@ -9,5 +9,5 @@ They taught a performance and video workshop at the LungA school in Seyðisfjör
 mynd: '/images/workshop/frothufellir2.jpg'
 instagram:
 website: 
-applyhere: 'https://docs.google.com/forms/d/16rjeX2jHLuMVN2XcPQgkPxsyyDmqOpF29aAPqS5pCks/formrestricted'
+applyhere: 
 ---
