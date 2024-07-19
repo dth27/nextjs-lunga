@@ -1,7 +1,7 @@
 ---
-id: 6
-id2: 6b
-date: Fös., 19. júlí
+id: 7
+id2: 7b
+date: Lau., 20. júlí
 time: '12:00–16:00'
 name: "Family Zone"
 type: Family

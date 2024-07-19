@@ -1,6 +1,6 @@
 ---
-id: 7
-id2: 7b
+id: 6
+id2: 6b
 date: Fri, 19 July
 time: '16:00–19:00'
 name: "Workshop exhibition openings"

@@ -1,6 +1,6 @@
 ---
-id: 7
-id2: 7b
+id: 6
+id2: 6b
 date: Fös., 19. júlí
 time: '16:00–19:00'
 name: "Opnun listasmiðju sýninga"
